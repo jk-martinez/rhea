@@ -1,0 +1,31 @@
+{
+    "0": {
+        "question": "When is Martin's birthday?",
+        "answer": "2000-06-08",
+        "answer_type": "Date"
+    },
+
+    "1": {
+        "question": "What is Martin's go-to pet?",
+        "answer": "Cat",
+        "answer_type": "Identification"
+    },
+
+    "2": {
+        "question": "What is Martin's favorite esports game to watch?",
+        "answer": "League of Legends",
+        "answer_type": "Identification"
+    },
+
+    "3": {
+        "question": "Aside from Roses, what other flower did Martin gave you before?",
+        "answer": "Tulips",
+        "answer_type": "Identification"
+    },
+
+    "4": {
+        "question": "What color is Martin's favorite",
+        "answer": "Gray",
+        "answer_type": "Identification"
+    }
+}

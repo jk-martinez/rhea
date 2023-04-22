@@ -51,7 +51,7 @@
 </template>
 
 <script>
-    const gameData = require('../assets/games.json');
+    const gameData = require('../assets/json/games.json');
     const gamePhrases = gameData["phrases"];
 
     export default{

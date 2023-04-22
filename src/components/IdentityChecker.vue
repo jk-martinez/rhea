@@ -37,7 +37,7 @@
 </template>
 
 <script>
-    const martinData = require('../assets/martin.json');
+    const martinData = require('../assets/json/martin.json');
 
     export default{
         data(){

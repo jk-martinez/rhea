@@ -19,7 +19,7 @@
             <div class="col-sm-4 col-md-4">
                 <div class="card mx-2 my-2" @click="this.$router.push('/pomodoro-timer')">
                     <div class="card-img-top feature-img">
-                        <img src="../assets/timer.jpg" class="w-100" />
+                        <img src="../assets/images/timer.jpg" class="w-100" />
 
                         <div class="card-img-overlay">
                             <p class="card-text feature-desc"> Pomodoro Technique is a time management method based on 25-minute stretches of
@@ -42,7 +42,7 @@
             <div class="col-sm-4 col-md-4">
                 <div class="card mx-2 my-2" @click="this.$router.push('periodic-table')">
                     <div class="card-img-top feature-img">
-                        <img src="../assets/periodic-table.jpg" class="w-100" />
+                        <img src="../assets/images/periodic-table.jpg" class="w-100" />
 
                         <div class="card-img-overlay">
                             <p class="card-text feature-desc">
@@ -61,7 +61,7 @@
             <div class="col-sm-4 col-md-4">
                 <div class="card mx-2 my-2" @click="this.$router.push('/concepts-and-formulas')">
                     <div class="card-img-top feature-img">
-                        <img src="../assets/formula.jpg" class="w-100"/>
+                        <img src="../assets/images/formula.jpg" class="w-100"/>
 
                         <div class="card-img-overlay">
                             <p class="card-text feature-desc"> See a list of learning references related with Engineering and Mathematics. </p>
@@ -81,7 +81,7 @@
             <div class="col-sm-4 col-md-4" @click="this.$router.push('/units-of-measurements')">
                 <div class="card mx-2 my-2">
                     <div class="card-img-top feature-img">
-                        <img src="../assets/measurements.jpg" class="w-100"/>
+                        <img src="../assets/images/measurements.jpg" class="w-100"/>
 
                         <div class="card-img-overlay">
                             <p class="card-text feature-desc"> Review units of measurements. </p>
@@ -98,7 +98,7 @@
             <div class="col-sm-4 col-md-4">
                 <div class="card mx-2 my-2" @click="this.$router.push('/word-sequence')">
                     <div class="card-img-top feature-img">
-                        <img src="../assets/games.jpg" class="w-100"/>
+                        <img src="../assets/images/games.jpg" class="w-100"/>
 
                         <div class="card-img-overlay">
                             <p class="card-text feature-desc"> Play a small game to prepare your mind before reviewing. </p>
@@ -115,7 +115,7 @@
             <div class="col-sm-4 col-md-4">
                 <div class="card mx-2 my-2" @click="redirectToMessenger()">
                     <div class="card-img-top feature-img">
-                        <img src="../assets/talk.jpg" class="w-100"/>
+                        <img src="../assets/images/talk.jpg" class="w-100"/>
 
                         <div class="card-img-overlay">
                             <p class="card-text feature-desc"> Have a conversation with Martin. You may report a bug, request a feature, or talk about something else. </p>
@@ -201,7 +201,7 @@
 	}
 
 	#banner{
-		background: url('../assets/coffee-bg.jpg');
+		background: url('../assets/images/coffee-bg.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}

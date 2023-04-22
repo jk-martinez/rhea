@@ -1,7 +1,5 @@
 .DS_Store
 node_modules
-/src/assets/martin.json
-
 
 # local env files
 .env.local

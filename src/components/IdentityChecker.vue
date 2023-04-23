@@ -76,7 +76,7 @@
 
                 if (answer.toLowerCase() == this.answer.toLowerCase()){
                     this.setCookie();
-                    this.$router.push('/');
+                    this.$router.push('/home');
                 }
                 else{
                     this.answerIsWrong = true;

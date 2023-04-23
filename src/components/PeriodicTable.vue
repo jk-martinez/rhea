@@ -2,7 +2,7 @@
     <div id="wrapper" class="container-fluid">
 
         <header class="mt-2 text-center">
-            <router-link to="/" id="home-link">
+            <router-link to="/home" id="home-link">
                 <font-awesome-icon icon="fa-solid fa-home" /> Back to Home
             </router-link>
             

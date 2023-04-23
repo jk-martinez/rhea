@@ -19,7 +19,7 @@
                 <strong id="start-btn" @click="updatePlayMode()"> START </strong>
             </div>
             
-            <router-link to="/" id="home-link"> 
+            <router-link to="/home" id="home-link"> 
                 <font-awesome-icon icon="fa-solid fa-home" /> Back to Home
             </router-link>
             

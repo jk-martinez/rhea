@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import App from './components/App.vue';
 import MainPage from './components/MainPage.vue';
 import NumberAssociation from './components/NumberAssociation.vue';
 import PomodoroTimer from './components/PomodoroTimer.vue';
@@ -12,6 +13,10 @@ import IdentityChecker from './components/IdentityChecker.vue'
 const routes = [
     {
         path: '/',
+        component: App
+    },
+    {
+        path: '/home',
         component: MainPage
     },
     {
@@ -45,7 +50,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    mode: 'hash',
+    mode: 'history',
     history: createWebHistory(),
     routes,
 });

@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="w-100 d-flex align-content-center justify-content-around">
-                    <font-awesome-icon icon="fa-solid fa-home" size="2x" class="m-1 p-3 timer-btn flex-even" @click="this.$router.push('/')" />
+                    <font-awesome-icon icon="fa-solid fa-home" size="2x" class="m-1 p-3 timer-btn flex-even" @click="this.$router.push('/home')" />
                     <font-awesome-icon :icon="startPauseIcon" size="2x" class="m-1 p-3 timer-btn flex-even" @click="startPauseTimer" />
                     <font-awesome-icon icon="fa-solid fa-stop" size="2x" class="m-1 p-3 timer-btn flex-even" @click="stopTimer" />
                     <font-awesome-icon :icon="musicIcon" size="2x" class="m-1 p-3 timer-btn flex-even" @click="playUnplayAmbient"/>

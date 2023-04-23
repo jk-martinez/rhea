@@ -166,11 +166,11 @@
             }
         },
 
-        // beforeMount(){
-        //     if (this.getCookie('rhea-user') ==  ""){
-        //         this.$router.push('/identity-checker')
-        //     }
-        // },
+        beforeMount(){
+            if (this.getCookie('rhea-user') ==  ""){
+                this.$router.push('/identity-checker')
+            }
+        },
 
 		mounted(){
 			// Determine greeting based on time

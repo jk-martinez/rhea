@@ -6,9 +6,9 @@
     },
 
     "1": {
-        "question": "What is Martin's go-to pet?",
-        "answer": "Cat",
-        "answer_type": "Identification"
+        "question": "When is your birthday?",
+        "answer": "2000-04-22",
+        "answer_type": "Date"
     },
 
     "2": {

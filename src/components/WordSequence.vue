@@ -19,7 +19,7 @@
                 <strong id="start-btn" @click="updatePlayMode()"> START </strong>
             </div>
             
-            <router-link to="/home" id="home-link"> 
+            <router-link to="/rhea/home" id="home-link"> 
                 <font-awesome-icon icon="fa-solid fa-home" /> Back to Home
             </router-link>
             
@@ -85,6 +85,14 @@
             </div>
             
         </div>
+
+        <audio id="correct-answer-sound-effect">
+            <source src="../assets/audio/ping-sound-effect.mp3" type="audio/mpeg" />
+        </audio>
+
+        <audio id="wrong-answer-sound-effect">
+            <source src="../assets/audio/wrong-answer-sound-effect.mp3" type="audio/mpeg" />
+        </audio>
     </div>
 </template>
 
@@ -114,7 +122,6 @@
 
         computed: {
             getPosition(){
-
                 if (this.position + 1 == 1){ return "1st"; }
                 else if (this.position + 1 == 2){ return "2nd"; }
                 else if (this.position + 1 == 3){ return "3rd" }
@@ -166,7 +173,7 @@
 
             addInterval(){
                 if (this.playing && this.sequence.length != 5){
-                    let index = Math.floor(Math.random() * 52); // Generate a random number to use as an index in 52-word array of random words
+                    let index = Math.floor(Math.random() * randomWords.length); // Generate a random number to use as an index in 52-word array of random words
                     let randomWord = randomWords[index];
                     let correctAnswerChanceGenerator = Math.floor(Math.random() * 2);
 
@@ -190,6 +197,7 @@
                 }
                 
                 if (this.duration == 10 && this.chosenAnswer == ""){
+                    document.getElementById('wrong-answer-sound-effect').play();
                     this.timeIsUp = true;
                     this.checkAnswer("");
                 }
@@ -219,10 +227,12 @@
                     clickedElement.classList.add('chosen-answer');
                     
                     if (chosenAnswer == this.correctAnswer){
+                        document.getElementById('correct-answer-sound-effect').play();
                         this.score++;
                         this.answerIsCorrect = true;
                     }
                     else{
+                        document.getElementById('wrong-answer-sound-effect').play();
                         this.answerIsWrong = true;
                     }
                 }   
@@ -260,7 +270,7 @@
 
         beforeMount(){
             if (this.getCookie('rhea-user') ==  ""){
-                this.$router.push('/identity-checker')
+                this.$router.push('/rhea/identity-checker')
             }
         },
 

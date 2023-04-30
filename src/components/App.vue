@@ -11,7 +11,7 @@
 		name: 'App',
 
 		mounted(){
-			this.$router.push('/home')
+			this.$router.push('/rhea/home')
 		}
 	}
 </script>
@@ -24,4 +24,5 @@
 	.fade-enter-from, .fade-leave-to {
 		opacity: 0;
 	}
+
 </style>

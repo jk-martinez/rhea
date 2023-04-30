@@ -1,0 +1,2995 @@
+{
+    "total_items": 272,
+
+    "1":{
+        "question": "Instead of the profits being paid out to the stockholders or owners as dividends, they are retained in the business and used to finance expansion",
+        "choices": [
+            "Flow back",
+            "Bonds",
+            "Deposits",
+            "Retained earnings"
+        ],
+        "correct_answer": "Retained earnings"
+    },
+
+    "2":{
+        "question": "The reduction in value and marketability due to competition from newest products",
+        "choices": [
+            "Obsolescence",
+            "Fixed cost",
+            "Depreciated cost",
+            "Indirect cost"
+        ],
+        "correct_answer": "Obsolescence "
+    },
+
+    "3":{
+        "question": "Form of summary of assets, liabilities and net worth",
+        "choices": [
+            "Production",
+            "Breakeven point",
+            "Balance sheet",
+            " Balance method"
+        ],
+        "correct_answer": "Balance sheet"
+    },
+
+    "4":{
+        "question": "An index of short term paying ability",
+        "choices": [
+            "Profit margin ratio",
+            "Current ratio",
+            "Acid test ratio",
+            "Receivable turn over"
+        ],
+        "correct_answer": "Acid test ratio"
+    },
+
+    "5":{
+        "question": "The worth of property which is equal to the original cost less depreciation",
+        "choices": [
+            "Earning value",
+            "Face value",
+            "Scrap value",
+            "Book value"
+        ],
+        "correct_answer": "Book value"
+    },
+
+    "6":{
+        "question": "Ratio of annual revenues to the annual expenses",
+        "choices": [
+            "Benefit ratio",
+            "Benefit cost ratio",
+            "Rate of return",
+            "Income ratio"
+        ],
+        "correct_answer": "Benefit cost ratio"
+    },
+
+    "7":{
+        "question": "These are the products of services that are required to support human life and activities that will be purchased in somewhat the same quantity even though the price varies considerably",
+        "choices": [
+            "Luxuries",
+            "Utilities",
+            "Necessities",
+            "Producers goods and services"
+        ],
+        "correct_answer": "Necessities"
+    },
+
+    "8":{
+        "question": "The length of time during which the property maybe operated at a profit",
+        "choices": [
+            "Length of time",
+            "Physical life",
+            "Life",
+            "Economic life"
+        ],
+        "correct_answer": "Economic life"
+    },
+
+    "9":{
+        "question": "In occurs in unique product of services is available only from a single supplier and entry of all possible suppliers prevented",
+        "choices": [
+            "Competition",
+            "Monopoly",
+            "Profitability",
+            "Inventory"
+        ],
+        "correct_answer": "Monopoly"
+    },
+
+    "10":{
+        "question": "The difference between the book value and the actual lower resale value",
+        "choices": [
+            "Sunk cost",
+            "Salvage value",
+            "Resale value",
+            "Fixed cost"
+        ],
+        "correct_answer": "Sunk cost"
+    },
+
+    "11":{
+        "question": "Grand total of the assets and operational capability of a corporation",
+        "choices": [
+            "Earning value",
+            "Money market",
+            "Investment",
+            "Authorized capital"
+        ],
+        "correct_answer": "Authorized capital"
+    },
+
+    "12":{
+        "question": "Gross profit, sales cost of goods as a percentage of sales",
+        "choices": [
+            "ROI ratio",
+            "Price earnings",
+            "Gross margins",
+            "Profit margins"
+        ],
+        "correct_answer": "Gross margins"
+    },
+
+    "13":{
+        "question": "Decrease in value of a physical property due to the passage of time",
+        "choices": [
+            "Depletion",
+            "Depreciation",
+            "Inflation",
+            "Recession"
+        ],
+        "correct_answer": "Depreciation"
+    },
+
+    "14":{
+        "question": "What is work in process classified as",
+        "choices": [
+            "Liability",
+            "Owners equity",
+            "Asset",
+            "An expense"
+        ],
+        "correct_answer": "Asset"
+    },
+
+    "15":{
+        "question": "Cost of things that are either labor or materials",
+        "choices": [
+            "Money",
+            "Expenses",
+            "Damage",
+            "Asset"
+        ],
+        "correct_answer": "Expenses"
+    },
+
+    "16":{
+        "question": "Type of ownership in business where individuals exercise  right in their own interest",
+        "choices": [
+            "Private",
+            "Equitable",
+            "Public",
+            "Pure"
+        ],
+        "correct_answer": "Private"
+    },
+
+    "17":{
+        "question": "The difference between the starting and ending inventory valuations, a term that represents an inventory account adjustment",
+        "choices": [
+            "Physical inventory system",
+            "Perpetual inventory system",
+            "Cost of goods sold",
+            "Periodic inventory of the system"
+        ],
+        "correct_answer": "Cost of goods sold"
+    },
+
+    "18":{
+        "question": "The length of time usually in years for the cumulative net annual profit to equal the final investment",
+        "choices": [
+            "Return of investment",
+            "Price earning ratio",
+            "Payback period",
+            "Receivable turnover"
+        ],
+        "correct_answer": "Payback period"
+    },
+
+    "19":{
+        "question": "Which of the following methods is most suited in evaluating, comparing alternatives with different lives?",
+        "choices": [
+            "Uniform annual cost method",
+            "Rate of return method",
+            "Present worth method",
+            "Urgency rating method"
+        ],
+        "correct_answer": "Uniform annual cost method"
+    },
+
+    "20":{
+        "question": "Funds that are required to make the enterprise or project a going concern",
+        "choices": [
+            "Working capital",
+            "Banking",
+            "Principal",
+            "Accumulated amount"
+        ],
+        "correct_answer": "Working capital"
+    },
+
+    "21":{
+        "question": "Worth of the property as shown in the accounting records of an enterprise",
+        "choices": [
+            "Use value",
+            "Book value",
+            "Market value   ",
+            "Fair value"
+        ],
+        "correct_answer": "Book value"
+    },
+
+    "22":{
+        "question": "Kind of obligation which has no condition attached",
+        "choices": [
+            "Pure",
+            "Private",
+            "Gratuitous",
+            "Analytic"
+        ],
+        "correct_answer": "Gratuitous"
+    },
+
+    "23":{
+        "question": "The series of equal payments at equal intervals of time",
+        "choices": [
+            "Amortization",
+            "Annuity",
+            "Depreciation",
+            "Interest"
+        ],
+        "correct_answer": "Annuity"
+    },
+
+    "24":{
+        "question": "Gross profit, sales less cost of goods sold as a percentage sales is called",
+        "choices": [
+            "ROI",
+            "Profit margin",
+            "Price earnings",
+            "Gross margin"
+        ],
+        "correct_answer": "Gross margin"
+    },
+
+    "25":{
+        "question": "The percent worth of all depreciation over the economic life of the item",
+        "choices": [
+            "Depreciation recovery",
+            "Maintenance",
+            "Annuity",
+            "Capital recovery"
+        ],
+        "correct_answer": "Depreciation recovery"
+    },
+
+    "26":{
+        "question": "A provision in the contract that indicates possible adjustment of material cost and labor cos",
+        "choices": [
+            "Specification",
+            "Secondary clause",
+            "Escalatory clause",
+            "General provision"
+        ],
+        "correct_answer": "Escalatory clause"
+    },
+
+    "27":{
+        "question": "Money paid for the use of borrowed capital",
+        "choices": [
+            "Overhead",
+            "Interest",
+            "Discount",
+            "Depletion"
+        ],
+        "correct_answer": "Interest"
+    },
+
+    "28":{
+        "question": "An index of short term paying ability is called",
+        "choices": [
+            "Acid test ratio",
+            "Current ratio",
+            "Receivable turnover",
+            "Profit margin ratio"
+        ],
+        "correct_answer": "Acid test ratio"
+    },
+
+    "29":{
+        "question": "A legally binding agreement or promise to exchange goods or services",
+        "choices": [
+            "Barter",
+            "Contract",
+            "Pro – forma",
+            "Memorandum"
+        ],
+        "correct_answer": "Contract"
+    },
+
+    "30":{
+        "question": "Fall after the increase reaches a certain variable amount",
+        "choices": [
+            "Process factor",
+            "Law of Supply and Demand",
+            "Law of Diminishing Return",
+            "Inflation"
+        ],
+        "correct_answer": "Law of Diminishing Return"
+    },
+
+    "31":{
+        "question": "Form of summary of assets, liabilities and net worth",
+        "choices": [
+            "Ledger",
+            "Breakeven point",
+            "Journal",
+            "Balance sheet"
+        ],
+        "correct_answer": "Balance sheet"
+    },
+
+    "32":{
+        "question": "Worth of property which is equal to the original cost less depreciation",
+        "choices": [
+            "Scrap value",
+            "Sunk value",
+            "Face value",
+            "Book value"
+        ],
+        "correct_answer": "Book value"
+    },
+
+    "33":{
+        "question": "A situation whereby payment is made for work not done. It also applies to the case where more workers are used than were a reasonable requirement for efficient operation",
+        "choices": [
+            "Feather bedding",
+            "Moon lighting",
+            "Check in pay",
+            "Downtime pay"
+        ],
+        "correct_answer": "Feather bedding"
+    },
+
+    "34":{
+        "question": "Grand total of assets and operational capability of a corporation",
+        "choices": [
+            "Investment",
+            "Money market",
+            "Earning value",
+            "Authorized capital"
+        ],
+        "correct_answer": "Authorized capital"
+    },
+
+    "35":{
+        "question": "When using net present worth calculation to compare two projects, which of the following could invalidate the calculations",
+        "choices": [
+            "Non-conventional cash flows",
+            "Difference magnitude of the projects",
+            "Evaluation over different time periods",
+            "Mutually exclusive projects"
+        ],
+        "correct_answer": "Evaluation over different time periods"
+    },
+
+    "36":{
+        "question": "The difference between the starting and ending inventory valuations, a term that represents an inventory account adjustment is called",
+        "choices": [
+            "Physical inventory system",
+            "Cost of goods sold",
+            "Perpetual inventory system",
+            "Periodic inventory system"
+        ],
+        "correct_answer": "Cost of goods sold"
+    },
+
+    "37":{
+        "question": "Additional information to prospective bidders on contact documents issued prior to bidding date",
+        "choices": [
+            "Bid bulletin",
+            "Delicts",
+            "Escalatory clause",
+            " Technical assessments"
+        ],
+        "correct_answer": "Bid bulletin"
+    },
+
+    "38":{
+        "question": "What is the acid test ratio?",
+        "choices": [
+            "Ratio of owners’ equity to total current liabilities",
+            "Ratio of gross margin to operating sales and administrative expense",
+            "Ratio of current assets to total current liabilities",
+            "Ratio of current liabilities to the gross margin"
+        ],
+        "correct_answer": "Ratio of gross margin to operating sales and administrative expense"
+    },
+
+    "39":{
+        "question": "A diagram drawn to help visualize and simplify problem having diverse receipts and disbursements",
+        "choices": [
+            "Year end convention",
+            "Midyear conference",
+            "Investment",
+            "Cash flow"
+        ],
+        "correct_answer": "Cash flow"
+    },
+
+    "40":{
+        "question": "The peso amount as earned from investment or project",
+        "choices": [
+            "Surplus",
+            "Rate of Investment",
+            "Rate of Interest",
+            "Interest"
+        ],
+        "correct_answer": "Rate of Investment"
+    },
+
+    "41":{
+        "question": "Instead of the profits being paid out to the stockholders or owners as dividends, they are retained in the business and used to finance expansion",
+        "choices": [
+            "Flow back",
+            "Deposits",
+            "Bonds",
+            "Retained earnings"
+        ],
+        "correct_answer": "Retained earnings"
+    },
+
+    "42":{
+        "question": "Worth of property as shown on the accounting records of an enterprise",
+        "choices": [
+            "Market value",
+            "Single payment",
+            "Book value",
+            " Fair value"
+        ],
+        "correct_answer": "Single payment"
+    },
+
+    "43":{
+        "question": "Financial statement which compares the revenues of the period with the expenses incurred to gain those revenues",
+        "choices": [
+            "Equity",
+            "Book value",
+            "Liquidated damages",
+            "Profit and loss statement"
+        ],
+        "correct_answer": "Profit and loss statement"
+    },
+
+    "44":{
+        "question": "The length of time usually in years for the cumulative net annual profit to equal the initial investment",
+        "choices": [
+            "Price earning ratio",
+            "Payback period",
+            "Receivable turnover",
+            "Return of investment"
+        ],
+        "correct_answer": "Payback period"
+    },
+
+    "45":{
+        "question": "Association of two or more individuals for the purpose of operating a business as co-owners of a profit",
+        "choices": [
+            "Corporation",
+            "Company",
+            "Partnership",
+            "Organization"
+        ],
+        "correct_answer": "Partnership"
+    },
+
+    "46":{
+        "question": "If a cost is a function of the independent variable, the cost is said to be a",
+        "choices": [
+            "Variable cost",
+            "Fixed cost",
+            "Incremental cost",
+            "Direct cost"
+        ],
+        "correct_answer": "Variable cost"
+    },
+
+    "47":{
+        "question": "Penal provision of a contract to compensate for the losses incurred by one party due to the failure to comply with contract provisions",
+        "choices": [
+            "Force majeure",
+            "Quasi – delicts",
+            "Liquidated damages",
+            "Dacion – en – pago"
+        ],
+        "correct_answer": "Liquidated damages"
+    },
+
+    "48":{
+        "question": "The balance sheet is a statement showing the financial status of the company at any given time. Which of the statements not a part of the balance sheet",
+        "choices": [
+            "Net worth",
+            "Asset",
+            "Liabilities",
+            "Cost of goods sold"
+        ],
+        "correct_answer": "Cost of goods sold"
+    },
+
+    "49":{
+        "question": "Cash money credit necessary to establish and operate an enterprise",
+        "choices": [
+            "Assets",
+            "Liabilities",
+            "Capital",
+            "Funds"
+        ],
+        "correct_answer": "Capital"
+    },
+
+    "50":{
+        "question": "Intangible assets of a company or a corporation",
+        "choices": [
+            "Patents",
+            "Investment",
+            "Equity",
+            "Capital"
+        ],
+        "correct_answer": "Patents"
+    },
+
+    "51":{
+        "question": "A form of business which is legal entity possessing many of the legal powers of individuals. It can hold title to property, sue and be used in its own name",
+        "choices": [
+            "Company",
+            "General partnership",
+            "Corporation",
+            "Individual proprietorship"
+        ],
+        "correct_answer": "Corporation"
+    },
+
+    "52":{
+        "question": "Refers to cost of merchandise which excludes freight and insurance costs",
+        "choices": [
+            "Debentures",
+            "Book value",
+            "Sunk cost",
+            "Freight on board"
+        ],
+        "correct_answer": "Book value"
+    },
+
+    "53":{
+        "question": "A fund into which annual deposits of X are made in order to accumulate fund F at in years in the future",
+        "choices": [
+            "Annuity",
+            "Sinking fund",
+            "Amortization",
+            "Depletion"
+        ],
+        "correct_answer": "Annuity"
+    },
+
+    "54":{
+        "question": "Estimated value at the end of the useful life",
+        "choices": [
+            "Balance sheet",
+            "Compounded annually",
+            "Salvage value",
+            "Economic life"
+        ],
+        "correct_answer": "Salvage value"
+    },
+
+    "55":{
+        "question": "Consists of the actual counting or determination of the actual quantity of the materials on hands as of a given date",
+        "choices": [
+            "Material count",
+            "Material update",
+            "Physical inventory",
+            "None of the above"
+        ],
+        "correct_answer": "Physical inventory"
+    },
+
+    "56":{
+        "question": "The total income equals the total operating costs",
+        "choices": [
+            "Face value",
+            "Break even",
+            "Balance sheet",
+            "Check and balance"
+        ],
+        "correct_answer": "Break even"
+    },
+
+    "57":{
+        "question": "The total amount spent on a physical property unit the property is put into operation",
+        "choices": [
+            "Increment cost",
+            "First cost",
+            "Sunk cost",
+            "Marginal cost"
+        ],
+        "correct_answer": "First cost"
+    },
+
+    "58":{
+        "question": "The additional cost of producing one more unit",
+        "choices": [
+            "First cost",
+            "Fixed cost",
+            "Marginal cost",
+            "Sunk cost"
+        ],
+        "correct_answer": "Marginal cost"
+    },
+
+    "59":{
+        "question": "Cost which arise as a result of a change volume of production",
+        "choices": [
+            "Variable cost",
+            "Summary cost",
+            "Annual cost",
+            "Fixed cost"
+        ],
+        "correct_answer": "Variable cost"
+    },
+
+    "60":{
+        "question": "Cost which arise as a result of a change in operations or policy",
+        "choices": [
+            "Integral cost",
+            "Increment cost",
+            "Variable cost",
+            "Sunk cost"
+        ],
+        "correct_answer": "Increment cost"
+    },
+
+    "61":{
+        "question": "Cost which remain unaltered whether or not a given change in operations is adopted",
+        "choices": [
+            "Operating cost",
+            "Variable cost",
+            "Maintenance cost",
+            "Fixed cost"
+        ],
+        "correct_answer": "Fixed cost"
+    },
+
+    "62":{
+        "question": "A change in cost for a small change in volume of production",
+        "choices": [
+            "Differential cost",
+            "Variable cost",
+            "Increment cost",
+            "Maintenance cost"
+        ],
+        "correct_answer": "Differential cost"
+    },
+
+    "63":{
+        "question": "Amount which has been spent and for some reasons cannot be recovered",
+        "choices": [
+            "Non variable cost",
+            "First cost",
+            "Sunk cost",
+            "Fixed cost"
+        ],
+        "correct_answer": "Sunk cost"
+    },
+
+    "64":{
+        "question": "The value which the disinterested third party, different from buyer or seller will determine in order to establish a price that is far and acceptable to both the buyer and the seller",
+        "choices": [
+            "Resale value",
+            "Fair value",
+            "Salvage value",
+            "Book value"
+        ],
+        "correct_answer": "Fair value"
+    },
+
+    "65":{
+        "question": "The method of repaying a debt, principal and interest included, usually by a series of equal payments at equal intervals of time",
+        "choices": [
+            "Annuity",
+            "Amortization",
+            "Bonding",
+            "Depletion"
+        ],
+        "correct_answer": "Amortization"
+    },
+
+    "66":{
+        "question": "The decrease in the value of a property due to the gradual extraction of its contents",
+        "choices": [
+            "Depletion",
+            "Income statement",
+            "Depreciation",
+            "Sinking fund"
+        ],
+        "correct_answer": "Depletion"
+    },
+
+    "67":{
+        "question": "A certificate of indebtedness of a corporation usually for a period of not less than 10 years and guaranteed by a mortgage on certain assets of the corporation or its subsidiaries",
+        "choices": [
+            "Promissory note",
+            "Bond",
+            "Chattel mortgage",
+            "Equity"
+        ],
+        "correct_answer": "Bond"
+    },
+
+    "68":{
+        "question": "Ratio of capital invested to the net annual cash flow",
+        "choices": [
+            "Net profit",
+            "Payout period",
+            "Fair value",
+            "Annuity"
+        ],
+        "correct_answer": "Payout period"
+    },
+
+    "69":{
+        "question": "Ratio of annual net profit to the capital invested",
+        "choices": [
+            "Rate of return",
+            "Rate of investment",
+            "Net profit",
+            "Annuity"
+        ],
+        "correct_answer": "Rate of return"
+    },
+
+    "70":{
+        "question": "An interest earning fund in which equal deposits are made at equal intervals of time",
+        "choices": [
+            "Straight line",
+            "Sum of the years digit",
+            "Matheson equation",
+            "Sinking fund"
+        ],
+        "correct_answer": "Sinking fund"
+    },
+
+    "71":{
+        "question": "The price at which a willing buyer will pay to a willing seller for a commodity",
+        "choices": [
+            "Resale value",
+            "Book value",
+            "Market value",
+            "Salvage value"
+        ],
+        "correct_answer": "Market value"
+    },
+
+    "72":{
+        "question": "When one or more of the input factors of production is limited, either by absolute quantity or by increasing cost, a point will be reached that an increase in the variable input factors will result in less than proportionate increase in input",
+        "choices": [
+            "Law of supply and demand",
+            "Law of diminishing return",
+            "Matheson law",
+            "Straight line depreciation law"
+        ],
+        "correct_answer": "Law of diminishing return"
+    },
+
+    "73":{
+        "question": "Price of a property when sold for junk",
+        "choices": [
+            "Scrap value",
+            "Resale value",
+            "Salvage value",
+            "Book value"
+        ],
+        "correct_answer": "Scrap value"
+    },
+
+    "74":{
+        "question": "An organization of the workers of a particular trade or craft whose primary aim is to improve the social and economic status of its members",
+        "choices": [
+            "Company union",
+            "Employees club",
+            "Employees union",
+            "Trade union"
+        ],
+        "correct_answer": "Trade union"
+    },
+
+    "75":{
+        "question": "A possible or chance events which when they occur, will involve a large amount of expenditures",
+        "choices": [
+            "Contract",
+            "Lease",
+            "Contingencies",
+            "Exaggerated"
+        ],
+        "correct_answer": "Contingencies"
+    },
+
+    "76":{
+        "question": "A study of the cost factors involved in engineering projects and using the result of such study in employing the mostefficient cost saving techniques without affecting the safety and soundness of the project",
+        "choices": [
+            "Feasibility study",
+            "Engineering economics",
+            "Engineering safety program",
+            "Engineering project thesis"
+        ],
+        "correct_answer": "Engineering economics"
+    },
+
+    "77":{
+        "question": "Part of theorem which is assumed to be true",
+        "choices": [
+            "Hypothesis",
+            "Proportion",
+            "Theorem",
+            "No answer"
+        ],
+        "correct_answer": "Hypothesis"
+    },
+
+    "78":{
+        "question": "A statement the truth of which must be established by proof",
+        "choices": [
+            "Postulate",
+            "Theorem",
+            "Hypothesis",
+            "Proportion"
+        ],
+        "correct_answer": "Theorem"
+    },
+
+    "79":{
+        "question": "Space between two lines meeting at a point called the vertex",
+        "choices": [
+            "Angle",
+            "Quadrant",
+            "Hyperbola",
+            "Sinusoid"
+        ],
+        "correct_answer": "Angle"
+    },
+
+    "80":{
+        "question": "A statement of equality between two ratios",
+        "choices": [
+            "Postulate",
+            "Proportion",
+            "Theorem",
+            "Hypothesis"
+        ],
+        "correct_answer": "Proportion"
+    },
+
+    "81":{
+        "question": "A place where sellers and buyers come together",
+        "choices": [
+            "Malls",
+            "Market",
+            "Tiangges",
+            "Sidewalks"
+        ],
+        "correct_answer": "Market"
+    },
+
+    "82":{
+        "question": "Amount of money or its equivalent which is given in exchange for goods or commodity",
+        "choices": [
+            "Loan",
+            "Interest",
+            "Price",
+            "Discount"
+        ],
+        "correct_answer": "Price"
+    },
+
+    "83":{
+        "question": "Process of determining the value of certain properties or equipment for certain reasons",
+        "choices": [
+            "Devaluation",
+            "Depletion",
+            "Valuation",
+            "Depreciation"
+        ],
+        "correct_answer": "Valuation"
+    },
+
+    "84":{
+        "question": "The square on the hypotenuse of a right triangle is equal to the sum of the square on the other two sides",
+        "choices": [
+            "Law of sine",
+            "Pythagorean theorem",
+            "Cosine law",
+            "Law of secants"
+        ],
+        "correct_answer": "Pythagorean theorem"
+    },
+
+    "85":{
+        "question": "A solid bounded by a surface all points of which are equidistant from a point called the center",
+        "choices": [
+            "Parabola",
+            "Cycloid",
+            "Sphere",
+            "Hyperbola"
+        ],
+        "correct_answer": "Sphere"
+    },
+
+    "86":{
+        "question": "Side opposite the right angle of a right triangle",
+        "choices": [
+            "Apothem",
+            "Hypotenuse",
+            "Median",
+            "Adjacent"
+        ],
+        "correct_answer": "Hypotenuse"
+    },
+
+    "87":{
+        "question": "Two triangles are congruent if two angles and the included side of one are equal respectively to two angles and the included side of the other",
+        "choices": [
+            "Accuracy",
+            "Significant figures",
+            "Theorem",
+            "Experimentation"
+        ],
+        "correct_answer": "Theorem"
+    },
+
+    "88":{
+        "question": "A line that meets a plane but is not perpendicular to it in relation to the plane",
+        "choices": [
+            "Coplanar",
+            "Parallel",
+            "Oblique",
+            "Collinear"
+        ],
+        "correct_answer": "Oblique"
+    },
+
+    "89":{
+        "question": "The curve generated by a point rotating about its axis while travelling at constant speed parallel to its axis",
+        "choices": [
+            "Helix",
+            "Cycloid",
+            "Hypocycloid",
+            "Sinusoid"
+        ],
+        "correct_answer": "Helix"
+    },
+
+    "90":{
+        "question": "_________ of a negotiable paper is the difference between the present worth of the paper at sometime in the future",
+        "choices": [
+            "Discount",
+            "Reduction",
+            "Percent increased",
+            "Depreciation"
+        ],
+        "correct_answer": "Discount"
+    },
+
+    "91":{
+        "question": "Quantity of a certain commodity that is bought at a certain price at a given place and time",
+        "choices": [
+            "Supply",
+            "Demand",
+            "Producer goods",
+            "Demanded goods"
+        ],
+        "correct_answer": "Demand"
+    },
+
+    "92":{
+        "question": "Quantity of a certain commodity that is offered for sale at a certain price at a given place and time",
+        "choices": [
+            "Demand",
+            "Retailer goods",
+            "Supply",
+            " Consumer goods"
+        ],
+        "correct_answer": "Supply"
+    },
+
+    "93":{
+        "question": "Used to produce consumers goods",
+        "choices": [
+            "Producer good",
+            "Consumer good",
+            "Bond",
+            "Annuity"
+        ],
+        "correct_answer": "Producer good"
+    },
+
+    "94":{
+        "question": "Funds supply by other on which a fixed rate of interest must be paid and the debt be repaid at a specific time",
+        "choices": [
+            "Demand",
+            "Equity capital",
+            "Borrowed capital",
+            "Appraisal"
+        ],
+        "correct_answer": "Borrowed capital"
+    },
+
+    "95":{
+        "question": "The process of determining the value of certain property for specific reasons",
+        "choices": [
+            "Annuity",
+            "Demand",
+            "Appraisal",
+            "Bond"
+        ],
+        "correct_answer": "Appraisal"
+    },
+
+    "96":{
+        "question": "The analysis and evaluation of the factors that will affect the economics success of engineering projects to the end that a recommendation can be made which will insure the best use of capital",
+        "choices": [
+            "Present worth",
+            "Investment",
+            "Engineering economy",
+            "Economic life"
+        ],
+        "correct_answer": "Engineering economy"
+    },
+
+    "97":{
+        "question": "The length of time during which it is capable of performing the function for which it was designed",
+        "choices": [
+            "Economic life",
+            "Interest",
+            "Depletion",
+            "Physical life"
+        ],
+        "correct_answer": "Economic life"
+    },
+
+    "98":{
+        "question": "Caused by either lessening in the demand for the service rendered by the asset or it is availability of more efficient asset which will operate with lower out – of pocket cost",
+        "choices": [
+            "Obsolescence",
+            "Salvage value",
+            "Market value",
+            "Annuity"
+        ],
+        "correct_answer": "Obsolescence"
+    },
+
+    "99":{
+        "question": "It occurs when a unique product or service is available only from a single supplier and entry of all other possible",
+        "choices": [
+            "Competition",
+            "Monopoly",
+            "Profitability",
+            "Rational"
+        ],
+        "correct_answer": "Monopoly"
+    },
+
+    "100":{
+        "question": "The logarithm of a negative number",
+        "choices": [
+            "Irrational",
+            "Real",
+            "Imaginary",
+            "Rational"
+        ],
+        "correct_answer": "Imaginary"
+    },
+
+    "101":{
+        "question": " What is the angle of pi and less than 2 pi",
+        "choices": [
+            "Acute",
+            "Oblique",
+            "Obtuse",
+            "Supplementary"
+        ],
+        "correct_answer": "Oblique"
+    },
+
+    "102":{
+        "question": "Points that lie in the same plane",
+        "choices": [
+            "Parallel",
+            "Coplanar",
+            "Oblique",
+            "Collinear"
+        ],
+        "correct_answer": "Coplanar"
+    },
+
+    "103":{
+        "question": "The study of the properties of figures of three dimensions",
+        "choices": [
+            "Physics",
+            "Solid geometry",
+            "Plane geometry",
+            "Trigonometry"
+        ],
+        "correct_answer": "Solid geometry"
+    },
+
+    "104":{
+        "question": "The angle between the horizontal plane and the line of sight between the observers eye to the object which is lower than the line of sight of his eyes",
+        "choices": [
+            "Angle of elevation",
+            "Angle of depression",
+            "Reflex angle",
+            "Deflection angle"
+        ],
+        "correct_answer": "Angle of depression"
+    },
+
+    "105":{
+        "question": "A sequence of numbers where the two successive terms have a constant common difference",
+        "choices": [
+            "Hero’s formula",
+            "Torricelli’s theorem",
+            "Arithmetic progression",
+            " Geometric progression"
+        ],
+        "correct_answer": "Arithmetic progression"
+    },
+
+    "106":{
+        "question": "An algebraic expression having two variables in it, Example: 3x + 3y is called",
+        "choices": [
+            "Binary",
+            "Binomial",
+            "Trinomial",
+            "Polynomial"
+        ],
+        "correct_answer": "Binomial"
+    },
+
+    "107":{
+        "question": "A statement the truth of which follows with little or no proof from a theorem",
+        "choices": [
+            "Axiom",
+            "Corollary",
+            "Postulate",
+            "Hypothesis"
+        ],
+        "correct_answer": "Corollary"
+    },
+
+    "108":{
+        "question": "The temperature at which the vapor pressure of the liquid is equal to the pressure exerted on the liquid",
+        "choices": [
+            "Pour point",
+            "Boiling point",
+            "Cloud point",
+            "Flash point"
+        ],
+        "correct_answer": "Pour point"
+    },
+
+    "109":{
+        "question": "The weight of an object in air is equal to the weight of the displaced liquid on which the object is placed",
+        "choices": [
+            "Pascal law",
+            "Buoyancy",
+            "Torricelli’s theorem",
+            "Equilibrium"
+        ],
+        "correct_answer": "Buoyancy"
+    },
+
+    "110":{
+        "question": "Transmission of heat from a hot to a cold body due to motion of matter",
+        "choices": [
+            "Radiation",
+            "Conduction",
+            "Convection",
+            "Absorption"
+        ],
+        "correct_answer": "Convection"
+    },
+
+    "111":{
+        "question": "The heat transfer from molecule through a body or through bodies in contact",
+        "choices": [
+            "Conduction",
+            "Convection",
+            "Radiation",
+            "Absorption"
+        ],
+        "correct_answer": "Conduction"
+    },
+
+    "112":{
+        "question": "The ratio of the limiting frictional force to the normal force is known as",
+        "choices": [
+            "Static friction",
+            "Coefficient ratio",
+            "Coefficient of static friction",
+            "Coefficient of roughness"
+        ],
+        "correct_answer": "Coefficient of static friction"
+    },
+
+    "113":{
+        "question": "The locus of points which are equidistant from a fixed point called focus and a fixed line called the directrix",
+        "choices": [
+            "Ellipse",
+            "Parabola",
+            "Cycloid",
+            "Hyperbola"
+        ],
+        "correct_answer": "Parabola"
+    },
+
+    "114":{
+        "question": "It is an arrangement of objects in a definite order",
+        "choices": [
+            "Probability",
+            "Permutation",
+            "Mathematical expectation",
+            "Combination"
+        ],
+        "correct_answer": "Permutation"
+    },
+
+    "115":{
+        "question": "The theoretical or expected frequency when the laws of chance are operating",
+        "choices": [
+            "Prediction",
+            "Permutation",
+            "Probability",
+            "Progression"
+        ],
+        "correct_answer": "Probability"
+    },
+
+    "116":{
+        "question": "A polyhedron which has 20 faces is known as",
+        "choices": [
+            "Pentagon",
+            "Peridecagon",
+            "Pentedecagon",
+            "Dodecagon"
+        ],
+        "correct_answer": "Pentedecagon"
+    },
+
+    "117":{
+        "question": "A solid figure having a constant cross section in plane perpendicular to is axis",
+        "choices": [
+            "Conic",
+            "Prism",
+            "Cissoids",
+            "Ellipse"
+        ],
+        "correct_answer": "Prism"
+    },
+
+    "118":{
+        "question": "Cost that are difficult to attribute or allocate to a specific output or with activity",
+        "choices": [
+            "Indirect cost",
+            "Direct cost",
+            "Variable cost",
+            "Invariable cost"
+        ],
+        "correct_answer": "Indirect cost"
+    },
+
+    "119":{
+        "question": "Cost that are repetitive and occur when an organization produces similar goods or service on a continuing basis",
+        "choices": [
+            "Direct cost",
+            "Recurring cost",
+            "Indirect cost",
+            "No answer"
+        ],
+        "correct_answer": "Recurring cost"
+    },
+
+    "120":{
+        "question": "For economic decision making process in the private sector, economic calculations are made to maximize net benefits to:",
+        "choices": [
+            "Those who invest in the enterprise and assume no risk",
+            "The public",
+            "The creditors of the enterprise ",
+            "Those who work as part of the enterprise"
+        ],
+        "correct_answer": "Those who invest in the enterprise and assume no risk"
+    },
+
+    "121":{
+        "question": "The annual depreciation charge equals capital recovery with return for an interest rate of",
+        "choices": [
+            "100%",
+            "Zero",
+            "Greater than zero",
+            "Greater than one"
+        ],
+        "correct_answer": "Zero"
+    },
+
+    "122":{
+        "question": "Depreciation resulting not from deterioration in the assets ability to serve its intended purpose but from a change in the demand for the services it can rendered",
+        "choices": [
+            "Functional",
+            "Physical",
+            "Depletion",
+            "Valuation"
+        ],
+        "correct_answer": "Functional"
+    },
+
+    "123":{
+        "question": "The uniform annual end of year payment to repay a debt in years, with an interest rate I, is determined by multiplying the capital recovery factor by the:",
+        "choices": [
+            "Average debt",
+            "Initial debt",
+            "Initial debt plus interest",
+            "Average debt plus interest"
+        ],
+        "correct_answer": "Initial debt"
+    },
+
+    "124":{
+        "question": "An annuity whereby payment is postponed for a certain period of time",
+        "choices": [
+            "Annuity due",
+            "Perpetuity",
+            "Ordinary annuity",
+            "Deferred annuity"
+        ],
+        "correct_answer": "Deferred annuity"
+    },
+
+    "125":{
+        "question": "A bond whereby the security behind it in the equipment of the issuing corporation",
+        "choices": [
+            "Debenture",
+            "Mortgage bond",
+            "Lien bond",
+            "Collateral bond"
+        ],
+        "correct_answer": "Lien bond"
+    },
+
+    "126":{
+        "question": "In statistics, the standard deviation means",
+        "choices": [
+            "Frequency",
+            "Central tendency",
+            "Distribution",
+            "Dispersion"
+        ],
+        "correct_answer": "Dispersion"
+    },
+
+    "127":{
+        "question": "If the second derivative of the equation of a curve is equal to the negative of the equation of that same curve, the curve is",
+        "choices": [
+            "A tangent",
+            "A sinusoid",
+            "A parabola",
+            "An exponential"
+        ],
+        "correct_answer": "A sinusoid"
+    },
+
+    "128":{
+        "question": "Varignon’s theorem is used to determine",
+        "choices": [
+            "Volume of sphere",
+            "Moment of inertia",
+            "Location of centroid",
+            "Area of a circle"
+        ],
+        "correct_answer": "Location of centroid"
+    },
+
+    "129":{
+        "question": "The center of gravity of an isosceles triangle whose height is H on the median line is",
+        "choices": [
+            "2/3 H from the base",
+            "1/4 H from the vertex",
+            "1/3 H from the vertex",
+            "2/3 H from the vertex"
+        ],
+        "correct_answer": "2/3 H from the vertex"
+    },
+
+    "130":{
+        "question": "A vector that represents the sum of two vectors",
+        "choices": [
+            "Tangent",
+            "Resultant",
+            "Scalar",
+            "Tension"
+        ],
+        "correct_answer": "Resultant"
+    },
+
+    "131":{
+        "question": "Study of motion without reference to the forces which causes motion",
+        "choices": [
+            "Kinetics",
+            "Surface tension",
+            "Cohesion",
+            "Kinematics"
+        ],
+        "correct_answer": "Kinematics"
+    },
+
+    "132":{
+        "question": "Property of a body which measure its resistance to change in motion",
+        "choices": [
+            "Mass",
+            "Weight",
+            "Acceleration",
+            "Rigidity"
+        ],
+        "correct_answer": "Mass"
+    },
+
+    "133":{
+        "question": "Motion of a rigid body in which a straight line passing through any two of its practices always remains constant",
+        "choices": [
+            "Rotation",
+            "Translation",
+            "Plane motion",
+            "Kinetics"
+        ],
+        "correct_answer": "Translation"
+    },
+
+    "134":{
+        "question": "The first derivative of kinetic energy with respect to time",
+        "choices": [
+            "Work",
+            "Power",
+            "Momentum",
+            "Force"
+        ],
+        "correct_answer": "Power"
+    },
+
+    "135":{
+        "question": "Product of force and time during which it acts on the body",
+        "choices": [
+            "Impulse",
+            "Momentum",
+            "Work",
+            "Force"
+        ],
+        "correct_answer": "Impulse"
+    },
+
+    "136":{
+        "question": "Continuous emission of energy from the surface of all bodies",
+        "choices": [
+            "Conduction",
+            "Emissitivity",
+            "Radiation",
+            "Convection"
+        ],
+        "correct_answer": "Radiation"
+    },
+
+    "137":{
+        "question": "The velocity which an objects needs to overcome the gravitational force of a planet",
+        "choices": [
+            "Escape velocity",
+            "Orbiting velocity",
+            "Angular velocity",
+            "Linear velocity"
+        ],
+        "correct_answer": "Orbiting velocity"
+    },
+
+    "138":{
+        "question": "A chemical process which occur when water is added to cement",
+        "choices": [
+            "Hydration",
+            "Oxidation",
+            "Plastic flow",
+            "Counter diffusion"
+        ],
+        "correct_answer": "Hydration"
+    },
+
+    "139":{
+        "question": "The angle formed between one line and the prolongation of the preceding line in a closed traversed",
+        "choices": [
+            "Obtuse",
+            "Split",
+            "Deflection",
+            "Direction"
+        ],
+        "correct_answer": "Deflection"
+    },
+
+    "140":{
+        "question": "A temperature above which a given gas cannot be liquefied",
+        "choices": [
+            "Boiling point",
+            "Vaporization temperature",
+            "Critical temperature",
+            " Absolute temperature"
+        ],
+        "correct_answer": "Critical temperature"
+    },
+
+    "141":{
+        "question": "An encased rotating element provided with vanes which draw in fluid at the center and except if at a high velocity at the outer edge",
+        "choices": [
+            "Buckets",
+            "Ejector",
+            "Vanes",
+            "Impeller"
+        ],
+        "correct_answer": "Impeller"
+    },
+
+    "142":{
+        "question": "A pump used to transfer fuel",
+        "choices": [
+            "Reciprocating pump",
+            "Injector",
+            "Gear",
+            "Turbine"
+        ],
+        "correct_answer": "Gear"
+    },
+
+    "143":{
+        "question": "The Mollier Chart for steam represents a relationship between the:",
+        "choices": [
+            "Temperature – entropy",
+            "Temperature – volume",
+            "Pressure and temperature",
+            "Enthalpy – entropy"
+        ],
+        "correct_answer": "Enthalpy – entropy"
+    },
+
+    "144":{
+        "question": "Force that opposes the relative motion of a body at rest or in motion",
+        "choices": [
+            "Frictional force",
+            "Resultant force",
+            "Centripetal force",
+            "Centrifugal force"
+        ],
+        "correct_answer": "Frictional force"
+    },
+
+    "145":{
+        "question": "Temperature of a fluid flowing under pressure through a pipe is usually measured by",
+        "choices": [
+            "Frictional force",
+            "Resultant force",
+            "Centripetal force",
+            "Centrifugal force"
+        ],
+        "correct_answer": "Centrifugal force"
+    },
+
+    "146":{
+        "question": "The area bounded by the curve under the T-S diagram represents",
+        "choices": [
+            "Work of non-flow",
+            "Heat",
+            "Power",
+            "Change of entropy"
+        ],
+        "correct_answer": "Heat"
+    },
+
+    "147":{
+        "question": "An increase in the quantity of goods consumed or acquired by an individual will decrease the amount of satisfaction derived from the goods",
+        "choices": [
+            "Law of diminishing return",
+            "Law of supply and demand",
+            "Matheson law",
+            "No answer"
+        ],
+        "correct_answer": "No answer"
+    },
+
+    "148":{
+        "question": "A depreciation model where the value of an asset decrease at a decreasing rate",
+        "choices": [
+            "Sinking fund",
+            "Straight line",
+            "Sum of the years digit",
+            "Declining balance"
+        ],
+        "correct_answer": "Sum of the years digit"
+    },
+
+    "149":{
+        "question": "A decrease in value of an asset brought by the development of new and more economical methods, processes or machinery",
+        "choices": [
+            "Depletion",
+            "Depreciation",
+            "Obsolescence",
+            "Annuity"
+        ],
+        "correct_answer": "Obsolescence"
+    },
+
+    "150":{
+        "question": "Cost of the product arising from expenditures incurred in disposing of the products and services produced",
+        "choices": [
+            "Factory cost",
+            "Selling cost",
+            "Fixed cost",
+            "Variable cost"
+        ],
+        "correct_answer": "Selling cost"
+    },
+
+    "151":{
+        "question": "The interest charges under the condition that interest in any time is charged only to the capital",
+        "choices": [
+            "Declining balance",
+            "Simple interest",
+            "Compound interest",
+            "No answer"
+        ],
+        "correct_answer": "Simple interest"
+    },
+
+    "152":{
+        "question": "This occurs when the suppliers and any action taken by anyone of them will definitely affect the course of action of the others",
+        "choices": [
+            "Oligoly",
+            "Competition",
+            "Monopoly",
+            "Monopsony"
+        ],
+        "correct_answer": "Oligoly"
+    },
+
+    "153":{
+        "question": "Things that cannot be quantitatively measured or valued such as items of costs and physical assets",
+        "choices": [
+            "Intangibles",
+            "Tangibles",
+            "Capital",
+            "Investment"
+        ],
+        "correct_answer": "Intangibles"
+    },
+
+    "154":{
+        "question": "The type of interest that is periodically added to the amount of loan so that subsequent interest is based on the cumulative amount",
+        "choices": [
+            "Simple",
+            "Compound",
+            "Interest rate",
+            "Sinking fund"
+        ],
+        "correct_answer": "Compound"
+    },
+
+    "155":{
+        "question": "The price at which a given product will be supplied and purchased is the price that will result in the supply and the demand being equal",
+        "choices": [
+            "Present worth method",
+            "Law of diminishing return",
+            "Law of supply and demand",
+            "Obsolescence"
+        ],
+        "correct_answer": "Obsolescence"
+    },
+
+    "156":{
+        "question": "It exists when a certain product is offered for sale by many vendors or suppliers and there is no restriction against other vendors from entering the market",
+        "choices": [
+            "Competition",
+            "Valuation",
+            "Profitability",
+            "Present worth"
+        ],
+        "correct_answer": "Competition"
+    },
+
+    "157":{
+        "question": "A legally binding agreement or promise to exchange goods or services",
+        "choices": [
+            "Contract",
+            "Memorandum",
+            "Barter",
+            "Pro – forma"
+        ],
+        "correct_answer": "Contract"
+    },
+
+    "158":{
+        "question": "t occurs when a unique product or service is available only from a single supplier and entry of all other possible",
+        "choices": [
+            "Competition",
+            "Inventory",
+            "Profitability",
+            "Monopoly"
+        ],
+        "correct_answer": "Monopoly"
+    },
+
+    "159":{
+        "question": "An aggregation of individuals to formed for the purpose of conducting a business and recognized by law as a fictitious person",
+        "choices": [
+            "Partnership",
+            "Investors",
+            "Corporation",
+            "Stockholders"
+        ],
+        "correct_answer": "Corporation"
+    },
+
+    "160":{
+        "question": "A written acknowledgment by a carrier that he has received the goods for shipment",
+        "choices": [
+            "Shippers contract",
+            "Bonding",
+            "Bill of lading",
+            "Transportation contract"
+        ],
+        "correct_answer": "Bill of lading"
+    },
+
+    "161":{
+        "question": "A written contract under seal whereby a corporation binds itself to pay a specific sum of money to the owner of the bond",
+        "choices": [
+            "Promissory note",
+            "Assets",
+            "Joint agreement",
+            "Corporation bond"
+        ],
+        "correct_answer": "Corporation bond"
+    },
+
+    "162":{
+        "question": "Funds supplied and used by owners of an enterprise in the expectation that profit will be earned",
+        "choices": [
+            "Investment",
+            "Equity capital",
+            "Present worth",
+            "Working capital"
+        ],
+        "correct_answer": "Equity capital"
+    },
+
+    "163":{
+        "question": "Funds supplied by others on which a fixed rate of interest must be paid and the debt be repaid at a specific time",
+        "choices": [
+            "Cash flow",
+            "Borrowed capital",
+            "Discount",
+            "Working capital"
+        ],
+        "correct_answer": "Borrowed capital"
+    },
+
+    "164":{
+        "question": "An annuity where the payment period extends forever or in which the period payment continue indefinitely",
+        "choices": [
+            "Ordinary",
+            "Deferred",
+            "Annuity due",
+            "Perpetuity"
+        ],
+        "correct_answer": "Perpetuity"
+    },
+
+    "165":{
+        "question": "It is a depreciation method whereby the decrease in value of the unit does not change each year",
+        "choices": [
+            "Straight line method",
+            "Matheson formula",
+            "SYD method",
+            "Sinking fund method"
+        ],
+        "correct_answer": "Straight line method"
+    },
+
+    "166":{
+        "question": "Process of determining the value of certain property for specific reasons",
+        "choices": [
+            "Appraisal",
+            "Depreciation",
+            "Amortization",
+            "Investment"
+        ],
+        "correct_answer": "Appraisal"
+    },
+
+    "167":{
+        "question": "An intensive property of a substance is one which is dependent of the following",
+        "choices": [
+            "Pressure",
+            "Temperature",
+            "Enthalpy",
+            "Mass"
+        ],
+        "correct_answer": "Mass"
+    },
+
+    "168":{
+        "question": "At the same pressure and temperature, equal volume of oil gas contain equal number of molecules is",
+        "choices": [
+            "Boyles law",
+            "Faradays law",
+            "Carnot law",
+            "Avogadro’s law"
+        ],
+        "correct_answer": "Avogadro’s law"
+    },
+
+    "169":{
+        "question": "For the sterling cycle, heat regeneration occurs at",
+        "choices": [
+            "Constant temperature",
+            "Constant volume",
+            "Constant pressure",
+            "Constant entropy"
+        ],
+        "correct_answer": "Constant volume"
+    },
+
+    "170":{
+        "question": "Known as the silent power plant is the Solar Power Plant. Which of the following cycles followed?",
+        "choices": [
+            "Carnot cycle",
+            "Diesel cycle",
+            "Ericsson and sterling cycles",
+            "Boleman cycle"
+        ],
+        "correct_answer": "Ericsson and sterling cycles"
+    },
+
+    "171":{
+        "question": "The thermodynamics cycle as the most efficient",
+        "choices": [
+            "Rankine",
+            "Carnot",
+            "Diesel",
+            "Otto"
+        ],
+        "correct_answer": "Carnot"
+    },
+
+    "172":{
+        "question": "A steam power cycle is modeled by the ideal cycle known as",
+        "choices": [
+            "Carnot",
+            "Combined",
+            "Rankine",
+            "Brayton"
+        ],
+        "correct_answer": "Rankine"
+    },
+
+    "173":{
+        "question": "An ideal gas is contained in a container. There is no work of a rotating shaft associated with the container. Any heat transfer is a function of",
+        "choices": [
+            "Volume only",
+            "Pressure only",
+            "Temperature only",
+            "No heat transfer"
+        ],
+        "correct_answer": "Temperature only"
+    },
+
+    "174":{
+        "question": "The use of carbon in steel is to",
+        "choices": [
+            "Increase resistance to shock",
+            "Increase resistance to fatigue",
+            "Increase ductility",
+            "Increase the hardness"
+        ],
+        "correct_answer": "Increase the hardness"
+    },
+
+    "175":{
+        "question": "A thermodynamic system which undergoes a cyclic process during a positive amount of work is done by the system",
+        "choices": [
+            "Heat pump",
+            "Heat engine",
+            "Reversed rankine",
+            "Reversible-irreversible"
+        ],
+        "correct_answer": "Heat engine"
+    },
+
+    "176":{
+        "question": "Force on a submerged area is referred as",
+        "choices": [
+            "Fluid pressure",
+            "Fluid force",
+            "Fluid density",
+            "No answer"
+        ],
+        "correct_answer": "Fluid pressure"
+    },
+
+    "177":{
+        "question": "A valve in a tank or compartment used primarily to permit air to escape",
+        "choices": [
+            "Vent",
+            "Safety valve",
+            "An ejector",
+            "Relief valve"
+        ],
+        "correct_answer": "Vent"
+    },
+
+    "178":{
+        "question": "A property of a material which causes it to fracture to any noticeable signs of deformation",
+        "choices": [
+            "Stiffness",
+            "Plasticity",
+            "Brittleness",
+            "Ductility"
+        ],
+        "correct_answer": "Brittleness"
+    },
+
+    "179":{
+        "question": "The area bounded by the curve under the P – V diagram represents",
+        "choices": [
+            "Work for a non – flow",
+            "Steady flow work",
+            "Reversible – irreversible work",
+            "No answer"
+        ],
+        "correct_answer": "Work for a non – flow"
+    },
+
+    "180":{
+        "question": "The loss of weight of a body submerged in a fluid is equal to the weight of the fluid displaced. This is known as:",
+        "choices": [
+            "Bernoulli’s principle",
+            "Archimedes principle",
+            "Pascal law",
+            "Joules law"
+        ],
+        "correct_answer": "Archimedes principle"
+    },
+
+    "181":{
+        "question": "Kinematic viscosity is an SI derived unit described as:",
+        "choices": [
+            "Newton per cm",
+            "Square meter per second",
+            "Pascal second",
+            "SSU"
+        ],
+        "correct_answer": "Square meter per second"
+    },
+
+    "182":{
+        "question": "Sum of the internal energy of a body and the product of pressure and specific volume is called",
+        "choices": [
+            "Enthalpy",
+            "Internal energy",
+            "Entropy",
+            " KE and PE"
+        ],
+        "correct_answer": "Enthalpy"
+    },
+
+    "183":{
+        "question": "Water in an open glass at room temperature is referred as:",
+        "choices": [
+            "Saturated liquid",
+            "Compressed liquid",
+            "Liquid quality is zero",
+            "No answer"
+        ],
+        "correct_answer": "Compressed liquid"
+    },
+
+    "184":{
+        "question": "Instrument used to measure intensity of earthquake",
+        "choices": [
+            "Velometer",
+            "Hydrometer",
+            "Seismograph",
+            "Hygrometer"
+        ],
+        "correct_answer": "Seismograph"
+    },
+
+    "185":{
+        "question": "In a processing station, an instrument frequently used to measure the flow rate of fluids that consists of a vertical passage with variable cross-sectional area, a float and a calibrated scale",
+        "choices": [
+            "Pitot tube",
+            "Manometer",
+            "Rotameter",
+            "Rota – aired"
+        ],
+        "correct_answer": "Rotameter"
+    },
+
+    "186":{
+        "question": "A device that is installed in the liquid line between the liquid receiver and expansion valve in a refrigerating plant to absorb moisture that has entered the system",
+        "choices": [
+            "Oil absorber",
+            "Regenerator",
+            "Deaerator",
+            "Dehydrator"
+        ],
+        "correct_answer": "Dehydrator"
+    },
+
+    "187":{
+        "question": "The state of a thermodynamic system is always defined by its",
+        "choices": [
+            "Properties",
+            "Process",
+            "Absolute temperature",
+            "Pressure and temperature"
+        ],
+        "correct_answer": "Properties"
+    },
+
+    "188":{
+        "question": "Enthalpy of an ideal gas is a function only of",
+        "choices": [
+            "Temperature",
+            "Internal energy",
+            "Entropy",
+            "Pressure"
+        ],
+        "correct_answer": "Temperature"
+    },
+
+    "189":{
+        "question": "Change of internal energy is a function of temperature change only. This is known as",
+        "choices": [
+            "Pascal law",
+            "Joules law",
+            "Boyles law",
+            "Daltons law"
+        ],
+        "correct_answer": "Joules law"
+    },
+
+    "190":{
+        "question": "The continuous molecular motion and vibration within a substances",
+        "choices": [
+            "Internal energy",
+            "Enthalpy",
+            "Potential energy",
+            "Kinetic energy"
+        ],
+        "correct_answer": "Internal energy"
+    },
+
+    "191":{
+        "question": "For a gas completely compressed isothermally, the enthalpy change is equal to",
+        "choices": [
+            "Always positive",
+            "Always negative",
+            "Zero",
+            "Infinity"
+        ],
+        "correct_answer": "Zero"
+    },
+
+    "192":{
+        "question": "A special type of closed system that does not interact in any way with its surroundings",
+        "choices": [
+            "Isolated system",
+            "Saturated system",
+            "Control volume",
+            "Mass conservation"
+        ],
+        "correct_answer": "Isolated system"
+    },
+
+    "193":{
+        "question": "A quantity of matter that is homogeneous throughout in both chemical composition and physical structure",
+        "choices": [
+            "Property",
+            "Phase",
+            "Composition",
+            "No answer"
+        ],
+        "correct_answer": "Phase"
+    },
+
+    "194":{
+        "question": "A property used to measure the state of disorder of a substance, a function of both heat and temperature",
+        "choices": [
+            "Enthalpy",
+            "Entropy",
+            "Internal energy",
+            "Specific volume"
+        ],
+        "correct_answer": "Entropy"
+    },
+
+    "195":{
+        "question": "Highest pressure under which distinguishable liquid and vapor phases exist in equilibrium",
+        "choices": [
+            "Saturation pressure",
+            "Subcooled pressure",
+            "Stagnant pressure",
+            "Critical pressure"
+        ],
+        "correct_answer": "Critical pressure"
+    },
+
+    "196":{
+        "question": "Energy due to the cohesive forces of the protons and neutrons within the atoms",
+        "choices": [
+            "Chemical energy",
+            "Nuclear energy",
+            "Orbital energy",
+            "Solar energy"
+        ],
+        "correct_answer": "Nuclear energy"
+    },
+
+    "197":{
+        "question": "Work done in pushing a fluid across a boundary, usually into or out of a system",
+        "choices": [
+            "Steady flow work",
+            "Conventional flow work",
+            "Flow work",
+            "System flow work"
+        ],
+        "correct_answer": "Flow work"
+    },
+
+    "198":{
+        "question": "One of the outlined statement of the Second Law of Thermodynamics, it is impossible to construct a refrigerator that operates without an input work. This is known:",
+        "choices": [
+            "Kelvin – Planck statement",
+            "Clausius statement",
+            "Boltzmann statement",
+            "Fourier’s statement"
+        ],
+        "correct_answer": "Clausius statement"
+    },
+
+    "199":{
+        "question": "Conservation of mass states:",
+        "choices": [
+            "Mass is indestructible provided no nuclear reaction is employed",
+            "Mass has a change within system",
+            "Mass is not constant",
+            "No answer"
+        ],
+        "correct_answer": "Mass is indestructible provided no nuclear reaction is employed"
+    },
+
+    "200":{
+        "question": "It is the difference in pressure as measured above or below atmospheric pressure",
+        "choices": [
+            "Drift",
+            "Draft",
+            "Gage pressure",
+            "Vacuum pressure"
+        ],
+        "correct_answer": "Draft"
+    },
+
+    "201":{
+        "question": "Intercoolers are used in gas compressors",
+        "choices": [
+            "True",
+            "False",
+            "Neither true or false",
+            "No answer"
+        ],
+        "correct_answer": "True"
+    },
+
+    "202":{
+        "question": "Science of low temperature",
+        "choices": [
+            "Cryogenics",
+            "Air-conditioning",
+            "Drying",
+            "Cooling and evaporation"
+        ],
+        "correct_answer": "Cryogenics"
+    },
+
+    "203":{
+        "question": "A Bell – Coleman Cycle is a reversed",
+        "choices": [
+            "Rankine cycle",
+            "Joule cycle",
+            "Otto cycle",
+            "Carnot cycle"
+        ],
+        "correct_answer": "Joule cycle"
+    },
+
+    "204":{
+        "question": "For the Ericson cycle, heat regeneration occurs at",
+        "choices": [
+            "Constant pressure",
+            "Constant enthalpy",
+            "Constant volume",
+            "Constant entropy"
+        ],
+        "correct_answer": "Constant pressure"
+    },
+
+    "205":{
+        "question": "The ratio between the volume at bottom dead center of any reciprocating engine is",
+        "choices": [
+            "Cut off ratio",
+            "Stroke to bore ratio",
+            "Compression ratio",
+            "Work ratio"
+        ],
+        "correct_answer": "Compression ratio"
+    },
+
+    "206":{
+        "question": "The volume swept by a piston in one stroke is",
+        "choices": [
+            "Specific volume",
+            "Volume displacement",
+            "Isentropic volume",
+            "Expansion volume"
+        ],
+        "correct_answer": "Volume displacement"
+    },
+
+    "207":{
+        "question": "The statement: “Energy maybe transformed from one form to another” is known as",
+        "choices": [
+            "Law on conservation of energy",
+            "First law of thermodynamics",
+            "Second law of thermodynamics",
+            "Third law of thermodynamics"
+        ],
+        "correct_answer": "First law of thermodynamics"
+    },
+
+    "208":{
+        "question": "It is a property that remains constant if no heat enters or leaves the system while it does work or alters the volume",
+        "choices": [
+            "Entropy",
+            "Heat",
+            "Kinetic energy",
+            "Enthalpy"
+        ],
+        "correct_answer": "Entropy"
+    },
+
+    "209":{
+        "question": "Acceleration of a particular body is directly proportional to the resultant force acting on it and inversely proportional to its mass",
+        "choices": [
+            "Joules law",
+            "Faradays law",
+            "Bernoulli’s law",
+            "Newtons law"
+        ],
+        "correct_answer": "Newtons law"
+    },
+
+    "210":{
+        "question": "Mass maybe converted into energy and energy maybe converted into mass is all about Einstein law of relatively. This represents",
+        "choices": [
+            "m = density times volume",
+            "m is directly proportional to energy but inversely with the square of speed of light",
+            "m is constant throughout the universe",
+            "mass is indestructible"
+        ],
+        "correct_answer": "m is directly proportional to energy but inversely with the square of speed of light"
+    },
+
+    "211":{
+        "question": "A gamma ray is composed of",
+        "choices": [
+            "high energy electrons",
+            "high protons",
+            "high energy electromagnetic radiation",
+            "high energy newtons"
+        ],
+        "correct_answer": "high energy electromagnetic radiation"
+    },
+
+    "212":{
+        "question": "A gamma ray is composed of",
+        "choices": [
+            "high energy electrons",
+            "high protons",
+            "high energy electromagnetic radiation",
+            "high energy newtons"
+        ],
+        "correct_answer": "high energy electromagnetic radiation"
+    },
+
+    "213":{
+        "question": "Research and Engineering laboratories, instrument commonly used due to its small size and last among other thermodynamics instruments",
+        "choices": [
+            "Thermocouple",
+            "Liquid in glass thermometer",
+            "Mercury thermometer",
+            "Gas thermometer"
+        ],
+        "correct_answer": "Thermocouple"
+    },
+
+    "214":{
+        "question": "When a substance in gaseous form is below the critical temperature, it is referred as",
+        "choices": [
+            "Moisture",
+            "Vapor",
+            "Air – water vapor",
+            "Steam"
+        ],
+        "correct_answer": "Vapor"
+    },
+
+    "215":{
+        "question": "The force that tends to draw a body toward the center about which is rotating",
+        "choices": [
+            "Centrifugal force",
+            "Centripetal force",
+            "Centrifugal in motion",
+            "Centripetal motion"
+        ],
+        "correct_answer": "Centripetal force"
+    },
+
+    "216":{
+        "question": "A simultaneously generation of electricity and steam or heat in a single power plant",
+        "choices": [
+            "Gas turbine",
+            "Cogeneration",
+            "Waste heat recovery",
+            "Turbo – generator"
+        ],
+        "correct_answer": "Cogeneration"
+    },
+
+    "217":{
+        "question": "Yeast as raw materials for beer making is added to the equipment known as",
+        "choices": [
+            "Starting tube",
+            "Brew kettle",
+            "Coolers",
+            "Fermenters"
+        ],
+        "correct_answer": "Fermenters"
+    },
+
+    "218":{
+        "question": "Triple point of water is at ______&deg;F",
+        "choices": [
+            "30",
+            "35",
+            "32",
+            "40"
+        ],
+        "correct_answer": "32"
+    },
+
+    "219":{
+        "question": "A vertical column of water will be supported to what height by standard atmosphere",
+        "choices": [
+            "14.7 psia",
+            "34 ft of water",
+            "10.36 m of water",
+            "All of the above"
+        ],
+        "correct_answer": "All of the above"
+    },
+
+    "220":{
+        "question": "Power measured in the engine cylinder from the average pressure is called",
+        "choices": [
+            "Friction",
+            "Brake",
+            "Combined",
+            "Indicated"
+        ],
+        "correct_answer": "Indicated"
+    },
+
+    "221":{
+        "question": "Speed at which a liquids escapes from a vessel thru an orifice is referred as",
+        "choices": [
+            "Lenz law",
+            "Archimedes law",
+            "Bernoulli’s principle",
+            "Torricelli’s theorem"
+        ],
+        "correct_answer": "Torricelli’s theorem"
+    },
+
+    "222":{
+        "question": "The hydraulic formula C<sub>d</sub> A x square root of 2gH is used to find",
+        "choices": [
+            "Friction factor of a pipe",
+            "Length of pipe",
+            "Friction loss",
+            "Quantity of discharge thru an orifice"
+        ],
+        "correct_answer": "Quantity of discharge thru an orifice"
+    },
+
+    "223":{
+        "question": "Locus of elevation to which water will rise in the Piezometer tube",
+        "choices": [
+            "Friction head",
+            "Elevation head",
+            "Hydraulic gradient",
+            "Energy gradient"
+        ],
+        "correct_answer": "Hydraulic gradient"
+    },
+
+    "224":{
+        "question": "A gas cleaning device which consists of two sets of electrodes insulated from each other that maintain a static field between them",
+        "choices": [
+            "Vacuum",
+            "Soot blower",
+            "Blower",
+            "Electrostatic precipitator"
+        ],
+        "correct_answer": "Vacuum"
+    },
+
+    "225":{
+        "question": "The theory of changing heat into mechanical form of work",
+        "choices": [
+            "Thermodynamics",
+            "Inertia",
+            "Horsepower",
+            "Kinematics"
+        ],
+        "correct_answer": "Thermodynamics"
+    },
+
+    "226":{
+        "question": "Internal combustion engines never work on",
+        "choices": [
+            "Otto cycle",
+            "Diesel cycle",
+            "Dual – combustion cycle",
+            "Rankine cycle"
+        ],
+        "correct_answer": "Rankine cycle"
+    },
+
+    "227":{
+        "question": "If the fluid travels parallel to the adjacent paths of individual particles do not cross each other then the flow is said to be",
+        "choices": [
+            "Turbulent",
+            "Dynamic",
+            "Laminar",
+            "Critical"
+        ],
+        "correct_answer": "Laminar"
+    },
+
+    "228":{
+        "question": "At any instant, the number of particles passing every cross section of the stream is the same, the flow is said to be",
+        "choices": [
+            "Steady flow",
+            "Uniform flow",
+            "Turbulent flow",
+            "Continuous flow"
+        ],
+        "correct_answer": "Steady flow"
+    },
+
+    "229":{
+        "question": "Amount of air required in the low bypass factor",
+        "choices": [
+            "Greater",
+            "Lesser",
+            "Undetermined",
+            "Constant"
+        ],
+        "correct_answer": "Lesser"
+    },
+
+    "230":{
+        "question": "Pneumatic tools are powered by",
+        "choices": [
+            "Air",
+            "Water",
+            "Steam",
+            "Natural gas"
+        ],
+        "correct_answer": "Air"
+    },
+
+    "231":{
+        "question": "Term not used in relation to lubricating oils",
+        "choices": [
+            "Cetane no.",
+            "Conradson no.",
+            "Neutralization no.",
+            "Demulsibility"
+        ],
+        "correct_answer": "Cetane no."
+    },
+
+    "232":{
+        "question": "A graphical representation between discharge and time",
+        "choices": [
+            "Topograph",
+            "Hydrograph",
+            "Hectograph",
+            "Monograph"
+        ],
+        "correct_answer": "Hydrograph"
+    },
+
+    "233":{
+        "question": "The latent heat of vaporization at critical point is",
+        "choices": [
+            "Minimum",
+            "Zero",
+            "Maximum",
+            "Depends only on temperature"
+        ],
+        "correct_answer": "Zero"
+    },
+
+    "234":{
+        "question": "Which of the following would be considered as a system rather than a control volume?",
+        "choices": [
+            "Turbine",
+            "Pump",
+            "Nozzle",
+            "Tire"
+        ],
+        "correct_answer": "Tire"
+    },
+
+    "235":{
+        "question": "Purpose of expansion loop in a pipe line",
+        "choices": [
+            "Prevent thermal losses due to expansion of pipelines",
+            "Monitor leaks in pipelines",
+            "Provide for steam tight joint and insulation",
+            "Absorb longitudinal expansion in the line due to heat"
+        ],
+        "correct_answer": "Absorb longitudinal expansion in the line due to heat"
+    },
+
+    "236":{
+        "question": "A type of steam boiler which incorporate furnace water cooling in circulating system",
+        "choices": [
+            "Water tube boilers",
+            "Fire tube boilers",
+            "Controlled circulation boilers",
+            "Once through boilers"
+        ],
+        "correct_answer": "Controlled circulation boilers"
+    },
+
+    "237":{
+        "question": "What is absorbed by sulphites in boiler water treatment?",
+        "choices": [
+            "Carbon dioxide",
+            "Nitrogen",
+            "Oxygen",
+            "Carbon dioxide and oxygen"
+        ],
+        "correct_answer": "Carbon dioxide and oxygen"
+    },
+
+    "238":{
+        "question": "Condition in which droplets of water are carried by steam in the boiler",
+        "choices": [
+            "Condensation",
+            "Breeching",
+            "Priming",
+            "Carryover"
+        ],
+        "correct_answer": "Priming"
+    },
+
+    "239":{
+        "question": "By employing a reheat – regenerative cycle in a steam power plant, the thermal efficiency",
+        "choices": [
+            "No change",
+            "Decreases",
+            "Increases",
+            "No answer"
+        ],
+        "correct_answer": "Increases"
+    },
+
+    "240":{
+        "question": "Refining crude oil is",
+        "choices": [
+            "Fuel separation",
+            "Fractional distillation",
+            "Oil filtration",
+            "Oil drafting process"
+        ],
+        "correct_answer": "Fractional distillation"
+    },
+
+    "241":{
+        "question": "For a fuel rich mixture, the equivalence ratio for a given mass of air",
+        "choices": [
+            "Always zero",
+            "Less than unity",
+            "Unity",
+            "More than unity"
+        ],
+        "correct_answer": "More than unity"
+    },
+
+    "242":{
+        "question": "The amount of heat evolved when a unit amount of fuel is burned completely and the combustion products cooled to a base or reference temperature",
+        "choices": [
+            "Sensible heat",
+            "Heat of fusion",
+            "Heating value",
+            "Latent heat"
+        ],
+        "correct_answer": "Heat of fusion"
+    },
+
+    "243":{
+        "question": "Temperature at which grease will pass from a semi – solid to a fluid state",
+        "choices": [
+            "Cloud point",
+            "Pour point",
+            "Dropping point",
+            "Grease point"
+        ],
+        "correct_answer": "Dropping point"
+    },
+
+    "244":{
+        "question": "The minimum absolute pressure possible before liquid turns into gas",
+        "choices": [
+            "Peak pressure",
+            "Saturation pressure",
+            "Vapor pressure",
+            "Critical pressure"
+        ],
+        "correct_answer": "Vapor pressure"
+    },
+
+    "245":{
+        "question": "Temperature at which a phase change takes place at a given pressure",
+        "choices": [
+            "Wet bulb temp.",
+            "Sub-cooled temp.",
+            "Critical temp.",
+            "Saturation temp."
+        ],
+        "correct_answer": "Saturation temp."
+    },
+
+    "246":{
+        "question": "States that the external pressure applied to a confined fluid increases the pressure at every point in the fluid by an amount equal to the external pressure",
+        "choices": [
+            "Archimedes principle",
+            "Pascal law",
+            "Daltons law",
+            "Bernoulli’s law"
+        ],
+        "correct_answer": "Pascal law"
+    },
+
+    "247":{
+        "question": "Chocking in pipe flow means that there is",
+        "choices": [
+            "Cavitation",
+            "Reduction in opening",
+            "Restriction in area",
+            "A non – occurrence of the specified mass flow rate"
+        ],
+        "correct_answer": "A non – occurrence of the specified mass flow rate"
+    },
+
+    "248":{
+        "question": "Fluid property by virtue of its resistance to flow",
+        "choices": [
+            "Volatility",
+            "Aniline point",
+            "Viscosity",
+            "Pour point"
+        ],
+        "correct_answer": "Viscosity"
+    },
+
+    "249":{
+        "question": "The lowest temperature at which oil will flow under pressurized conditions",
+        "choices": [
+            "Pour point",
+            "Flash point",
+            "Cloud point",
+            "Aniline point"
+        ],
+        "correct_answer": "Pour point"
+    },
+
+    "250":{
+        "question": "Cycle used in a gasoline engine",
+        "choices": [
+            "Otto cycle",
+            "Brayton cycle",
+            "Vapor compression cycle",
+            "Diesel cycle"
+        ],
+        "correct_answer": "Otto cycle"
+    },
+
+    "251":{
+        "question": "A change of phase directly from vapor to solid without passing through the liquid state",
+        "choices": [
+            "Condensation",
+            "Vaporization",
+            "Deposition",
+            "Freezing"
+        ],
+        "correct_answer": "Deposition"
+    },
+
+    "252":{
+        "question": "A power driven inclined continuous stairway used for raising or lowering passengers",
+        "choices": [
+            "Escalator",
+            "Elevator",
+            "Conveyor",
+            "No answer"
+        ],
+        "correct_answer": "Escalator"
+    },
+
+    "253":{
+        "question": "It is the ratio of the volume at the end of heat intake to the volume at the start of heat intake",
+        "choices": [
+            "Fuel cutoff",
+            "Clearance ratio",
+            "Compression ratio",
+            "Cutoff ratio"
+        ],
+        "correct_answer": "Cutoff ratio"
+    },
+
+    "254":{
+        "question": "The net entropy change in the universe is",
+        "choices": [
+            "Constant",
+            "Zero",
+            "Always positive",
+            "Always negative"
+        ],
+        "correct_answer": "Always positive"
+    },
+
+    "255":{
+        "question": "In the field of metal corrosion, it is the process wherein it inhibits further quality deterioration",
+        "choices": [
+            "Reduction",
+            "Passivation",
+            "Oxidation",
+            "Activation"
+        ],
+        "correct_answer": "Passivation"
+    },
+
+    "256":{
+        "question": "A process which takes place without change in volume",
+        "choices": [
+            "Isopheistic",
+            "Isenthalpic",
+            "Isobaric",
+            "Isochoric"
+        ],
+        "correct_answer": "Isochoric"
+    },
+
+    "257":{
+        "question": "When a bourdon gage registers a zero reading the absolute pressure is",
+        "choices": [
+            "Zero",
+            "760 mmHg",
+            "14.85 psi",
+            "100 kPa"
+        ],
+        "correct_answer": "760 mmHg"
+    },
+
+    "258":{
+        "question": "Which of the following provides the basis for heat conduction?",
+        "choices": [
+            "Pascal law",
+            "Charles law",
+            "Fourier’s law",
+            " Newtons law of cooling"
+        ],
+        "correct_answer": "Fourier’s law"
+    },
+
+    "259":{
+        "question": "Which of the following is an extensive property?",
+        "choices": [
+            "Volume",
+            "Temperature",
+            "Density",
+            "Mass"
+        ],
+        "correct_answer": "Mass"
+    },
+
+    "260":{
+        "question": "For any confined fluid in a space, pressure maybe exerted without any loss provided no nuclear process and directed in any direction in the space. This is known as:",
+        "choices": [
+            "Lenz law",
+            "Pascal law",
+            "Joules law",
+            "Fernz law"
+        ],
+        "correct_answer": "Pascal law"
+    },
+
+    "261":{
+        "question": "Refrigerant having the highest critical point",
+        "choices": [
+            "Freon 22",
+            "Freon 12",
+            "Freon 11",
+            "Ammonia"
+        ],
+        "correct_answer": "Freon 11"
+    },
+
+    "262":{
+        "question": "Which of the following pairs represent the two broad classification of lubricating oils?",
+        "choices": [
+            "Non mineral and lube",
+            "Unleaded and premium",
+            "Active and inactive",
+            "Additives and straight"
+        ],
+        "correct_answer": "Additives and straight"
+    },
+
+    "263":{
+        "question": "It is the work done per unit charge when the charged is moved from one point to another",
+        "choices": [
+            "Potential difference",
+            "Potential of a point",
+            "Equipotential of a point",
+            "Additives and straight"
+        ],
+        "correct_answer": "Potential of a point"
+    },
+
+    "264":{
+        "question": "In the relation PV<sup>n</sup> = constant, what value of n makes the process isobaric",
+        "choices": [
+            "1",
+            "Infinity",
+            "Zero",
+            "1.4"
+        ],
+        "correct_answer": "Zero"
+    },
+
+    "265":{
+        "question": "In actual gas behavior, molecular collisions are",
+        "choices": [
+            "Plastic",
+            "Elastic",
+            "Inelastic",
+            "Stretched"
+        ],
+        "correct_answer": "Inelastic"
+    },
+
+    "266":{
+        "question": "A heat exchanger device used to provide heat transfer between the exhaust gases and air prior to its entrance to the combustor",
+        "choices": [
+            "Reheater",
+            "Economizer",
+            "Air heater",
+            "Regenerator"
+        ],
+        "correct_answer": "Regenerator"
+    },
+
+    "267":{
+        "question": "This law in electrical circuits state, “The algebraic sum of currents entering a node (or a closed boundary) is zero”. How do you call this law?",
+        "choices": [
+            "Kirchhoff’s current law",
+            "Ohm’s current law",
+            "Kirchhoff’s voltage law",
+            "Ohm’s voltage law"
+        ],
+        "correct_answer": "Kirchhoff’s current law"
+    },
+
+    "268":{
+        "question": "This law in electrical circuits state, “The algebraic sum of all voltages around a closed path (or loop) is zero”. How do you call this law?",
+        "choices": [
+            "Kirchhoff’s current law",
+            "Ohm’s current law",
+            "Kirchhoff’s voltage law",
+            "Ohm’s voltage law"
+        ],
+        "correct_answer": "Kirchhoff’s voltage law"
+    },
+
+    "269":{
+        "question": "In electricity, how do you call the rate of charge flow?",
+        "choices": [
+            "Potential difference",
+            "Current",
+            "Voltage",
+            "Power"
+        ],
+        "correct_answer": "Current"
+    },
+
+    "270":{
+        "question": "How do you call an energy required to move 1 Coulomb of charge through an element",
+        "choices": [
+            "Current",
+            "Voltage",
+            "Power",
+            "Resonance"
+        ],
+        "correct_answer": "Voltage"
+    },
+
+    "271":{
+        "question": "Tesla is a unit of which of the following?",
+        "choices": [
+            "Magnetic induction",
+            "Inductance",
+            "Capacitance",
+            "Magnetic flux"
+        ],
+        "correct_answer": "Magnetic induction"
+    },
+
+    "272":{
+        "question": "A device used to determine whether the part has been made to the tolerance required and does not usually indicate a specific dimension",
+        "choices": [
+            "Gage",
+            "Meter",
+            "Micrometer",
+            "Durometer"
+        ],
+        "correct_answer": "Gage"
+    }
+}

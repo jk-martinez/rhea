@@ -1,7 +1,7 @@
 <template>
-    <div id="wrapper" class="container">
+    <div id="wrapper">
         <header class="mt-2 text-center">
-            <router-link to="/home" id="home-link">
+            <router-link to="/rhea/home" id="home-link">
                 <font-awesome-icon icon="fa-solid fa-home" /> Back to Home
             </router-link>
 
@@ -55,120 +55,143 @@
                 </li>
             </ul>
         </div>
-
+        
+        
         <!-- YouTube videos -->
-        <div class="mt-5">
+        <div class="mt-5 mb-5">
             <p><strong> Some of notable YouTube videos from the playlists above: </strong></p>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/A1V-QQ5wFU4" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                
-                <h4> Mechanical Engineering: Crash Course Engineering #3 </h4>
-                <small> CrashCourse </small>
-            </div>
+            <div class="mt-2 d-flex flex-wrap justify-content-evenly align-items-stretch">
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/A1V-QQ5wFU4"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/VxCORJ8dN3Y" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
+                    <div class="card-body">
+                        <h5 class="cad-title"> Mechanical Engineering: Crash Course Engineering #3 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
                 </div>
-                
-                <h4> The Law of Conservation: Crash Course Engineering #7 </h4>
-                <small> CrashCourse </small>
-            </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fSEFfWf2au0" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                
-                <h4> The First & Zeroth Laws of Thermodynamics #9 </h4>
-                <small> CrashCourse </small>
-            </div>
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/VxCORJ8dN3Y"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ouTJkNLepF0" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
+                    <div class="card-body">
+                        <h5 class="cad-title"> The Law of Conservation: Crash Course Engineering #7 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
                 </div>
-                
-                <h4> Stress, Strain & Quicksand: Crash Course Engineering #12 </h4>
-                <small> CrashCourse </small>
-            </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/YK7G6l_K6sA" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                
-                <h4> Heat Transfer: Crash Course Engineering #14 </h4>
-                <small> CrashCourse </small>
-            </div>
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/fSEFfWf2au0"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/-YTC3A6dEGM" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
+                    <div class="card-body">
+                        <h5 class="cad-title"> The First & Zeroth Laws of Thermodynamics #9 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse</small>
+                    </div>
                 </div>
-                
-                <h4> Drugs, Dyes, & Mass Transfer: Crash Course Engineering #16 </h4>
-                <small> CrashCourse </small>
-            </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/NOK1nMiiTWU" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                
-                <h4> Metals & Ceramics: Crash Course Engineering #19 </h4>
-                <small> CrashCourse </small>
-            </div>
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ouTJkNLepF0"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/BT_JUbpZ1lQ" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
+                    <div class="card-body">
+                        <h5 class="cad-title"> Stress, Strain & Quicksand: Crash Course Engineering #12 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
                 </div>
-                
-                <h4> Cheese, Catastrophes, & Process Control: Crash Course Engineering #25 </h4>
-                <small> CrashCourse </small>
-            </div>
 
-            <div class="clearfix mb-3 yt-video">
-                <div class="col-md-6 float-md-start">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/5KZx81crb48" class="pe-md-3"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen>
-                    </iframe>
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/YK7G6l_K6sA"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="cad-title"> Heat Transfer: Crash Course Engineering #14 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
                 </div>
-                
-                <h4> Engineering Ethics: Crash Course Engineering #27 </h4>
-                <small> CrashCourse </small>
+
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/-YTC3A6dEGM"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="cad-title"> Drugs, Dyes, & Mass Transfer: Crash Course Engineering #16 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
+                </div>
+
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NOK1nMiiTWU"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="cad-title"> Metals & Ceramics: Crash Course Engineering #19 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
+                </div>
+
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/BT_JUbpZ1lQ"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="cad-title"> Cheese, Catastrophes, & Process Control: Crash Course Engineering #25 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
+                </div>
+
+                <div class="card m-1">
+                    <div class="card-img-top">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/5KZx81crb48"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>  
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="cad-title"> Engineering Ethics: Crash Course Engineering #27 </h5>
+                        <small class="card-subtitle text-muted"> CrashCourse </small>
+                    </div>
+                </div>
+
+
             </div>
-            
         </div>
+          
     </div>
 </template>
 
@@ -196,7 +219,7 @@
 
         beforeMount(){
             if (this.getCookie('rhea-user') ==  ""){
-                this.$router.push('/identity-checker')
+                this.$router.push('/rhea/identity-checker')
             }
         }
     }
@@ -218,13 +241,13 @@
 
     #wrapper{
         color: #865439;
+        margin: 0 30px 0 30px;
     }
 
     #home-link{
         text-decoration: none;
         color: #865439;
     }
-
 
     .reference-item{
         text-decoration: none;
@@ -235,9 +258,12 @@
         text-decoration: underline;
     }
 
-    .yt-video:hover {
-        border-bottom: 2px solid #865439;
-        cursor: pointer;
+    .card{
+        width: 30%;
+    }
+
+    .card:hover{
+        border: 1px solid #865439;
     }
 
     @media only screen and (max-width: 600px){
@@ -247,6 +273,14 @@
 
         iframe{
             height: 215px;
+        }
+
+        #wrapper{
+            margin: 10px;
+        }
+
+        .card{
+            width: 100%
         }
     }
 

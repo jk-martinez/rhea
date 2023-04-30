@@ -1,0 +1,2203 @@
+{
+    "total_items": 200,
+
+    "1":{
+        "question": "The number of successful outcomes divided by the number of possible outcomes is:",
+        "choices": [
+            "odd",
+            "combination",
+            "permutation",
+            "probability"
+        ],
+        "correct_answer": "probability"
+    },
+
+    "2":{
+        "question": "The graphical representation of a cumulative frequency distribution in a set of statistical data is called _______.",
+        "choices": [
+            "histogram",
+            "kurtosis",
+            "lepticurtic",
+            "ogive"
+        ],
+        "correct_answer": "ogive"
+    },
+
+    "3":{
+        "question": "A frequency curve which is composed of series of rectangles constructed with the steps as the base and the frequency as the height.",
+        "choices": [
+            "Histogram",
+            "Ogive",
+            "Frequency distribution",
+            "Bar graph"
+        ],
+        "correct_answer": "Histogram"
+    },
+
+    "4":{
+        "question": "A and B are independent events. The probability that event A will occur is Pa and the probability that A and B will occur is Pab. From these two statements, what is the probability that event B will occur?",
+        "choices": [
+            "Pa - Pab",
+            "Pb - Pab",
+            "Pa x Pab",
+            "Pab/Pa"
+        ],
+        "correct_answer": "Pab/Pa"
+    },
+
+    "5":{
+        "question": "If two events A and B are mutually exclusive events and the probability that A will happen is Pa and the probability that B will happen is Pb, then the probability that A or B will happen is ",
+        "choices": [
+            "Pa + Pb",
+            "Pa x Pb",
+            "Pa/Pb",
+            " Pb/Pa"
+        ],
+        "correct_answer": "Pa + Pb"
+    },
+
+    "6":{
+        "question": "The fundamental principle of counting states that if one thing can be done in “m” different ways and another thing can be done in “n” different ways, then the two things can be done in _____ different ways.",
+        "choices": [
+            "m + n",
+            "m x n",
+            "m! + n",
+            "m<sup>n</sup>"
+        ],
+        "correct_answer": "m x n"
+    },
+
+    "7":{
+        "question": "What is the concept of spread of a random variable or a set of observations called?",
+        "choices": [
+            "Variance",
+            "Standard deviation",
+            "Dispersion",
+            "Range"
+        ],
+        "correct_answer": "Dispersion"
+    },
+
+    "8":{
+        "question": "What do you call a set of numbers arrange in a definite order?",
+        "choices": [
+            "Combination",
+            "Permutation",
+            "Sequence",
+            "Probability"
+        ],
+        "correct_answer": "Permutation"
+    },
+
+    "9":{
+        "question": "A number that occurs most frequent in a group of numbers is called the:",
+        "choices": [
+            "Median",
+            "Mode",
+            "Mean",
+            "Standard deviation"
+        ],
+        "correct_answer": "Mode"
+    },
+
+    "10":{
+        "question": "A point in the distribution of scores at which 50 percent of the scores fall below and 50 percent of the scores fall above.",
+        "choices": [
+            "Mode",
+            "Mean",
+            "Median",
+            "Range"
+        ],
+        "correct_answer": "Median"
+    },
+
+    "11":{
+        "question": "A ________ is the average amount a player can expect to win or lose on one play in any game of chance.",
+        "choices": [
+            "Payoff odds",
+            "True odds",
+            "Mathematical expectation",
+            "Mathematical induction"
+        ],
+        "correct_answer": "Mathematical expectation"
+    },
+
+    "12":{
+        "question": "A graph of cumulative frequency distribution plotted at the class marks and connected by straight lines.",
+        "choices": [
+            "Histogram",
+            "Ogive",
+            "Venn diagram",
+            "Scatteragram"
+        ],
+        "correct_answer": "Ogive"
+    },
+
+    "13":{
+        "question": "In statistics, a pictorial description of the probability concepts of independent and dependent events is called:",
+        "choices": [
+            "Venn diagram",
+            "Histogram",
+            "Frequency Polygon",
+            "Ogive"
+        ],
+        "correct_answer": "Venn diagram"
+    },
+
+    "14":{
+        "question": "The difference between the highest score and the lowest score in the distribution is called:",
+        "choices": [
+            "deviation",
+            "range",
+            "median",
+            "mode"
+        ],
+        "correct_answer": "range"
+    },
+
+    "15":{
+        "question": "sin A cos B – cos A sin B is equivalent to:",
+        "choices": [
+            "cos (A – B)",
+            "sin (A – B)",
+            "tan (A – B)",
+            "cos2(A – B)"
+        ],
+        "correct_answer": "sin (A – B)"
+    },
+
+    "16":{
+        "question": "The angular distance of a point on the terrestrial sphere from the north pole is called",
+        "choices": [
+            "coaltitude",
+            "latitude",
+            "altitude",
+            "codeclination"
+        ],
+        "correct_answer": "coaltitude"
+    },
+
+    "17":{
+        "question": "csc 520° is equal to",
+        "choices": [
+            "cos 20°",
+            "csc 20°",
+            "tan 45°",
+            "sin 20°"
+        ],
+        "correct_answer": "csc 20°"
+    },
+
+    "18":{
+        "question": "What is the sine of 820°?",
+        "choices": [
+            "0.984",
+            "0.866",
+            "-0.866",
+            "-0.5"
+        ],
+        "correct_answer": "0.984"
+    },
+
+    "19":{
+        "question": "The logarithm of the negative number is",
+        "choices": [
+            "imaginary",
+            "irrational",
+            "real",
+            "rational"
+        ],
+        "correct_answer": "imaginary"
+    },
+
+    "20":{
+        "question": "The sum of the squares of the sine and cosine of an angle.",
+        "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct_answer": "1"
+    },
+
+    "21":{
+        "question": "The logarithm of a number to the base e (2.7182…) is called",
+        "choices": [
+            "Naperian Logarithm",
+            "Characteristic",
+            "Mantissa",
+            "Briggsian Logarithm"
+        ],
+        "correct_answer": "Naperian Logarithm"
+    },
+
+    "22":{
+        "question": "The characteristic is equal to the exponent of 10, when the number is written in",
+        "choices": [
+            "exponential logarithm",
+            "scientific notation",
+            "logarithmic form",
+            "irrational number"
+        ],
+        "correct_answer": "logarithmic form"
+    },
+
+    "23":{
+        "question": "The logarithm of 1 to any base is:",
+        "choices": [
+            "indeterminate",
+            "zero",
+            "infinity",
+            "one"
+        ],
+        "correct_answer": "zero"
+    },
+
+    "24":{
+        "question": "sin (270° + β) is equal to",
+        "choices": [
+            "– cos β",
+            "Sinβ",
+            "– sin β",
+            "cos β"
+        ],
+        "correct_answer": "– cos β"
+    },
+
+    "25":{
+        "question": "The median of a triangle is the line connecting the vertex and the midpoint of the opposite side. For a given triangle, these medians intersects at a point which is called the",
+        "choices": [
+            "orthocenter",
+            "circumcenter",
+            "centroid",
+            "incenter"
+        ],
+        "correct_answer": "centroid"
+    },
+
+    "26":{
+        "question": "The altitudes of the sides of a triangle intersects at the point known as",
+        "choices": [
+            "orthocenter",
+            "circumcenter",
+            "centroid",
+            "incenter"
+        ],
+        "correct_answer": "orthocenter"
+    },
+
+    "27":{
+        "question": "The angle which the line of sight to the object makes with the horizontal which is above the eye of the observer is called",
+        "choices": [
+            "angle of depression",
+            "angle of elevation",
+            "acute angle",
+            "bearing"
+        ],
+        "correct_answer": "angle of elevation"
+    },
+
+    "28":{
+        "question": "log M – log N is equal to",
+        "choices": [
+            "log MN",
+            "log (M – N)",
+            "log M/N",
+            "log ( N – M)"
+        ],
+        "correct_answer": "log M/N"
+    },
+
+    "29":{
+        "question": "The other form of log<sub>a</sub> N = b is",
+        "choices": [
+            "N = b<sup>a</sup>",
+            "N = a<sup>b</sup>",
+            "N = ab",
+            "N = a/b"
+        ],
+        "correct_answer": "N = a<sup>b</sup>"
+    },
+
+    "30":{
+        "question": "The point of concurrency of the altitude of the triangle.",
+        "choices": [
+            "orthocenter",
+            "circumcenter",
+            "centroid",
+            "incenter"
+        ],
+        "correct_answer": "orthocenter"
+    },
+
+    "31":{
+        "question": "The point of concurrency of the perpendicular bisector of the sides of the triangle.",
+        "choices": [
+            "orthocenter",
+            "circumcenter",
+            "centroid",
+            "incenter"
+        ],
+        "correct_answer": "circumcenter"
+    },
+
+    "32":{
+        "question": "The point of concurrency of the angle bisector of the triangle is called",
+        "choices": [
+            "orthocenter",
+            "circumcenter",
+            "centroid",
+            "incenter"
+        ],
+        "correct_answer": "incenter"
+    },
+
+    "33":{
+        "question": "The logarithm of the reciprocal of N is called the ________ of N",
+        "choices": [
+            "antilogarithm",
+            "cologarithm",
+            "natural logarithm",
+            "briggsian logarithm"
+        ],
+        "correct_answer": "cologarithm"
+    },
+
+    "34":{
+        "question": "The inverse function of a logarithm is known as",
+        "choices": [
+            "antilogarithm",
+            "cologarithm",
+            "natural logarithm",
+            "briggsian logarithm"
+        ],
+        "correct_answer": "antilogarithm"
+    },
+
+    "35":{
+        "question": "The cologarithm of a number is the _____ of the logarithm of a number",
+        "choices": [
+            "positive",
+            "absolute value",
+            "negative",
+            "reciprocal"
+        ],
+        "correct_answer": "negative"
+    },
+
+    "36":{
+        "question": "The first table logarithms with 10 as base was developed in 1615 by",
+        "choices": [
+            "James Naismith",
+            "Henry Briggs",
+            "John Napier",
+            "John Wallis"
+        ],
+        "correct_answer": "Henry Briggs"
+    },
+
+    "37":{
+        "question": "Who invented logarithms in 1614?",
+        "choices": [
+            "John Wallis",
+            "Henry Briggs",
+            "John Napier",
+            "L’Hospital"
+        ],
+        "correct_answer": "John Napier"
+    },
+
+    "38":{
+        "question": "The number log<sub>a</sub> b is called the ______ of the system of a base a with respect to the system of base b.",
+        "choices": [
+            "coefficient",
+            "logarithm",
+            "modulus",
+            "exponent"
+        ],
+        "correct_answer": "modulus"
+    },
+
+    "39":{
+        "question": "Naperian logarithm has a base of",
+        "choices": [
+            "π",
+            "10",
+            "1",
+            "e"
+        ],
+        "correct_answer": "e"
+    },
+
+    "40":{
+        "question": "log x = ____ ln x",
+        "choices": [
+            "0.434",
+            "10",
+            "2.303",
+            "e"
+        ],
+        "correct_answer": "0.434"
+    },
+
+    "41":{
+        "question": "ln x = ____ log x",
+        "choices": [
+            "0.434",
+            "10",
+            "2.303",
+            "e"
+        ],
+        "correct_answer": "2.303"
+    },
+
+    "42":{
+        "question": "Which of the following cannot be a base for a logarithm?",
+        "choices": [
+            "10",
+            "π",
+            "1",
+            "e"
+        ],
+        "correct_answer": "1"
+    },
+
+    "43":{
+        "question": "The integral part of a common logarithm is",
+        "choices": [
+            "10",
+            "e",
+            "mantissa",
+            "characteristic"
+        ],
+        "correct_answer": "characteristic"
+    },
+
+    "44":{
+        "question": "The mantissa of a logarithm is a",
+        "choices": [
+            "positive value only",
+            "negative value only",
+            "positive value, negative value or zero",
+            "positive value or zero"
+        ],
+        "correct_answer": "positive value or zero"
+    },
+
+    "45":{
+        "question": "For 0 < x < 1, ln x is",
+        "choices": [
+            "positive",
+            "zero",
+            "negative",
+            "between 0 and 1"
+        ],
+        "correct_answer": "between 0 and 1"
+    },
+
+    "46":{
+        "question": "If 1 < N < 10, then",
+        "choices": [
+            "1 < log N < 2",
+            "0 < log N < 1",
+            "2 < log N < 3",
+            "- 1 < log N < 0"
+        ],
+        "correct_answer": "1 < log N < 2"
+    },
+
+    "47":{
+        "question": "The number log<sub>a</sub> b and log<sub>b</sub> a are",
+        "choices": [
+            "equal",
+            "equal but different in signs",
+            "reciprocal to each other",
+            "negative reciprocal to each other"
+        ],
+        "correct_answer": "reciprocal to each other"
+    },
+
+    "48":{
+        "question": "Logarithm using 10 as base",
+        "choices": [
+            "decimal logarithm",
+            "scientific logarithm",
+            "common logarithm",
+            "Natural logarithm"
+        ],
+        "correct_answer": "common logarithm"
+    },
+
+    "49":{
+        "question": "The logarithm of a product is the ____ of the logarithms, and the logarithm of a quotient is the ____ of the logarithms",
+        "choices": [
+            "sum, difference",
+            "difference, sum",
+            "quotient, product",
+            "product, quotient"
+        ],
+        "correct_answer": "sum, difference"
+    },
+
+    "50":{
+        "question": "When a logarithm is expressed as an integer plus a decimal (between 0 and 1), the integer is called",
+        "choices": [
+            "Briggsian Logarithm",
+            "napierian Logarithm",
+            "Mantissa",
+            "Charcteristic"
+        ],
+        "correct_answer": "Charcteristic"
+    },
+
+    "51":{
+        "question": "The characteristic of a logarithm is 3. the number between",
+        "choices": [
+            "1 and 10",
+            "10 and 100",
+            "100 and 1000",
+            "1000 and 10000"
+        ],
+        "correct_answer": "1000 and 10000"
+    },
+
+    "52":{
+        "question": "The characteristics of a common logarithm of a number greater than 1 is",
+        "choices": [
+            "zero",
+            "positive",
+            "negative",
+            "zero or positive"
+        ],
+        "correct_answer": "zero or positive"
+    },
+
+    "53":{
+        "question": "The characteristics is ____ the exponent of 10, when the number is written in scientific notation",
+        "choices": [
+            "equal to",
+            "greater than",
+            "less than",
+            "none of the above"
+        ],
+        "correct_answer": "equal to"
+    },
+
+    "54":{
+        "question": "If logarithm to base 10 (denoted as log 10) is called common logarithm is called natural logarithm, what do you call the logarithm of base 2 (denotes as lb)?",
+        "choices": [
+            "Binary Logarithm",
+            "Bit Logarithm",
+            "Bilogarithm",
+            "all of the above"
+        ],
+        "correct_answer": "Binary Logarithm"
+    },
+
+    "55":{
+        "question": "If the unknown is a conditional equation occurs as an exponent, the best way to solve the unknown is by",
+        "choices": [
+            "raising the power of both sides",
+            "taking the logarithm of both sides",
+            "extracting the root of both sides",
+            "applying the Newton’s method"
+        ],
+        "correct_answer": "taking the logarithm of both sides"
+    },
+
+    "56":{
+        "question": "Angles of rotation with the same initial side and terminal side",
+        "choices": [
+            "Terminal angles",
+            "Conjugate angles",
+            "Coterminal Angle",
+            "Supplementary angles"
+        ],
+        "correct_answer": "Coterminal Angle"
+    },
+
+    "57":{
+        "question": "An angle equal to one revolution of 360°",
+        "choices": [
+            "perigon",
+            "explement angle",
+            "reflex angle",
+            "supplement angle"
+        ],
+        "correct_answer": "perigon"
+    },
+
+    "58":{
+        "question": "The angle which the line of sight to the object makes with the horizontal above the eye of the observer.",
+        "choices": [
+            "angle of depression",
+            "angle of elevation",
+            "acute angle",
+            "bearing"
+        ],
+        "correct_answer": "angle of elevation"
+    },
+
+    "59":{
+        "question": "The angle which the line of sight to the object makes with the horizontal below the eye of the observer.",
+        "choices": [
+            "angle of depression",
+            "angle of elevation",
+            "acute angle",
+            "bearing"
+        ],
+        "correct_answer": "angle of depression"
+    },
+
+    "60":{
+        "question": "A triangle inscribed in a given triangle whose vertices are the feet of the three perpendiculars to the sides from same point inside, the given triangle",
+        "choices": [
+            "inscribed triangle",
+            "primitive triangle",
+            "pedal triangle",
+            "obtuse triangle"
+        ],
+        "correct_answer": "inscribed triangle"
+    },
+
+    "61":{
+        "question": "The triangle with minimum perimeter but maximum area inscribed in another triangle is known as",
+        "choices": [
+            "Pedal triangle",
+            "Euclid’s triangle",
+            "Primitive triangle",
+            "None of the above"
+        ],
+        "correct_answer": "Pedal triangle"
+    },
+
+    "62":{
+        "question": "A right triangle whose length of sides may be expressed as ratio of integral units.",
+        "choices": [
+            "pedal triangle",
+            "isosceles triangle",
+            "scalene triangle",
+            "primitive triangle"
+        ],
+        "correct_answer": "primitive triangle"
+    },
+
+    "63":{
+        "question": "A triangle with no sides equal is known as",
+        "choices": [
+            "acute triangle",
+            "oblique triangle",
+            "equilateral triangle",
+            "scalene triangle"
+        ],
+        "correct_answer": "scalene triangle"
+    },
+
+    "64":{
+        "question": "If two triangles have congruent bases, then the ratio of their areas equals the ratio of",
+        "choices": [
+            "their perimeter",
+            "the lengths of their altitudes",
+            "their sides",
+            " None of the above"
+        ],
+        "correct_answer": "the lengths of their altitudes"
+    },
+
+    "65":{
+        "question": "In an isosceles right triangle, the hypotenuse is ____ times as long as each of the legs",
+        "choices": [
+            "&radic;<u>2</u>",
+            "&radic;<u>3</u>",
+            "2",
+            "3"
+        ],
+        "correct_answer": "&radic;<u>2</u>"
+    },
+
+    "66":{
+        "question": "Which of the following is not a secondary part of a triangle?",
+        "choices": [
+            "altitudes",
+            "medians",
+            "exterior angles",
+            "sides"
+        ],
+        "correct_answer": "sides"
+    },
+
+    "67":{
+        "question": "Which of the following is not a property of a triangle?",
+        "choices": [
+            "the sum of the three angles is always equal to two right angles",
+            "the sum of two sides is less than the third side",
+            "if the two sides are equal , the angles opposite are unequal",
+            "the altitudes of the triangle meet in a point"
+        ],
+        "correct_answer": "the sum of two sides is less than the third side"
+    },
+
+    "68":{
+        "question": "Given the sides of a triangle as 3 m and 5 m. The third side is",
+        "choices": [
+            "between 3 m and 8 m",
+            "greater than 8 m",
+            "from to 3 m to 7 m",
+            "from 2 m to 8 m"
+        ],
+        "correct_answer": "from to 3 m to 7 m"
+    },
+
+    "69":{
+        "question": "A straight from the vertex of a triangle to the midpoint of the opposite side is known as",
+        "choices": [
+            "altitude",
+            "median",
+            "height",
+            "A or B"
+        ],
+        "correct_answer": "median"
+    },
+
+    "70":{
+        "question": "Indicate the false statement:",
+        "choices": [
+            "an altitude of a triangle is a perpendicular drop from any vertex to the opposite side.",
+            "three or more lines which have one point in common are said to be coplanar",
+            "the altitudes of a triangle meet at a point",
+            "a locus is a figure containing all the points and only those which fulfil a given requirement"
+        ],
+        "correct_answer": "three or more lines which have one point in common are said to be coplanar"
+    },
+
+    "71":{
+        "question": "The case of the solution of the triangle in the plane where the given data leads to two solutions",
+        "choices": [
+            "axioms of Euclid",
+            "absurd case",
+            "ambigous case",
+            "all of the above"
+        ],
+        "correct_answer": "ambigous case"
+    },
+
+    "72":{
+        "question": "The most proved theorem in mathematics",
+        "choices": [
+            "Gauss lemma",
+            "Fermat’s Theorem",
+            "Ptolemy’s Theorem",
+            "PythagoreanTheorem"
+        ],
+        "correct_answer": "PythagoreanTheorem"
+    },
+
+    "73":{
+        "question": "The least proved theorem in mathematics",
+        "choices": [
+            "Goldbach conjecture",
+            "Fermat’s last theorem",
+            "Mersennes’s proportion",
+            "Pappus Proportion"
+        ],
+        "correct_answer": "Fermat’s last theorem"
+    },
+
+    "74":{
+        "question": "Napier’s rule states that the sine of any middle part is equal to the product of the _____ of the opposite parts.",
+        "choices": [
+            "sine",
+            "cosine",
+            "tangent",
+            "secant"
+        ],
+        "correct_answer": "cosine"
+    },
+
+    "75":{
+        "question": "Napier’s rule states that the sine of any middle part is equal to the product of the _____ of the adjacent parts.",
+        "choices": [
+            "sine",
+            "cosine",
+            "tangent",
+            "cotangent"
+        ],
+        "correct_answer": "tangent"
+    },
+
+    "76":{
+        "question": "How many formulas may be derived from using the Napier’s Rules?",
+        "choices": [
+            "5",
+            "6",
+            "8",
+            "10"
+        ],
+        "correct_answer": "10"
+    },
+
+    "77":{
+        "question": "The sum of all interior angles in a spherical triangle is always",
+        "choices": [
+            "greater than 180° but less than 270°",
+            "greater than 180° but less than 360°",
+            "greater than 180° but less than 540°",
+            "greater than 270° but less than 540°"
+        ],
+        "correct_answer": "greater than 180° but less than 540°"
+    },
+
+    "78":{
+        "question": "The maximum value for the longitude is",
+        "choices": [
+            "90°",
+            "180°",
+            "45°",
+            " 360°"
+        ],
+        "correct_answer": "180°"
+    },
+
+    "79":{
+        "question": "The maximum value for a latitude is",
+        "choices": [
+            "90°",
+            "45°",
+            "180°",
+            "360°"
+        ],
+        "correct_answer": "90°"
+    },
+
+    "80":{
+        "question": "If R is the radius of a sphere and E is a spherical excess (in radians), then the area of a spherical triangle is",
+        "choices": [
+            "πR<sup>2</sup>E",
+            "R<sup>2</sup>E",
+            "1/2 R<sup>2</sup>E",
+            "R<sup>2</sup>/E"
+        ],
+        "correct_answer": "R<sup>2</sup>E"
+    },
+
+    "81":{
+        "question": "One minute of the great circle arc on the surface of the earth is equivalent to",
+        "choices": [
+            "1 statute mile",
+            "1 nautical mile",
+            "60 statute mile",
+            "60 nautical mile"
+        ],
+        "correct_answer": "1 nautical mile"
+    },
+
+    "82":{
+        "question": "A spherical triangle with all angles equals to a right triangle is called ____ spherical triangle",
+        "choices": [
+            "birectangular",
+            "quadrantal",
+            "trirectangular",
+            "right"
+        ],
+        "correct_answer": "birectangular"
+    },
+
+    "83":{
+        "question": "A spherical triangle with at least one side is a quarter of a great circle called _____ spherical triangle",
+        "choices": [
+            "octant",
+            "quadrantal",
+            "trirectangular",
+            "birectangular"
+        ],
+        "correct_answer": "trirectangular"
+    },
+
+    "84":{
+        "question": "One of the two great circles intersecting at right angle at the piles and dividing equinoctial points and ecliptic into 4 parts",
+        "choices": [
+            "Nadir",
+            "Zenith",
+            "Declination",
+            "Colure"
+        ],
+        "correct_answer": "Colure"
+    },
+
+    "85":{
+        "question": "The radius of the earth used in spherical trigonometry is",
+        "choices": [
+            "3989 statute miles",
+            "3979 statute miles",
+            "3969 statute miles",
+            "3959 statute miles"
+        ],
+        "correct_answer": "3959 statute miles"
+    },
+
+    "86":{
+        "question": "The difference between a nautical mile and a statute mile",
+        "choices": [
+            "800 ft",
+            "900 ft",
+            "1000 ft",
+            "500 ft"
+        ],
+        "correct_answer": "800 ft"
+    },
+
+    "87":{
+        "question": "Manila has a longitude of 121°05’E. what is the time difference between Manila and Greenwich, England which is at prime meridian?",
+        "choices": [
+            "8 hrs and 40 mins",
+            "8 hrs and 34 mins",
+            "8 hrs and 14 mins",
+            "8 hrs and 4 mins"
+        ],
+        "correct_answer": "8 hrs and 4 mins"
+    },
+
+    "88":{
+        "question": "The earth is divided into how many time zone?",
+        "choices": [
+            "24",
+            "18",
+            "16",
+            "12"
+        ],
+        "correct_answer": "24"
+    },
+
+    "89":{
+        "question": "In aspherical triangle, two angles (or sides) are on the same species if they are both",
+        "choices": [
+            "between 0° and 180°",
+            "between 0° and 90°",
+            "between 90° and 180°",
+            "between 0° and 90° or both between 90° and 180°"
+        ],
+        "correct_answer": "between 0° and 90° or both between 90° and 180°"
+    },
+
+    "90":{
+        "question": "Spherical degree is a unit of spherical area taken as 1/720 of the surface of the sphere. How many spherical degrees a hemisphere have?",
+        "choices": [
+            "360°",
+            "720°",
+            "180°",
+            "270°"
+        ],
+        "correct_answer": "360°"
+    },
+
+    "91":{
+        "question": "Which of the following statements is false about spherical trigonometry?",
+        "choices": [
+            "if two angles of a spherical triangle are equal, the sides equal are opposite and conversely",
+            "if two angles of a spherical triangle are unequal, and the greater side lies opposite the greater angle, and conversely",
+            "the sum of two sides of a spherical triangle is greater than the third sides",
+            "the sum of all interior angles of a spherical triangles is 360°"
+        ],
+        "correct_answer": "the sum of all interior angles of a spherical triangles is 360°"
+    },
+
+    "92":{
+        "question": "The sum of the sides of a spherical triangles is always less than",
+        "choices": [
+            "270°",
+            "360°",
+            "540°",
+            " 180°"
+        ],
+        "correct_answer": "360°"
+    },
+
+    "93":{
+        "question": "The sum of any two angles of a spherical triangle is",
+        "choices": [
+            "greater than 180°",
+            "less than 180°",
+            "less than 180° + the third angle",
+            "greater than 180° + the third angle"
+        ],
+        "correct_answer": "less than 180° + the third angle"
+    },
+
+    "94":{
+        "question": "Refers to the angular distance from the equator measured along a meridian",
+        "choices": [
+            "longitude",
+            "latitude",
+            "meridian",
+            "declination"
+        ],
+        "correct_answer": "latitude"
+    },
+
+    "95":{
+        "question": "Refers to the angle at either pole between the meridian passing through a point and some fixed meridian known as the prime meridian.",
+        "choices": [
+            "longitude",
+            "latitude",
+            "declination",
+            "equinox"
+        ],
+        "correct_answer": "longitude"
+    },
+
+    "96":{
+        "question": "Is half of a great circle terminated by the north pole and south pole.",
+        "choices": [
+            "longitude",
+            "latitude",
+            "declination",
+            "meridian"
+        ],
+        "correct_answer": "meridian"
+    },
+
+    "97":{
+        "question": "When the hypotenuse of a right spherical triangle is less than 90°",
+        "choices": [
+            "the two legs are on the same quadrant",
+            "the two legs are on the different quadrant",
+            "one leg is one the first quadrant and the other on the second quadrant",
+            "none of the above"
+        ],
+        "correct_answer": "the two legs are on the same quadrant"
+    },
+
+    "98":{
+        "question": "When the hypotenuse of a right spherical triangle is greater than 90°",
+        "choices": [
+            "the two legs are on the same quadrant",
+            "the two legs are on the different quadrant",
+            "one leg is one the first quadrant and the other on the second quadrant",
+            "none of the above"
+        ],
+        "correct_answer": "one leg is one the first quadrant and the other on the second quadrant"
+    },
+
+    "99":{
+        "question": "The point where a ray from the center of the earth through an observer’s position on it intersects the celestial sphere is called the observer’s",
+        "choices": [
+            "zenith",
+            "nadir",
+            "pole",
+            "equinox"
+        ],
+        "correct_answer": "zenith"
+    },
+
+    "100":{
+        "question": "The point that is diametrically opposite the zenith is called",
+        "choices": [
+            "pole",
+            "equinox",
+            "nadir",
+            "celestial meridian"
+        ],
+        "correct_answer": "nadir"
+    },
+
+    "101":{
+        "question": "The great circles through the north and south celestial poles are called",
+        "choices": [
+            "hour circles",
+            "celestial meridians",
+            "celestial meridians",
+            "a and b"
+        ],
+        "correct_answer": "a and b"
+    },
+
+    "102":{
+        "question": "An oblique equilateral parallelogram:",
+        "choices": [
+            "square",
+            "rectangle",
+            "rhombus",
+            "trapezoid"
+        ],
+        "correct_answer": "rhombus"
+    },
+
+    "103":{
+        "question": "mil is a unit of",
+        "choices": [
+            "angle",
+            "length",
+            "angle and length",
+            "weight"
+        ],
+        "correct_answer": "angle and length"
+    },
+
+    "104":{
+        "question": "An annulus is a plane figure which is composed of two concentric circles. The area of the annulus can be calculated by getting the difference between the area of the larger circle and the area of the smaller circle. Also, its area can be calculated by removing the hole. This method is called",
+        "choices": [
+            "law of extremities",
+            "law of reduction",
+            "law of deduction",
+            "sharp theorem"
+        ],
+        "correct_answer": "law of extremities"
+    },
+
+    "105":{
+        "question": "Each of the faces of a regular hexahedron is a",
+        "choices": [
+            "square",
+            "triangle",
+            "rectangle",
+            "hexagon"
+        ],
+        "correct_answer": "square"
+    },
+
+    "106":{
+        "question": "It is a polyhedron of which two faces are equal polygons in parallel planes and the other faces are parallelogram",
+        "choices": [
+            "tetrahedron",
+            "prism",
+            "frustum",
+            "prismatoid"
+        ],
+        "correct_answer": "prism"
+    },
+
+    "107":{
+        "question": "The apothem of a polygon is ___ of its inscribed circle.",
+        "choices": [
+            "radius",
+            "circumference",
+            "diameter",
+            "length"
+        ],
+        "correct_answer": "radius"
+    },
+
+    "108":{
+        "question": "Each angle of regular dodecagon is equal to",
+        "choices": [
+            "135°",
+            "150°",
+            "125°",
+            "105°"
+        ],
+        "correct_answer": "150°"
+    },
+
+    "109":{
+        "question": "The area bounded by two concentric circles is called",
+        "choices": [
+            "ring",
+            "disk",
+            "annulus",
+            "sector"
+        ],
+        "correct_answer": "annulus"
+    },
+
+    "110":{
+        "question": "One-fourth of a great circle is called",
+        "choices": [
+            "cone",
+            "sector",
+            "quadrant",
+            "arc"
+        ],
+        "correct_answer": "quadrant"
+    },
+
+    "111":{
+        "question": "Points that lie on the same plane are called",
+        "choices": [
+            "coplanar",
+            "parallel",
+            "collinear",
+            "oblique"
+        ],
+        "correct_answer": "coplanar"
+    },
+
+    "112":{
+        "question": "The volume of a circular cylinder is equal to the product of its base and altitude",
+        "choices": [
+            "axiom",
+            "postulate",
+            "theorem",
+            "corollary"
+        ],
+        "correct_answer": "theorem"
+    },
+
+    "113":{
+        "question": "The study of properties of figures in three dimensions.",
+        "choices": [
+            "physics",
+            "plane trigonometry",
+            "solid geometry",
+            "trigonometry"
+        ],
+        "correct_answer": "solid geometry"
+    },
+
+    "114":{
+        "question": "A plane closed curve, all points of which are the same distance from a point within, called the center",
+        "choices": [
+            "polyhedron",
+            "polygon",
+            "circle",
+            "ellipse"
+        ],
+        "correct_answer": "circle"
+    },
+
+    "115":{
+        "question": "What is the angle of π and less than 2π?",
+        "choices": [
+            "straight line",
+            "obtuse angle",
+            "oblique angle",
+            "acute angle"
+        ],
+        "correct_answer": "oblique angle"
+    },
+
+    "116":{
+        "question": "What is the value in degrees of 1 radian?",
+        "choices": [
+            "90°",
+            "57.3°",
+            "60°",
+            "33°"
+        ],
+        "correct_answer": "57.3°"
+    },
+
+    "117":{
+        "question": "Prisms are named according to their ____.",
+        "choices": [
+            "diagonals",
+            "sides",
+            "vertices",
+            "bases"
+        ],
+        "correct_answer": "bases"
+    },
+
+    "118":{
+        "question": "In plane geometry, two circular arcs that together make up a full circle are called",
+        "choices": [
+            "coterminals arcs",
+            "conjugate arcs",
+            "congruent arcs",
+            "half arcs"
+        ],
+        "correct_answer": "conjugate arcs"
+    },
+
+    "119":{
+        "question": "Polygons are classified according to the number of _____.",
+        "choices": [
+            "vertices",
+            "sides",
+            "diagonals",
+            "angles"
+        ],
+        "correct_answer": "sides"
+    },
+
+    "120":{
+        "question": "When two planes intersects with each other, the amount of divergence between the two planes is expressed by measuring the",
+        "choices": [
+            "dihedral angle",
+            "plane angle",
+            "polyhedral angle",
+            "reflex angle"
+        ],
+        "correct_answer": "dihedral angle"
+    },
+
+    "121":{
+        "question": "An angular unit equivalent to 1/400 of the circumference of a circle is called",
+        "choices": [
+            "mil",
+            "degree",
+            "radian",
+            "grad"
+        ],
+        "correct_answer": "grad"
+    },
+
+    "122":{
+        "question": "The arc length equal to the radius of the circle is called",
+        "choices": [
+            "radian",
+            "quarter sector",
+            "sector",
+            "semicircle"
+        ],
+        "correct_answer": "radian"
+    },
+
+    "123":{
+        "question": "A five-pointed star is known as",
+        "choices": [
+            "pentagon",
+            "pentatron",
+            "pentagram",
+            "quintagram"
+        ],
+        "correct_answer": "pentagram"
+    },
+
+    "124":{
+        "question": "If two or more lines have a single point which lies on all of them, then they are",
+        "choices": [
+            "collinear",
+            "coplanar",
+            "concurrent",
+            "conjugate"
+        ],
+        "correct_answer": "concurrent"
+    },
+
+    "125":{
+        "question": "The action of bringing one geometric figure into coincidence with another is called",
+        "choices": [
+            "transposition",
+            "translation",
+            "superposition",
+            "projection"
+        ],
+        "correct_answer": "superposition"
+    },
+
+    "126":{
+        "question": "A line that intersect two or more lines at distinct points",
+        "choices": [
+            "tangent line",
+            "transversal",
+            "bisector",
+            "median"
+        ],
+        "correct_answer": "transversal"
+    },
+
+    "127":{
+        "question": "An arc length equal to the radius of a circle.",
+        "choices": [
+            "grad",
+            "radian",
+            "degree",
+            "mil"
+        ],
+        "correct_answer": "radian"
+    },
+
+    "128":{
+        "question": "An angle which is 1/400th of the full revolution.",
+        "choices": [
+            "gon",
+            "mil",
+            "degree",
+            "radian"
+        ],
+        "correct_answer": "gon"
+    },
+
+    "129":{
+        "question": "Another term for gon",
+        "choices": [
+            "grad",
+            "mil",
+            "centesimal degree",
+            "A and C"
+        ],
+        "correct_answer": "A and C"
+    },
+
+    "130":{
+        "question": "An angle whose vertex is a point on the circle and whose sides are chords is known as",
+        "choices": [
+            "interior angle",
+            "vertical angle",
+            "acute angle",
+            "inscribed angle"
+        ],
+        "correct_answer": "inscribed angle"
+    },
+
+    "131":{
+        "question": "An angle greater than the right angle but less than a straight angle",
+        "choices": [
+            "acute angle",
+            "obtuse angle",
+            "reflex angle",
+            "inscribed angle"
+        ],
+        "correct_answer": "obtuse angle"
+    },
+
+    "132":{
+        "question": "Any angle greater than a straight angle but less than two straight angles is known as _____ angle.",
+        "choices": [
+            "compliment",
+            "supplement",
+            "complex",
+            "reflex"
+        ],
+        "correct_answer": "reflex"
+    },
+
+    "133":{
+        "question": "Two angles which have the same vertex and the sides of one are form by extending of the other.",
+        "choices": [
+            "adjacent angles",
+            "horizontal angles",
+            "vertical angles",
+            "deflection angles"
+        ],
+        "correct_answer": "vertical angles"
+    },
+
+    "134":{
+        "question": "Another term for exterior angle.",
+        "choices": [
+            "vertical angle",
+            "inscribed angle",
+            "reflex angle",
+            "deflection angle"
+        ],
+        "correct_answer": "deflection angle"
+    },
+
+    "135":{
+        "question": "What is the sum of all deflection angles in given polygon?",
+        "choices": [
+            "always less than 360°",
+            "always equal to 360°",
+            "always greater than 360°",
+            "always equal to 180°"
+        ],
+        "correct_answer": "always equal to 360°"
+    },
+
+    "136":{
+        "question": "Two planes intersect each other. What is the term for the angle formed perpendicular to the intersection of two planes?",
+        "choices": [
+            "solid angle",
+            "plane angle",
+            "base angle",
+            "dihedral angle"
+        ],
+        "correct_answer": "dihedral angle"
+    },
+
+    "137":{
+        "question": "When a terminal side of an angle coincides with an axis, the angle is a",
+        "choices": [
+            "co-terminal angle",
+            "right angle",
+            "quadrantal angle",
+            "reflex angle"
+        ],
+        "correct_answer": "quadrantal angle"
+    },
+
+    "138":{
+        "question": "If the exterior angle of a polygon is obtuse, its corresponding interior angle is",
+        "choices": [
+            "an acute angle",
+            "also an obtuse angle",
+            "a reflex angle",
+            "always greater than 360°"
+        ],
+        "correct_answer": "an acute angle"
+    },
+
+    "139":{
+        "question": "Solid angles are measured in",
+        "choices": [
+            "mil",
+            "radians",
+            "steradians",
+            "circular mils"
+        ],
+        "correct_answer": "steradians"
+    },
+
+    "140":{
+        "question": "What is the largest measure (in steradians) of a solid angle",
+        "choices": [
+            "2π",
+            "4π",
+            "8π",
+            "π"
+        ],
+        "correct_answer": "4π"
+    },
+
+    "141":{
+        "question": "Steradians measure in space in analog of ____ measured in the plane.",
+        "choices": [
+            "radians",
+            "degrees",
+            "mils",
+            "grads"
+        ],
+        "correct_answer": "radians"
+    },
+
+    "142":{
+        "question": "A part of a circle is called",
+        "choices": [
+            "sector",
+            "segment",
+            "chord",
+            "arc"
+        ],
+        "correct_answer": "arc"
+    },
+
+    "143":{
+        "question": "It is a union of the chord of a circle and the intercepted arc.",
+        "choices": [
+            "sector",
+            "segment",
+            "lune",
+            "zone"
+        ],
+        "correct_answer": "segment"
+    },
+
+    "144":{
+        "question": "A ____ of a circle in the figure bounded by two radii and the intercepted arc.",
+        "choices": [
+            "major arc",
+            "minor arc",
+            "segment",
+            "sector"
+        ],
+        "correct_answer": "sector"
+    },
+
+    "145":{
+        "question": "The apothem of a polygon is the ____ of its inscribed circle.",
+        "choices": [
+            "radius",
+            "circumference",
+            "diameter",
+            "length"
+        ],
+        "correct_answer": "radius"
+    },
+
+    "146":{
+        "question": "As the area of the circle increases, the ratio of its circumference to its diameter",
+        "choices": [
+            "increases",
+            "remains constant",
+            "decreases",
+            " will be equal to 1"
+        ],
+        "correct_answer": "remains constant"
+    },
+
+    "147":{
+        "question": "A circle is said to be _____ to a polygon having the same perimeter with that of the circle.",
+        "choices": [
+            "congruent",
+            "isoperimetric",
+            "proportional",
+            "convex"
+        ],
+        "correct_answer": "isoperimetric"
+    },
+
+    "148":{
+        "question": "Which of the following is NOT a property of a circle?",
+        "choices": [
+            " through 3 points not in a straight line, only 1 circle can be drawn",
+            "a tangent to a circle is perpendicular to the radius at the point of tangency and conversely",
+            "an inscribed angle is measured by one half of the intercepted arc",
+            "the arcs of two circles subtended by equal central angles are always equal."
+        ],
+        "correct_answer": "the arcs of two circles subtended by equal central angles are always equal."
+    },
+
+    "149":{
+        "question": "All circles having the same center but of unequal radii are called",
+        "choices": [
+            "concentric circles",
+            "eccentric circles",
+            "inner circles",
+            "pythagorean circles"
+        ],
+        "correct_answer": "concentric circles"
+    },
+
+    "150":{
+        "question": "Two chords of a circle which joins a point on the circle to the end points of a diameter and forms a right angle.",
+        "choices": [
+            "complementary chords",
+            "supplementary chords",
+            "focal chords",
+            "chords of contrast"
+        ],
+        "correct_answer": "supplementary chords"
+    },
+
+    "151":{
+        "question": "The center of the inscribed circle of a triangle is known as _____ of the triangle.",
+        "choices": [
+            "circumcenter",
+            "incenter",
+            "excenter",
+            "orthocenter"
+        ],
+        "correct_answer": "incenter"
+    },
+
+    "152":{
+        "question": "Supplementary chords are two chords which join a point on the circle to the endpoints of a diameter. The supplemental chords subtend a/an ______ angle.",
+        "choices": [
+            "acute",
+            "right",
+            "obtuse",
+            "reflex"
+        ],
+        "correct_answer": "right"
+    },
+
+    "153":{
+        "question": "A circle or radius R has a curvature of",
+        "choices": [
+            "R<sup>2</sup>",
+            "1/R",
+            "2R",
+            "&radic;<u>R</u>"
+        ],
+        "correct_answer": "1/R"
+    },
+
+    "154":{
+        "question": "A polygon is _____ when no side, when extended, will pass through the interior of the polygon.",
+        "choices": [
+            "convex",
+            "equilateral",
+            "isoperimetric",
+            "similar"
+        ],
+        "correct_answer": "convex"
+    },
+
+    "155":{
+        "question": "A polygon is said to be regular polygon if its is",
+        "choices": [
+            "convex",
+            "all sides are congruent",
+            "all angles are congruent",
+            "all of the above"
+        ],
+        "correct_answer": "all of the above"
+    },
+
+    "156":{
+        "question": "Polygon is inscribed in the same circle called",
+        "choices": [
+            "concentric polygons",
+            "ocentric polygons",
+            "concyclic polygons",
+            "orthocentric polygons"
+        ],
+        "correct_answer": "concyclic polygons"
+    },
+
+    "157":{
+        "question": "If n is the number of sides of a polygon, then the sum of all interior angles of a polygon is expressed as",
+        "choices": [
+            "(n + 2) 180°",
+            "(n/2) 180°",
+            "(n – 2) 180°",
+            "(n/2) (n – 3)"
+        ],
+        "correct_answer": "(n – 2) 180°"
+    },
+
+    "158":{
+        "question": "If n is the number of sides of a polygon, then the number of diagonals of a polygon is expressed as",
+        "choices": [
+            "n!",
+            "( n – 1)!",
+            "(n/2) (n – 3)",
+            "(n/3) (n – 2)"
+        ],
+        "correct_answer": "(n/2) (n – 3)"
+    },
+
+    "159":{
+        "question": "What do you call a polygon with 11 sides?",
+        "choices": [
+            "unagon",
+            "unogon",
+            "undecagon",
+            "dodecagon"
+        ],
+        "correct_answer": "undecagon"
+    },
+
+    "160":{
+        "question": "Pentagon is to 5 sides as ____ is to 11 sides.",
+        "choices": [
+            "heptagon",
+            "septagon",
+            "undecagon",
+            "hendecagon"
+        ],
+        "correct_answer": "hendecagon"
+    },
+
+    "161":{
+        "question": "A polygon having 12 sides is called",
+        "choices": [
+            "bidecagon",
+            "dodecagon",
+            "nonagon",
+            "pentedecagon"
+        ],
+        "correct_answer": "dodecagon"
+    },
+
+    "162":{
+        "question": "A polygon of 100 sides is called",
+        "choices": [
+            "chilliagon",
+            "ennagon",
+            "perigon",
+            "milliagon"
+        ],
+        "correct_answer": "chilliagon"
+    },
+
+    "163":{
+        "question": "The highest point of a figure relative to a baseline or plane is called",
+        "choices": [
+            "peak",
+            "summit",
+            "highest ordinate",
+            "terminal point"
+        ],
+        "correct_answer": "summit"
+    },
+
+    "164":{
+        "question": "Indicate the false statement.",
+        "choices": [
+            "a trapezoid is a quadrilateral two and only two of whose sides are parallel",
+            "the sum of two sides of a triangle is greater than the third side and their difference is less than the third side",
+            "a diagonal of a polygon is a line joining any nonconsecutive vertices",
+            "two angles are complementary if their sum is 180°"
+        ],
+        "correct_answer": "two angles are complementary if their sum is 180°"
+    },
+
+    "165":{
+        "question": "Which of the following statement is correct?",
+        "choices": [
+            "all right-angled triangles are similar",
+            "all isosceles triangles are similar",
+            "all equilateral triangles are similar",
+            "all rectangles are similar"
+        ],
+        "correct_answer": "all equilateral triangles are similar"
+    },
+
+    "166":{
+        "question": "A quadrilateral with no sides parallel.",
+        "choices": [
+            "trapezoid",
+            "rhombus",
+            "rhomboid",
+            "trapezium"
+        ],
+        "correct_answer": "trapezium"
+    },
+
+    "167":{
+        "question": "Which of the following BEST describes Ptolemy’s theorem",
+        "choices": [
+            "it is use only for quadrilaterals",
+            "it is just a modification of Brahmagupta’s theorem",
+            "it is used for only cyclic quadrilaterals",
+            "the sum of the square of the sides is equal to the square of the diagonals of a given quadrilateral"
+        ],
+        "correct_answer": "it is used for only cyclic quadrilaterals"
+    },
+
+    "168":{
+        "question": "The geometric figure remaining after a parallelogram has been removed from one corner of a larger similar polygon.",
+        "choices": [
+            "google",
+            "gnomon",
+            "gaussian plane",
+            "lozenge"
+        ],
+        "correct_answer": "gnomon"
+    },
+
+    "169":{
+        "question": "An oblique-angled parallelogram with for sides equal is called",
+        "choices": [
+            "rhombus",
+            "diamond",
+            "lozenge",
+            "all of the above"
+        ],
+        "correct_answer": "all of the above"
+    },
+
+    "170":{
+        "question": "A non-convex quadrilateral with two pairs of adjacent equal sides is called",
+        "choices": [
+            "trapezium",
+            "kite",
+            "deltroid",
+            "diamond"
+        ],
+        "correct_answer": "deltroid"
+    },
+
+    "171":{
+        "question": "What is another term for a parallelogram?",
+        "choices": [
+            "rectangle",
+            "quadrangle",
+            "diamond",
+            "rhomboid"
+        ],
+        "correct_answer": "rhomboid"
+    },
+
+    "172":{
+        "question": "Prisms are classified according to their",
+        "choices": [
+            "bases",
+            "prism",
+            "truncated prism",
+            "prismatoid"
+        ],
+        "correct_answer": "bases"
+    },
+
+    "173":{
+        "question": "A solid cut of a given solid by two non-parallel planes is called",
+        "choices": [
+            "frustum",
+            "prism",
+            "truncated prism",
+            "prismatoid"
+        ],
+        "correct_answer": "truncated prism"
+    },
+
+    "174":{
+        "question": "A polyhedron having bases two polygons in parallel planes and for lateral faces triangles or trapezoids with one side lying on the other base of the polyhedron",
+        "choices": [
+            "pyramid",
+            "cone",
+            "prismatoid",
+            "truncated prism"
+        ],
+        "correct_answer": "prismatoid"
+    },
+
+    "175":{
+        "question": "Portion of regular solid left after cutting off the upper part by a plane parallel to the base.",
+        "choices": [
+            "frustum",
+            "ungula",
+            "truncated solid",
+            "prismatoid"
+        ],
+        "correct_answer": "frustum"
+    },
+
+    "176":{
+        "question": "Body or space bounded by surface every point of which is equidistant from a point within",
+        "choices": [
+            "circle",
+            "sphere",
+            "spheroid",
+            "ellipsoid"
+        ],
+        "correct_answer": "sphere"
+    },
+
+    "177":{
+        "question": "A solid bounded by a zone and the planes of the zone’s base",
+        "choices": [
+            "spherical sector",
+            "spherical segment",
+            "lune",
+            "spherical excess"
+        ],
+        "correct_answer": "spherical segment"
+    },
+
+    "178":{
+        "question": "The intersection of the sphere and the plane through the center is called",
+        "choices": [
+            "great circle",
+            "small circle",
+            "poles",
+            "polar distance"
+        ],
+        "correct_answer": "great circle"
+    },
+
+    "179":{
+        "question": "The portion of a sphere enclosed between two great semicircles having common end points, including the semi-circle",
+        "choices": [
+            "spherical excess",
+            "spherical segment",
+            "zone",
+            "lune"
+        ],
+        "correct_answer": "lune"
+    },
+
+    "180":{
+        "question": "A portion of the surface of the sphere included between two parallel planes",
+        "choices": [
+            "spherical excess",
+            "spherical segment",
+            "zone",
+            "lune"
+        ],
+        "correct_answer": "zone"
+    },
+
+    "181":{
+        "question": "If R is the radius of the sphere and h is the distance between two parallel plane, the area of the zone is",
+        "choices": [
+            "2πRh",
+            "4πRh",
+            "πh2 (3R – h)/3",
+            "4π (R – h)"
+        ],
+        "correct_answer": "2πRh"
+    },
+
+    "182":{
+        "question": "The solid bounded by two great circles and the surface of the sphere is known as",
+        "choices": [
+            "spherical zone",
+            "spherical segment",
+            "spherical cone",
+            "spherical wedge"
+        ],
+        "correct_answer": "spherical wedge"
+    },
+
+    "183":{
+        "question": "A cone or cylinder with its top cut-off by a plane oblique to the base",
+        "choices": [
+            "frustum",
+            "prismoid",
+            "prismatoid",
+            "ungula"
+        ],
+        "correct_answer": "ungula"
+    },
+
+    "184":{
+        "question": "A term given to cylinder with elliptical cross-section",
+        "choices": [
+            "cylindroid",
+            "cylindoid",
+            "ovaloid",
+            "deltroid"
+        ],
+        "correct_answer": "cylindroid"
+    },
+
+    "185":{
+        "question": "A doughnut-like surface of revolution generated by rotating the circle through 360° in space but about a line in its plane but now passing through the circle.",
+        "choices": [
+            "torus",
+            "annulus",
+            "anchor",
+            "all of the above"
+        ],
+        "correct_answer": "torus"
+    },
+
+    "186":{
+        "question": "Formed by intersection of rays from one point reflected or refracted from a curvature surface",
+        "choices": [
+            "envelop",
+            "caustic",
+            "evolute",
+            "pencil"
+        ],
+        "correct_answer": "caustic"
+    },
+
+    "187":{
+        "question": "The regular polyhedron is a solid with all its faces identical regular polygons. The regular polyhedrons are also known as",
+        "choices": [
+            "Euclidean solids",
+            "Pythagorean solids",
+            "Platonic solids",
+            "Newtonian solids"
+        ],
+        "correct_answer": "Platonic solids"
+    },
+
+    "188":{
+        "question": "There are how many regular polyhedra known to man?",
+        "choices": [
+            "5",
+            "3",
+            "7",
+            "10"
+        ],
+        "correct_answer": "5"
+    },
+
+    "189":{
+        "question": "An icosahedron is a regular polyhedron of ___ faces.",
+        "choices": [
+            "12",
+            "14",
+            "16",
+            "20"
+        ],
+        "correct_answer": "20"
+    },
+
+    "190":{
+        "question": "A regular polyhedron with 6 sides is called",
+        "choices": [
+            "dodecahedron",
+            "hexahedron",
+            "tetrahedron",
+            "octahedron"
+        ],
+        "correct_answer": "hexahedron"
+    },
+
+    "191":{
+        "question": "The face of a regular tetrahedron is a",
+        "choices": [
+            "square",
+            "pentagon",
+            "hexagon",
+            "triangle"
+        ],
+        "correct_answer": "triangle"
+    },
+
+    "192":{
+        "question": "The face of a regular octahedron is a",
+        "choices": [
+            "square",
+            "pentagon",
+            "hexagon",
+            "triangle"
+        ],
+        "correct_answer": "triangle"
+    },
+
+    "193":{
+        "question": "The face of a regular dodecahedron is a",
+        "choices": [
+            "square",
+            "pentagon",
+            "hexagon",
+            "triangle"
+        ],
+        "correct_answer": "pentagon"
+    },
+
+    "194":{
+        "question": "The face of a regular icosahedron is a",
+        "choices": [
+            "square",
+            "pentagon",
+            "hexagon",
+            "triangle"
+        ],
+        "correct_answer": "triangle"
+    },
+
+    "195":{
+        "question": "Which regular polyhedron does not have a face a triangle?",
+        "choices": [
+            "tetrahedron",
+            "octahedron",
+            "icosahedron",
+            "dodecahedron"
+        ],
+        "correct_answer": "dodecahedron"
+    },
+
+    "196":{
+        "question": "How many edges are there in a dodecagon?",
+        "choices": [
+            "6",
+            "12",
+            "30",
+            "8"
+        ],
+        "correct_answer": "30"
+    },
+
+    "197":{
+        "question": "A tetrahedron has ___ vertices",
+        "choices": [
+            "4",
+            "3",
+            "6",
+            "5"
+        ],
+        "correct_answer": "4"
+    },
+
+    "198":{
+        "question": "Given two solids and a plane. Supposed that every plane parallel to the given plane intersecting one of the two solids also intersects the other and gives cross-sections with the same area, then the two solids have the same volume. This is known as the",
+        "choices": [
+            "unit postulate",
+            "plane postulate",
+            "parallel postulate",
+            "Cavalieri’s postulate"
+        ],
+        "correct_answer": "Cavalieri’s postulate"
+    },
+
+    "199":{
+        "question": "An equation in which all terms are of the same degree.",
+        "choices": [
+            "Linear equation",
+            "Quadratic equation",
+            "Homogeneous equation",
+            "Quartic equation"
+        ],
+        "correct_answer": "Homogeneous equation"
+    },
+
+    "200":{
+        "question": "The volume of a paraboloid is equal to ___ the volume oF circumscribing cylinder",
+        "choices": [
+            "1/3",
+            "1/2",
+            "1/4",
+            "2/3"
+        ],
+        "correct_answer": "1/2"
+    }
+}

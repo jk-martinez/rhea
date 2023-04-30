@@ -8,43 +8,48 @@ import PeriodicTable from './components/PeriodicTable.vue';
 import LearningReferences from './components/LearningReferences.vue';
 import UnitsOfMeasurement from './components/UnitsOfMeasurement.vue';
 import WordSequence from './components/WordSequence.vue';
+import ElementsQuiz from './components/ElementsQuiz.vue';
 import IdentityChecker from './components/IdentityChecker.vue'
 
 const routes = [
     {
-        path: '/',
+        path: '/rhea',
         component: App
     },
     {
-        path: '/home',
+        path: '/rhea/home',
         component: MainPage
     },
     {
-        path: '/focus-game-one',
+        path: '/rhea/focus-game-one',
         component: NumberAssociation
     },
     {
-        path: '/pomodoro-timer',
+        path: '/rhea/pomodoro-timer',
         component: PomodoroTimer
     },
     {
-        path: '/periodic-table',
+        path: '/rhea/periodic-table',
         component: PeriodicTable
     },
     {
-        path: '/concepts-and-formulas',
+        path: '/rhea/learning-references',
         component: LearningReferences
     },
     {
-        path: '/units-of-measurements',
+        path: '/rhea/units-of-measurements',
         component: UnitsOfMeasurement
     },
     {
-        path: '/word-sequence',
+        path: '/rhea/word-sequence',
         component: WordSequence
     },
     {
-        path: '/identity-checker',
+        path: '/rhea/elements-quiz',
+        component: ElementsQuiz
+    },
+    {
+        path: '/rhea/identity-checker',
         component: IdentityChecker
     }
 ];

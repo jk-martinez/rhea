@@ -1,35 +1,38 @@
 <template>
     <div id="wrapper" class="position-relative vh-100">
-        <div class="position-absolute top-50 start-50 translate-middle">
+        <div id="main-container" class="position-absolute top-50 start-50 translate-middle">
             
             <div class="mb-3 text-center">
-                <p> In order to continue using this application, please answer the question below to confirm your identity. </p>
+                <h1> Welcome! </h1>
 
-                <h3 id="question">{{ question }}</h3>
+                <p> In order to continue using this application, please answer the question below to confirm your identity. <br/>
+                    You need 2 correct answers to proceed.
+                </p>
+
+                <span class="mt-2"> <font-awesome-icon icon="fa-solid fa-check" class="text-success" /> {{ correctAnswers }}/2 </span>
+                <h3 id="question" class="mt-1">{{ question }}</h3>
             </div>
 
             <div class="row g-3">
                 <div v-if="questionIsDate" class="col-md-6 text-center">
-                    <input type="date" id="dateAnswer" class="form-control" >
+                    <input type="date" id="dateAnswer" class="form-control" v-model="userAnswer">
                 </div>
 
                 <div v-else class="col-md-6">
-                    <input type="text" id="answer" class="form-control" placeholder="Type your answer here...">
+                    <input type="text" id="answer" class="form-control" v-model="userAnswer" placeholder="Type your answer here..." @keydown="answerIsWrong = false">
                 </div>
 
                 <div class="col-md-3">
-                    <button type="button" class="form-control btn submit-btn" @click="checkAnswer"> SUBMIT ANSWER </button>
+                    <button type="button" class="form-control btn fw-bold submit-btn" @click="checkAnswer"> SUBMIT ANSWER </button>
                 </div>
 
                 <div class="col-md-3">
-                    <button type="button" class="form-control btn submit-btn" @click="reAskUser"> RETRY </button>
+                    <button type="button" class="form-control btn fw-bold submit-btn" @click="reAskUser"> RETRY </button>
                 </div>
             </div>    
 
             <div v-if="answerIsWrong" class="mt-3  text-center text-danger">
-                <p> Your answer is incorrect. Please check your spelling or you may retry again with another question. <br/>
-                    If question isn't replaced, keep clicking the retry button.
-                </p>
+                <p> Your answer is incorrect. Please check your spelling or you may retry again with another question. </p>
             </div>
         </div>
 
@@ -37,46 +40,58 @@
 </template>
 
 <script>
-    const martinData = require('../assets/json/martin.json');
+
+    const data = require('../assets/json/identity-data.json');
 
     export default{
         data(){
             return{
+                dataIndex: null,
                 questionIsDate: false,
+                lastQuestionIndex: null,
+                usedIndex: [],
                 question: "",
                 answer: "",
-                answerIsWrong: null
+                userAnswer: "",
+                answerIsWrong: null,
+                correctAnswers: 0,
             }
         },
 
         methods:{
             askUser(){
-                let index = Math.floor(Math.random() * 3).toString();
-                let questionData = martinData[index];
-                
+                this.dataIndex = Math.floor(Math.random() * data["total_questions"] + 1).toString();
+
+                // Generate new index if current index is the same with the previous OR if index was already used and answered by the user correctly
+                while (this.dataIndex == this.lastQuestionIndex || this.usedIndex.includes(this.dataIndex)){
+                    this.dataIndex = Math.floor(Math.random() * data["total_questions"] + 1).toString();
+                }
+
+                this.lastQuestionIndex = this.dataIndex;
+                let questionData = data[this.dataIndex];
                 questionData["answer_type"] == "Date" ? this.questionIsDate = true :  this.questionIsDate = false;
                 this.question = questionData["question"];
                 this.answer = questionData['answer'];
             },
 
             reAskUser(){
-                this.answerIsWrong = null;
-                this.askUser();
+                if (this.correctAnswers < 2){
+                    this.answerIsWrong = null;
+                    this.userAnswer == ""
+                    this.askUser();
+                }
+                else{
+                    this.setCookie();
+                    this.$router.push('/rhea/home')
+                }
             },
 
             checkAnswer(){
-                let answer = "";
-
-                if (this.questionIsDate){
-                    answer = document.getElementById('dateAnswer').value; 
-                }
-                else{
-                    answer = document.getElementById('answer').value; 
-                }
-
-                if (answer.toLowerCase() == this.answer.toLowerCase()){
-                    this.setCookie();
-                    this.$router.push('/home');
+                if (this.userAnswer.toLowerCase() == this.answer.toLowerCase()){
+                    this.usedIndex.push(this.dataIndex);
+                    this.correctAnswers++;
+                    this.userAnswer = "";
+                    this.reAskUser()
                 }
                 else{
                     this.answerIsWrong = true;
@@ -100,7 +115,16 @@
 <style scoped>
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-    #wrapper{
+    h1{
+        font-family: 'Dancing Script', cursive;
+        font-size: 4.5rem;
+    }
+
+    input[type="text"]{
+        border: 1px solid #865439;
+    }
+
+    #wrapper, input[type="text"]{
         color: #865439;
     }
 
@@ -111,5 +135,11 @@
 
     .submit-btn:hover{
         background-image: linear-gradient(#C68B59, #DAB88B);
+    }
+
+    @media only screen and (max-width: 600px){
+        #main-container{
+            width: 80%;
+        }
     }
 </style>

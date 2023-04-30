@@ -10,124 +10,125 @@
         </div>
     </div>
 
-    <div id="get-started" class="container-fluid my-5">
+    <div id="get-started" class="my-5">
         <h2 class="text-center mb-5"> What do you need? </h2>
 
-        <div class="row">
+        <div class="d-flex flex-wrap justify-content-center align-items-stretch">
             
             <!-- Pomodoro Timer -->
-            <div class="col-sm-4 col-md-4">
-                <div class="card mx-2 my-2" @click="this.$router.push('/pomodoro-timer')">
-                    <div class="card-img-top feature-img">
-                        <img src="../assets/images/timer.jpg" class="w-100" />
+            <div class="card m-2" @click="this.$router.push('/rhea/pomodoro-timer')">
+                <div class="card-img-top feature-img">
+                    <img src="../assets/images/timer.jpg" class="w-100" />
 
-                        <div class="card-img-overlay">
-                            <p class="card-text feature-desc"> Pomodoro Technique is a time management method based on 25-minute stretches of
-                                focused work broken by 5-minute breaks. Longer breaks are taken after 4 consecutive work intervals.
-                            </p>
+                    <div class="card-img-overlay">
+                        <p class="card-text feature-desc"> Pomodoro Technique is a time management method based on 25-minute stretches of
+                            focused work broken by 5-minute breaks. Longer breaks are taken after 4 consecutive work intervals.
+                        </p>
 
-                            <p class="card-text feature-desc">
-                                Use this timer while reviewing.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <h4 class="card-title"> Pomodoro Timer </h4>
+                        <p class="card-text feature-desc">
+                            Use this timer while reviewing.
+                        </p>
                     </div>
                 </div>
+
+                <div class="card-body">
+                    <h4 class="card-title"> Pomodoro Timer </h4>
+                </div>
             </div>
-            
+
+            <!-- Elements Quiz -->
+            <div class="card m-2" @click="this.$router.push('/rhea/elements-quiz')">
+                <div class="card-img-top feature-img">
+                    <img src="../assets/images/quiz.jpg" class="w-100"/>
+
+                    <div class="card-img-overlay">
+                        <p class="card-text feature-desc"> Take a quiz from your review center's reviewer. </p>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title"> Elements Quiz </h4>
+                </div>
+            </div>
+
             <!-- Periodic Table of Elements -->
-            <div class="col-sm-4 col-md-4">
-                <div class="card mx-2 my-2" @click="this.$router.push('periodic-table')">
-                    <div class="card-img-top feature-img">
-                        <img src="../assets/images/periodic-table.jpg" class="w-100" />
+            <div class="card m-2" @click="this.$router.push('/rhea/periodic-table')">
+                <div class="card-img-top feature-img">
+                    <img src="../assets/images/periodic-table.jpg" class="w-100" />
 
-                        <div class="card-img-overlay">
-                            <p class="card-text feature-desc">
-                                Familiarize yourself with the Periodic Table of Elements.
-                            </p>
-                        </div>
+                    <div class="card-img-overlay">
+                        <p class="card-text feature-desc">
+                            Familiarize yourself with the Periodic Table of Elements.
+                        </p>
                     </div>
+                </div>
 
-                    <div class="card-body">
-                        <h4 class="card-title"> Periodic Table of Elements </h4>
-                    </div>
+                <div class="card-body">
+                    <h4 class="card-title"> Periodic Table of Elements </h4>
                 </div>
             </div>
 
-            <!-- Concepts and Formulas -->
-            <div class="col-sm-4 col-md-4">
-                <div class="card mx-2 my-2" @click="this.$router.push('/concepts-and-formulas')">
-                    <div class="card-img-top feature-img">
-                        <img src="../assets/images/formula.jpg" class="w-100"/>
-
-                        <div class="card-img-overlay">
-                            <p class="card-text feature-desc"> See a list of learning references related with Engineering and Mathematics. </p>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <h4 class="card-title"> Learning Engineering References </h4>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
             <!-- Units of Measurements -->
-            <div class="col-sm-4 col-md-4" @click="this.$router.push('/units-of-measurements')">
-                <div class="card mx-2 my-2">
-                    <div class="card-img-top feature-img">
-                        <img src="../assets/images/measurements.jpg" class="w-100"/>
+            <div class="card m-2" @click="this.$router.push('/rhea/units-of-measurements')">
+                <div class="card-img-top feature-img">
+                    <img src="../assets/images/measurements.jpg" class="w-100"/>
 
-                        <div class="card-img-overlay">
-                            <p class="card-text feature-desc"> Review units of measurements. </p>
-                        </div>
+                    <div class="card-img-overlay">
+                        <p class="card-text feature-desc"> Review units of measurements. </p>
                     </div>
+                </div>
 
-                    <div class="card-body">
-                        <h4 class="card-title"> Units of Measurements </h4>
-                    </div>
+                <div class="card-body">
+                    <h4 class="card-title"> Units of Measurements </h4>
                 </div>
             </div>
 
-            <!-- Focus games -->
-            <div class="col-sm-4 col-md-4">
-                <div class="card mx-2 my-2" @click="this.$router.push('/word-sequence')">
-                    <div class="card-img-top feature-img">
-                        <img src="../assets/images/games.jpg" class="w-100"/>
+            <!-- Learning Engineering References -->
+            <div class="card m-2" @click="this.$router.push('/rhea/learning-references')">
+                <div class="card-img-top feature-img">
+                    <img src="../assets/images/formula.jpg" class="w-100"/>
 
-                        <div class="card-img-overlay">
-                            <p class="card-text feature-desc"> Play a small game to prepare your mind before reviewing. </p>
-                        </div>
+                    <div class="card-img-overlay">
+                        <p class="card-text feature-desc"> See a list of learning references related with Engineering and Mathematics. </p>
                     </div>
+                </div>
 
-                    <div class="card-body">
-                        <h4 class="card-title"> Focus Game - Word Sequence </h4>
-                    </div>
+                <div class="card-body">
+                    <h4 class="card-title"> Learning Engineering References </h4>
                 </div>
             </div>
 
-            <!-- Conversation -->
-            <div class="col-sm-4 col-md-4">
-                <div class="card mx-2 my-2" @click="redirectToMessenger()">
-                    <div class="card-img-top feature-img">
-                        <img src="../assets/images/talk.jpg" class="w-100"/>
+            <!-- Focus game -->
+            <div class="card m-2" @click="this.$router.push('/rhea/word-sequence')">
+                <div class="card-img-top feature-img">
+                    <img src="../assets/images/games.jpg" class="w-100"/>
 
-                        <div class="card-img-overlay">
-                            <p class="card-text feature-desc"> Have a conversation with Martin. You may report a bug, request a feature, or talk about something else. </p>
-                            <p class="card-text feature-desc"> More content might come soon :) </p>
-                        </div>
-                    </div>
-
-                    <div class="card-body">
-                        <h4 class="card-title"> Talk with Martin </h4>
+                    <div class="card-img-overlay">
+                        <p class="card-text feature-desc"> Play a small game to prepare your mind before reviewing. </p>
                     </div>
                 </div>
+
+                <div class="card-body">
+                    <h4 class="card-title"> Focus Game - Word Sequence </h4>
+                </div>
             </div>
+ 
+            <!-- Conversation w/ Martin (Link to Messenger)-->
+            <div class="card m-2" @click="redirectToMessenger()">
+                <div class="card-img-top feature-img">
+                    <img src="../assets/images/talk.jpg" class="w-100"/>
+
+                    <div class="card-img-overlay">
+                        <p class="card-text feature-desc"> Have a conversation with Martin. You may report a bug, request a feature, or talk about something else. </p>
+                        <p class="card-text feature-desc"> More content might come soon :) </p>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title"> Talk with Martin </h4>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -168,7 +169,7 @@
 
         beforeMount(){
             if (this.getCookie('rhea-user') ==  ""){
-                this.$router.push('/identity-checker')
+                this.$router.push('/rhea/identity-checker')
             }
         },
 
@@ -192,13 +193,15 @@
 <style scoped>
 	@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 	
-
 	h2{
 		display: block;
 		font-family: 'Dancing Script', cursive;
 		font-size: 3rem;
-		color: #865439;
 	}
+
+    #wrapper{
+        color: #865439;
+    }
 
 	#banner{
 		background: url('../assets/images/coffee-bg.jpg');
@@ -230,13 +233,17 @@
 		color: #FDF6EC
 	}
 
+    .card{
+        width: 20%;
+    }
+
 	.card:hover{
 		border: 1px solid #865439;
 		cursor: pointer;
 	}
 	
 	.feature-desc{
-		font-size: 1.5rem;
+		font-size: 1.1rem;
 		color: #000;
 		visibility: hidden;
 		opacity: 0;
@@ -260,6 +267,10 @@
 		#home-cta{
 			font-size: 1.5rem;
 		}
+
+        .card{
+            width: 100%;
+        }
 
 		.feature-desc{
 			font-size: 1rem;

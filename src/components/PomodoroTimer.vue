@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- Media sources -->
         <video autoplay muted loop>
             <source src="../assets/videos/rain.mp4" type="video/mp4" />
         </video>
@@ -12,15 +13,16 @@
             <source src="../assets/audio/ping-sound-effect.mp3" type="audio/mpeg" />
         </audio>
 
+        <!-- Timer -->
         <div id="timer-container">
             <div>
-                <h3> {{ mode }} timer </h3>
+                <h3 class="text-uppercase"> {{ mode }} timer </h3>
                 <div id="timer">
                     <p>{{ fullRemainingMinutes }}:{{ fullRemainingSeconds }} </p>
                 </div>
 
                 <div class="w-100 d-flex align-content-center justify-content-around">
-                    <font-awesome-icon icon="fa-solid fa-home" size="2x" class="m-1 p-3 timer-btn flex-even" @click="this.$router.push('/home')" />
+                    <font-awesome-icon icon="fa-solid fa-home" size="2x" class="m-1 p-3 timer-btn flex-even" @click="this.$router.push('/rhea/home')" />
                     <font-awesome-icon :icon="startPauseIcon" size="2x" class="m-1 p-3 timer-btn flex-even" @click="startPauseTimer" />
                     <font-awesome-icon icon="fa-solid fa-stop" size="2x" class="m-1 p-3 timer-btn flex-even" @click="stopTimer" />
                     <font-awesome-icon :icon="musicIcon" size="2x" class="m-1 p-3 timer-btn flex-even" @click="playUnplayAmbient"/>
@@ -53,14 +55,12 @@
             fullRemainingMinutes(){
                 return this.remainingMinutes.toLocaleString('en-US',{
                     minimumIntegerDigits: 2,
-                    // useGrouping: false
                 });
             },
 
             fullRemainingSeconds(){
                 return this.remainingSeconds.toLocaleString('en-US', {
                     minimumIntegerDigits: 2,
-                    // useGrouping: false
                 });
             }
         },
@@ -93,12 +93,8 @@
                 this.remainingMinutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                 this.remainingSeconds = Math.floor(((distance % (1000 * 60)) / 1000));
 
-                if (this.remainingMinutes == 0 && this.remainingSeconds == 0 ){
-                    document.getElementById('ping-sound-effect').play();
-                    document.getElementById('ping-sound-effect').play();
-                }
-
                 if (distance < 0){
+                    document.getElementById('ping-sound-effect').play();
                     clearInterval(this.timer);
                     
                     if (this.mode == "Focus"){
@@ -162,12 +158,12 @@
                     }
                 }
                 return "";
-            }
+            },
         },
 
         beforeMount(){
             if (this.getCookie('rhea-user') ==  ""){
-                this.$router.push('/identity-checker')
+                this.$router.push('/rhea/identity-checker')
             }
         },
         
@@ -219,6 +215,7 @@
         #timer-container{
             width: 100%;
             margin-left: 0;
+            padding: 10px;
         }
 
         #timer{

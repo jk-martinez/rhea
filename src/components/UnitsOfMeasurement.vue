@@ -1,7 +1,7 @@
 <template>
     <div id="wrapper" class="container">
         <header class="mt-2 text-center">
-            <router-link to="/home" id="home-link">
+            <router-link to="/rhea/home" id="home-link">
                 <font-awesome-icon icon="f-solid fa-home"/> Back to Home
             </router-link>
             <h1 class="mt-2"> Units of Measurements </h1>
@@ -18,7 +18,7 @@
                 </h2>
 
                 <div id="base-si-units" class="accordion-collapse collapse" data-bs-parent="#parent-container">
-                    <div class="accordion-body">
+                    <div class="accordion-body table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -59,7 +59,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td> Mass:</td>
+                                    <td> Mass</td>
                                     <td> Kilogram (kg) </td>
                                 </tr>
                             </tbody>
@@ -77,7 +77,7 @@
                 </h2>
 
                 <div id="length-units" class="accordion-collapse collapse" data-bs-parent="#parent-container">
-                    <div class="accordion-body">
+                    <div class="accordion-body table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -156,7 +156,7 @@
                 </h2>
 
                 <div id="area-units" class="accordion-collapse collapse">
-                    <div class="accordion-body">
+                    <div class="accordion-body table-responsive">
                         <table class="table">
                             <thead>
                                 <th> System </th>
@@ -226,8 +226,8 @@
                 </h2>
 
                 <div id="mass-units" class="accordion-collapse collapse" data-bs-parent="#parent-container">
-                    <div class="accordion-body">
-                        <table class="table w-50">
+                    <div class="accordion-body table-responsive">
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th> System </th>
@@ -283,8 +283,8 @@
                 </h2>
 
                 <div  id="volume-units" class="accordion-collapse collapse" data-bs-parent="#parent-container">
-                    <div class="accordion-body">
-                        <table class="table w-50">
+                    <div class="accordion-body table-responsive">
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th> System </th>
@@ -345,8 +345,8 @@
                 </h2>
 
                 <div id="temperature-units" class="accordion-collapse collapse" data-bs-parent="#parent-container">
-                    <div class="accordion-body">
-                        <table class="table w-50">
+                    <div class="accordion-body table-responsive">
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th> Unit of Measurement </th>
@@ -387,8 +387,8 @@
                 </h2>
 
                 <div id="time-units" class="accordion-collapse collapse" data-bs-parent="#parent-container">
-                    <div class="accordion-body">
-                        <table class="table w-50">
+                    <div class="accordion-body table-responsive">
+                        <table class="table">
                             <thead>
                                 <tr>
                                     <th> Unit of Measurement </th>
@@ -450,6 +450,33 @@
 </template>
 
 <script>
+    export default{
+        methods:{
+            getCookie(cookieName) {
+                let name = cookieName + "=";
+                let ca = document.cookie.split(';');
+
+                for(let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+
+                    while (c.charAt(0) == ' ') {
+                        c = c.substring(1);
+                    }
+
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            },
+        },
+
+        beforeMount(){
+            if (this.getCookie('rhea-user') ==  ""){
+                this.$router.push('/rhea/identity-checker')
+            }
+        }
+    }
 
 </script>
 

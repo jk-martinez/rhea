@@ -2,7 +2,7 @@
     <div id="wrapper" class="container-fluid">
 
         <header class="mt-2 text-center">
-            <router-link to="/home" id="home-link">
+            <router-link to="/rhea/home" id="home-link">
                 <font-awesome-icon icon="fa-solid fa-home" /> Back to Home
             </router-link>
             
@@ -58,7 +58,7 @@
                      </div>
                      
                     <div id="post-trnstion-metal" class="m-1 px-2 py-1 legend-item" 
-                        @click="highlightChemicalGroup('post-trnstion-metal', 'Post-Transition Metals')"> Transition Metals 
+                        @click="highlightChemicalGroup('post-trnstion-metal', 'Post-Transition Metals')"> Post-Transition Metals 
                     </div>
 
                     <div id="metalloid" class="m-1 px-2 py-1 legend-item" 
@@ -314,7 +314,7 @@
 
         beforeMount(){
             if (this.getCookie('rhea-user') ==  ""){
-                this.$router.push('/identity-checker')
+                this.$router.push('/rhea/identity-checker')
             }
 
         },

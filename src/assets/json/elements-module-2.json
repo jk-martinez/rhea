@@ -97,7 +97,7 @@
             "corollary",
             "conclusion"
         ],
-        "correct_answer": ""
+        "correct_answer": "corollary"
     },
 
     "10":{
@@ -343,7 +343,7 @@
     },
 
     "32":{
-        "question": ". A statement of truth which follows with little or no proof from the theorem",
+        "question": "A statement of truth which follows with little or no proof from the theorem",
         "choices": [
             "corollary",
             "axiom",
@@ -827,7 +827,7 @@
     },
 
     "76":{
-        "question": ". The complex number is in the form of a + bi. If a = 0, what do you call the resulting number?",
+        "question": "The complex number is in the form of a + bi. If a = 0, what do you call the resulting number?",
         "choices": [
             "absolute value of the complex number",
             "pure imaginary number",

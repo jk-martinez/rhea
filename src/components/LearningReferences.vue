@@ -56,13 +56,12 @@
             </ul>
         </div>
         
-        
         <!-- YouTube videos -->
         <div class="mt-5 mb-5">
             <p><strong> Some of notable YouTube videos from the playlists above: </strong></p>
 
             <div class="mt-2 d-flex flex-wrap justify-content-evenly align-items-stretch">
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/A1V-QQ5wFU4"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -76,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/VxCORJ8dN3Y"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -90,7 +89,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/fSEFfWf2au0"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -104,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/ouTJkNLepF0"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -118,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/YK7G6l_K6sA"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -132,7 +131,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/-YTC3A6dEGM"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -146,7 +145,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/NOK1nMiiTWU"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -160,7 +159,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/BT_JUbpZ1lQ"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -174,7 +173,7 @@
                     </div>
                 </div>
 
-                <div class="card m-1">
+                <div class="card">
                     <div class="card-img-top">
                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/5KZx81crb48"
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -190,6 +189,10 @@
 
 
             </div>
+        </div>
+
+        <div id="back-to-top" class="px-3 py-1 fs-3 rounded-circle" @click="scrollToTop()">
+            <font-awesome-icon icon="fa-solid fa-angles-up" />
         </div>
           
     </div>
@@ -214,6 +217,11 @@
                     }
                 }
                 return "";
+            },
+
+            scrollToTop(){
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
             }
         },
 
@@ -221,6 +229,20 @@
             if (this.getCookie('rhea-user') ==  ""){
                 this.$router.push('/rhea/identity-checker')
             }
+        },
+
+        mounted(){
+            window.addEventListener('scroll', ()=>{
+                const backToTopButton = document.getElementById('back-to-top');
+                if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250){
+                    backToTopButton.style.display = 'block';
+                }
+                else{
+                    backToTopButton.style.display = 'none';
+                }
+            });
+
+            this.scrollToTop();
         }
     }
 </script>
@@ -249,6 +271,23 @@
         color: #865439;
     }
 
+    #back-to-top{
+        display: none;
+        bottom: 50px;
+        right: 45px;
+        z-index: 99;
+        position: fixed;
+        border: 1px solid #C68B59;
+        background-image: linear-gradient(#865439, #C68B59);
+        color: #FDF6EC;
+        cursor: pointer;
+    }
+
+    #back-to-top:hover{
+        background-image: linear-gradient(#8FC1D4, #FDF6EC);
+        color: #865439;
+    }
+
     .reference-item{
         text-decoration: none;
         color: #865439;
@@ -260,6 +299,7 @@
 
     .card{
         width: 30%;
+        margin-bottom: 10px;
     }
 
     .card:hover{
@@ -279,9 +319,27 @@
             margin: 10px;
         }
 
+        #back-to-top{
+            right: 20px;
+            bottom: 20px;
+        }
+
         .card{
             width: 100%
         }
     }
 
+    @media only screen and (min-width: 600px) and (max-width: 768px){
+        .card{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 992px){
+        .card{
+            width: 60%;
+            margin: 10px;
+        }
+    }
 </style>

@@ -1,136 +1,162 @@
 <template>
     <div id="wrapper">
+        <div id="banner" class="vh-100">
 
-    <div id="banner" class="vh-100 py-4">
-        <h1 id="greeting" class="text-center banner-text">{{ greeting }} Ms. Julio </h1>
-        <h5 class="banner-text pt-1 text-center mb-5"> Meet <strong> RHEA </strong> - your Review Helper for Examination App </h5>
+            <div id="app-name">
+                <h1> Meet </h1>
+                <p><span class="title-first-letter">R</span><span class="full-word">eview</span></p>
+                <p><span class="title-first-letter">H</span><span class="full-word">elper&nbsp;for</span></p>
+                <p><span class="title-first-letter">E</span><span class="full-word">xamination</span></p>
+                <p><span class="title-first-letter">A</span><span class="full-word">pp</span></p>
+            </div>
 
-        <div class="d-flex justify-content-center pt-5">
-            <a href="#get-started" id="home-cta" class="px-5 py-2 border"> GET STARTED </a>
+            <div id="greeting-cta" class="text-center">
+                <h1 id="greeting" class="mb-3"> {{ greeting }} Ms. Julio! </h1>
+
+                <a href="#get-started" id="home-cta" class="p-1 px-4 fw-bold"> Get Started </a>
+            </div>
         </div>
-    </div>
+        
+        <div id="get-started" class="my-5">
+            <h1 class="text-center mb-5"> What do you need? </h1>
 
-    <div id="get-started" class="my-5">
-        <h2 class="text-center mb-5"> What do you need? </h2>
+            <div class="d-flex flex-wrap justify-content-center align-items-stretch">
+                
+                <!-- Pomodoro Timer -->
+                <div class="card m-2" @click="this.$router.push('/rhea/pomodoro-timer')">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/timer.jpg" class="w-100" />
 
-        <div class="d-flex flex-wrap justify-content-center align-items-stretch">
-            
-            <!-- Pomodoro Timer -->
-            <div class="card m-2" @click="this.$router.push('/rhea/pomodoro-timer')">
-                <div class="card-img-top feature-img">
-                    <img src="../assets/images/timer.jpg" class="w-100" />
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc"> Pomodoro Technique is a time management method based on 25-minute stretches of
+                                focused work broken by 5-minute breaks. Longer breaks are taken after 4 consecutive work intervals.
+                            </p>
 
-                    <div class="card-img-overlay">
-                        <p class="card-text feature-desc"> Pomodoro Technique is a time management method based on 25-minute stretches of
-                            focused work broken by 5-minute breaks. Longer breaks are taken after 4 consecutive work intervals.
-                        </p>
+                            <p class="card-text feature-desc">
+                                Use this timer while reviewing.
+                            </p>
+                        </div>
+                    </div>
 
-                        <p class="card-text feature-desc">
-                            Use this timer while reviewing.
-                        </p>
+                    <div class="card-body">
+                        <h4 class="card-title"> Pomodoro Timer </h4>
                     </div>
                 </div>
 
-                <div class="card-body">
-                    <h4 class="card-title"> Pomodoro Timer </h4>
-                </div>
-            </div>
+                <!-- Elements Reviewer -->
+                <div class="card m-2" @click="this.$router.push('/rhea/elements-reviewer')">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/review.jpg" class="w-100"/>
 
-            <!-- Elements Quiz -->
-            <div class="card m-2" @click="this.$router.push('/rhea/elements-quiz')">
-                <div class="card-img-top feature-img">
-                    <img src="../assets/images/quiz.jpg" class="w-100"/>
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc"> Review the modules given by your review center. </p>
+                        </div>
+                    </div>
 
-                    <div class="card-img-overlay">
-                        <p class="card-text feature-desc"> Take a quiz from your review center's reviewer. </p>
+                    <div class="card-body">
+                        <h4 class="card-title"> Elements Reviewer </h4>
                     </div>
                 </div>
 
-                <div class="card-body">
-                    <h4 class="card-title"> Elements Quiz </h4>
-                </div>
-            </div>
+                <!-- Elements Quiz -->
+                <div class="card m-2" @click="this.$router.push('/rhea/elements-quiz')">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/quiz.jpg" class="w-100"/>
 
-            <!-- Periodic Table of Elements -->
-            <div class="card m-2" @click="this.$router.push('/rhea/periodic-table')">
-                <div class="card-img-top feature-img">
-                    <img src="../assets/images/periodic-table.jpg" class="w-100" />
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc"> Take a quiz from your review center's reviewer. </p>
+                        </div>
+                    </div>
 
-                    <div class="card-img-overlay">
-                        <p class="card-text feature-desc">
-                            Familiarize yourself with the Periodic Table of Elements.
-                        </p>
+                    <div class="card-body">
+                        <h4 class="card-title"> Elements Quiz </h4>
                     </div>
                 </div>
 
-                <div class="card-body">
-                    <h4 class="card-title"> Periodic Table of Elements </h4>
-                </div>
-            </div>
+                <!-- Periodic Table of Elements -->
+                <div class="card m-2" @click="this.$router.push('/rhea/periodic-table')">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/periodic-table.jpg" class="w-100" />
 
-            <!-- Units of Measurements -->
-            <div class="card m-2" @click="this.$router.push('/rhea/units-of-measurements')">
-                <div class="card-img-top feature-img">
-                    <img src="../assets/images/measurements.jpg" class="w-100"/>
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc">
+                                Familiarize yourself with the Periodic Table of Elements.
+                            </p>
+                        </div>
+                    </div>
 
-                    <div class="card-img-overlay">
-                        <p class="card-text feature-desc"> Review units of measurements. </p>
+                    <div class="card-body">
+                        <h4 class="card-title"> Periodic Table of Elements </h4>
                     </div>
                 </div>
 
-                <div class="card-body">
-                    <h4 class="card-title"> Units of Measurements </h4>
-                </div>
-            </div>
+                <!-- Units of Measurements -->
+                <div class="card m-2" @click="this.$router.push('/rhea/units-of-measurements')">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/measurements.jpg" class="w-100"/>
 
-            <!-- Learning Engineering References -->
-            <div class="card m-2" @click="this.$router.push('/rhea/learning-references')">
-                <div class="card-img-top feature-img">
-                    <img src="../assets/images/formula.jpg" class="w-100"/>
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc"> Review units of measurements. </p>
+                        </div>
+                    </div>
 
-                    <div class="card-img-overlay">
-                        <p class="card-text feature-desc"> See a list of learning references related with Engineering and Mathematics. </p>
+                    <div class="card-body">
+                        <h4 class="card-title"> Units of Measurements </h4>
                     </div>
                 </div>
 
-                <div class="card-body">
-                    <h4 class="card-title"> Learning Engineering References </h4>
-                </div>
-            </div>
+                <!-- Learning Engineering References -->
+                <div class="card m-2" @click="this.$router.push('/rhea/learning-references')">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/formula.jpg" class="w-100"/>
 
-            <!-- Focus game -->
-            <div class="card m-2" @click="this.$router.push('/rhea/word-sequence')">
-                <div class="card-img-top feature-img">
-                    <img src="../assets/images/games.jpg" class="w-100"/>
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc"> See a list of learning references related with Engineering and Mathematics. </p>
+                        </div>
+                    </div>
 
-                    <div class="card-img-overlay">
-                        <p class="card-text feature-desc"> Play a small game to prepare your mind before reviewing. </p>
+                    <div class="card-body">
+                        <h4 class="card-title"> Learning Engineering References </h4>
                     </div>
                 </div>
 
-                <div class="card-body">
-                    <h4 class="card-title"> Focus Game - Word Sequence </h4>
-                </div>
-            </div>
- 
-            <!-- Conversation w/ Martin (Link to Messenger)-->
-            <div class="card m-2" @click="redirectToMessenger()">
-                <div class="card-img-top feature-img">
-                    <img src="../assets/images/talk.jpg" class="w-100"/>
+                <!-- Focus game -->
+                <div class="card m-2" @click="this.$router.push('/rhea/word-sequence')">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/games.jpg" class="w-100"/>
 
-                    <div class="card-img-overlay">
-                        <p class="card-text feature-desc"> Have a conversation with Martin. You may report a bug, request a feature, or talk about something else. </p>
-                        <p class="card-text feature-desc"> More content might come soon :) </p>
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc"> Play a small game to prepare your mind before reviewing. </p>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title"> Focus Game - Word Sequence </h4>
+                    </div>
+                </div>
+    
+                <!-- Conversation w/ Martin (Link to Messenger)-->
+                <div class="card m-2" @click="redirectToMessenger()">
+                    <div class="card-img-top feature-img">
+                        <img src="../assets/images/talk.jpg" class="w-100"/>
+
+                        <div class="card-img-overlay">
+                            <p class="card-text feature-desc"> Have a conversation with Martin. You may report a bug, request a feature, or talk about something else. </p>
+                            <p class="card-text feature-desc"> More content might come soon :) </p>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title"> Talk with Martin </h4>
                     </div>
                 </div>
 
-                <div class="card-body">
-                    <h4 class="card-title"> Talk with Martin </h4>
-                </div>
             </div>
-
         </div>
-    </div>
+
+        <div id="back-to-top" class="px-3 py-1 fs-3 d-none rounded-circle">
+            <font-awesome-icon icon="fa-solid fa-angles-up" />
+        </div>
 
     </div>
 </template>
@@ -186,33 +212,43 @@
 			else{
 				this.greeting = "Good evening"
 			}
-		}
+		},
     }
 </script>
 
 <style scoped>
 	@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 	
-	h2{
-		display: block;
+	h1{
 		font-family: 'Dancing Script', cursive;
 		font-size: 3rem;
-	}
+    }
 
     #wrapper{
         color: #865439;
     }
 
 	#banner{
+        position: relative;
+        display: flex;
+        flex-direction: row;
 		background: url('../assets/images/coffee-bg.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
-	#greeting{
-		font-family: 'Dancing Script', cursive;
-		font-size: 4rem;
-	}
+    #greeting-cta{
+        width: 50%;
+        color: #FDF6EC;
+        margin-top: 12%;
+    }
+
+    #app-name{
+        width: 50%;
+        margin: auto;
+        padding-left: 3%;
+        color: #FDF6EC;
+    }
 
 	#home-cta{
 		background-image: linear-gradient(#865439, #C68B59);
@@ -221,7 +257,6 @@
 		font-size: 2rem;
 		color: #FDF6EC;
 		text-decoration: none;
-		
 	}
 
 	#home-cta:hover{
@@ -229,9 +264,38 @@
 		color: #FDF6EC;
 	}
 
-	.banner-text{
-		color: #FDF6EC
-	}
+    .title-first-letter{
+        font-size: 6rem;
+        font-weight: bolder;
+        color: #8FC1D4;
+
+        background-image: linear-gradient(360deg,#EEE3CB,#B7C4CF, #8FC1D4, #8FC1D4);
+        background-size: 100%;
+        background-repeat: repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .full-word{
+        display: inline-block;
+        max-width: 0;
+        opacity: 0;
+        font-size: 6rem;
+
+        background-image: linear-gradient(360deg,#EEE3CB,#B7C4CF, #8FC1D4, #8FC1D4);
+        background-size: 100%;
+        background-repeat: repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        animation-name: spreader;
+        animation-direction: both;
+        animation-duration: 6s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
 
     .card{
         width: 20%;
@@ -259,10 +323,51 @@
 		opacity: 0.3
 	}
 
+    @keyframes spreader{
+        0%{
+            max-width: 0;
+            opacity: 0
+        }
+
+        10%{
+            max-width: 0;
+            opacity: 0;
+        }
+
+        50%{
+            max-width: 100%;
+            opacity: 1;
+        }
+
+        100%{
+            max-width: 0%;
+            opacity: 0.5;
+        }
+    }
+
 	@media only screen and (max-width: 600px){
+        h1{
+            font-size: 2.5rem;
+        }
+
 		#banner{
 			background-position: bottom;
+            flex-direction: column-reverse;
 		}
+
+        #greeting-cta{
+            width: 100%;
+            padding-top: 5%;
+        }
+
+        #app-name{
+            width: 100%;
+            padding-left: 10%;
+        }
+
+        .full-word, .title-first-letter{
+            font-size: 3rem;
+        }
 
 		#home-cta{
 			font-size: 1.5rem;
@@ -276,4 +381,25 @@
 			font-size: 1rem;
 		}
 	}
+
+    @media only screen and (min-width: 600px) and (max-width: 992px){
+        #banner{
+			background-position: bottom;
+            flex-direction: column-reverse;
+		}
+
+        #greeting-cta{
+            width: 100%;
+            padding-top: 1.5%;
+        }
+
+        #app-name{
+            width: 100%;
+            padding-left: 15%;
+        }
+
+        .full-word, .title-first-letter{
+            font-size: 4rem;
+        }
+    }
 </style>

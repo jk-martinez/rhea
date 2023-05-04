@@ -8,6 +8,7 @@ import PeriodicTable from './components/PeriodicTable.vue';
 import LearningReferences from './components/LearningReferences.vue';
 import UnitsOfMeasurement from './components/UnitsOfMeasurement.vue';
 import WordSequence from './components/WordSequence.vue';
+import ElementsReviewer from './components/ElementsReviewer.vue';
 import ElementsQuiz from './components/ElementsQuiz.vue';
 import IdentityChecker from './components/IdentityChecker.vue'
 
@@ -43,6 +44,10 @@ const routes = [
     {
         path: '/rhea/word-sequence',
         component: WordSequence
+    },
+    {
+        path: '/rhea/elements-reviewer',
+        component: ElementsReviewer
     },
     {
         path: '/rhea/elements-quiz',

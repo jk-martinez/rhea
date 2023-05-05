@@ -35,7 +35,7 @@
                 />
                 <font-awesome-icon icon="fa-solid fa-house" class="mx-1 p-1 game-btn"
                     data-bs-toggle="tooltip" data-bs-placement="right" title="Go to Home"
-                    @click="this.$router.push('/')" 
+                    @click="this.$router.push('/rhea/home')" 
                 />
             </div>
 

@@ -64,7 +64,7 @@
             
             <!-- Question number, Quiz Timer, Reset Quiz link -->
             <div class="d-flex justify-content-evenly">
-                <h5> <font-awesome-icon icon="fa-solid fa-hashtag" /> S{{ moduleNumber }} - Q {{ questionNumber }} </h5>
+                <h5> <font-awesome-icon icon="fa-solid fa-hashtag" /> M{{ moduleNumber }} - Q{{ questionNumber }} </h5>
                 <h5 id="quiz-timer"> <font-awesome-icon icon="fa-solid fa-hourglass" /> <strong> {{ fullRemainingTime }} </strong></h5>
                 <h5 id="reset-link" data-bs-toggle="modal" data-bs-target="#confirmDialog" @click="returningToHome = false"> <font-awesome-icon icon="fa-solid fa-rotate-left" /> Reset Quiz </h5>
             </div>
@@ -200,7 +200,7 @@
                 this.timeToReach.setMinutes(this.timeToReach.getMinutes() + this.remainingMinutes);
                 this.timeToReach.setSeconds(this.timeToReach.getSeconds() + this.remainingSeconds);
 
-                this.quizTimer = setInterval(this.tickTimer, 1000);
+                // this.quizTimer = setInterval(this.tickTimer, 1000);
                 this.playing = true;
                 this.askQuestion();
             },

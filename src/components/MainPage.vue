@@ -14,7 +14,15 @@
                 <h1 id="greeting" class="mb-3"> {{ greeting }} Ms. Julio! </h1>
 
                 <a href="#get-started" id="home-cta" class="p-1 px-4 fw-bold"> Get Started </a>
+
+                <div class="mt-5">
+                    <h5> 
+                        This app is actively maintained. <br/>
+                        <span class="fw-bold"><a href="#bug-fixes"> See critical bug fixes. </a></span>
+                    </h5>
+                </div>
             </div>
+
         </div>
         
         <div id="get-started" class="my-5">
@@ -154,6 +162,47 @@
             </div>
         </div>
 
+        <div id="bug-fixes" class="container mb-5">
+            <h1 class="text-center"> Bug Fixes </h1>
+            
+            <ul class="mt-3">
+                <!-- Module 1 -->
+                <li v-for="(bugFix, index) in module1BugFixes" :key="index">
+                    <span class="fw-bold">[Module 1]</span> {{ bugFix }}
+                </li>
+
+                <!-- Module 2 -->
+                <li v-for="(bugFix, index) in module2BugFixes" :key="index">
+                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                </li>
+
+                <!-- Module 3 -->
+                <li v-for="(bugFix, index) in module3BugFixes" :key="index">
+                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                </li>
+
+                <!-- Module 4 -->
+                <li v-for="(bugFix, index) in module4BugFixes" :key="index">
+                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                </li>
+
+                <!-- Module 5 -->
+                <li v-for="(bugFix, index) in module5BugFixes" :key="index">
+                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                </li>
+
+                <!-- Module 6 -->
+                <li v-for="(bugFix, index) in module6BugFixes" :key="index">
+                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                </li>
+
+                <!-- Module 7 -->
+                <li v-for="(bugFix, index) in module7BugFixes" :key="index">
+                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                </li>
+            </ul>
+        </div>
+
         <div id="back-to-top" class="px-3 py-1 fs-3 d-none rounded-circle">
             <font-awesome-icon icon="fa-solid fa-angles-up" />
         </div>
@@ -162,10 +211,19 @@
 </template>
 
 <script>
+    const bugFixesData = require('../assets/json/bug-fixes.json');
+
     export default{
         data(){
 			return{
-				greeting: ''
+				greeting: '',
+                module1BugFixes: [],
+                module2BugFixes: [],
+                module3BugFixes: [],
+                module4BugFixes: [],
+                module5BugFixes: [],
+                module6BugFixes: [],
+                module7BugFixes: [],
 			}
 		},
 
@@ -212,6 +270,14 @@
 			else{
 				this.greeting = "Good evening"
 			}
+
+            this.module1BugFixes = bugFixesData["module1"];
+            this.module2BugFixes = bugFixesData["module2"];
+            this.module3BugFixes = bugFixesData["module3"];
+            this.module4BugFixes = bugFixesData["module4"];
+            this.module5BugFixes = bugFixesData["module5"];
+            this.module6BugFixes = bugFixesData["module6"];
+            this.module7BugFixes = bugFixesData["module7"];
 		},
     }
 </script>
@@ -240,7 +306,11 @@
     #greeting-cta{
         width: 50%;
         color: #FDF6EC;
-        margin-top: 12%;
+        margin-top: 10%;
+    }
+
+    #greeting-cta h5, a{
+        color: #8FC1D4;
     }
 
     #app-name{
@@ -263,6 +333,10 @@
 		background-image: linear-gradient(#C68B59, #DAB88B);
 		color: #FDF6EC;
 	}
+
+    #bug-fixes ul{
+        list-style-type: square;
+    }
 
     .title-first-letter{
         font-size: 6rem;

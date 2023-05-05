@@ -284,7 +284,7 @@
             "Maxwell diagram",
             "Cartesian diagram"
         ],
-        "correct_answer": " Argand diagram"
+        "correct_answer": "Argand diagram"
     },
 
     "27":{
@@ -838,7 +838,7 @@
     },
 
     "77":{
-        "question": "For a complex number a + bi, the real number &radic; a<sup>2</sup> + b<sup>2</sup> is __________ of the complex number.",
+        "question": "For a complex number a + bi, the real number &radic;<u>a<sup>2</sup> + b<sup>2</sup></u> is __________ of the complex number.",
         "choices": [
             "absolute value",
             "magnitude",
@@ -1235,7 +1235,7 @@
     },
     
     "113":{
-        "question": ". In any square matrix, when the elements of any two rows are exactly the same (i.e. row 1 = row 2 = row 3, or row 2 = row 3…), the determinant is",
+        "question": "In any square matrix, when the elements of any two rows are exactly the same (i.e. row 1 = row 2 = row 3, or row 2 = row 3…), the determinant is",
         "choices": [
             "zero",
             "positive integer",

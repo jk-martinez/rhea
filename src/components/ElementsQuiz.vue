@@ -200,7 +200,7 @@
                 this.timeToReach.setMinutes(this.timeToReach.getMinutes() + this.remainingMinutes);
                 this.timeToReach.setSeconds(this.timeToReach.getSeconds() + this.remainingSeconds);
 
-                // this.quizTimer = setInterval(this.tickTimer, 1000);
+                this.quizTimer = setInterval(this.tickTimer, 1000);
                 this.playing = true;
                 this.askQuestion();
             },
@@ -414,7 +414,7 @@
     #question{
         background-image: linear-gradient(to bottom right, #865439, #C68B59);
         color: #FDF6EC;
-        text-align: justify
+        text-align: justify;
     }    
     
     #choices-container{

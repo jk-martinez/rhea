@@ -18,7 +18,7 @@
                 <div class="mt-5">
                     <h5> 
                         This app is actively maintained. <br/>
-                        <span class="fw-bold"><a href="#bug-fixes"> See critical bug fixes. </a></span>
+                        <span class="fw-bold"><a href="#bug-fixes"> See bug fixes. </a></span>
                     </h5>
                 </div>
             </div>
@@ -164,8 +164,9 @@
 
         <div id="bug-fixes" class="container mb-5">
             <h1 class="text-center"> Bug Fixes </h1>
+            <h6 class="text-center"> These are the changes made, especially with Elements, from when this app was deployed. </h6>
             
-            <ul class="mt-3">
+            <ul class="mt-5">
                 <!-- Module 1 -->
                 <li v-for="(bugFix, index) in module1BugFixes" :key="index">
                     <span class="fw-bold">[Module 1]</span> {{ bugFix }}
@@ -178,27 +179,27 @@
 
                 <!-- Module 3 -->
                 <li v-for="(bugFix, index) in module3BugFixes" :key="index">
-                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                    <span class="fw-bold">[Module 3]</span> {{ bugFix }}
                 </li>
 
                 <!-- Module 4 -->
                 <li v-for="(bugFix, index) in module4BugFixes" :key="index">
-                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                    <span class="fw-bold">[Module 4]</span> {{ bugFix }}
                 </li>
 
                 <!-- Module 5 -->
                 <li v-for="(bugFix, index) in module5BugFixes" :key="index">
-                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                    <span class="fw-bold">[Module 5]</span> {{ bugFix }}
                 </li>
 
                 <!-- Module 6 -->
                 <li v-for="(bugFix, index) in module6BugFixes" :key="index">
-                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                    <span class="fw-bold">[Module 6]</span> {{ bugFix }}
                 </li>
 
                 <!-- Module 7 -->
                 <li v-for="(bugFix, index) in module7BugFixes" :key="index">
-                    <span class="fw-bold">[Module 2]</span> {{ bugFix }}
+                    <span class="fw-bold">[Module 7]</span> {{ bugFix }}
                 </li>
             </ul>
         </div>
@@ -331,7 +332,6 @@
 
 	#home-cta:hover{
 		background-image: linear-gradient(#C68B59, #DAB88B);
-		color: #FDF6EC;
 	}
 
     #bug-fixes ul{

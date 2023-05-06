@@ -774,12 +774,12 @@
     "71":{
         "question": "If m<sub>1</sub> and m<sub>2</sub> are the respective slopes of two parallel lines, then",
         "choices": [
-            "m<sub>1</sub> - m<sub>2</sub> = 2",
+            "m<sub>1</sub> - m<sub>2</sub> = 0",
             "m<sub>1</sub>m<sub>2</sub> = 1",
-            "m<sub>1</sub> + m<sub>2</sub> =0",
+            "m<sub>1</sub> + m<sub>2</sub> = 0",
             "m<sub>1</sub>m<sub>2</sub> = -1"
         ],
-        "correct_answer": "m<sub>1</sub> - m<sub>2</sub> = 2"
+        "correct_answer": "m<sub>1</sub> - m<sub>2</sub> = 0"
     },
 
     "72":{

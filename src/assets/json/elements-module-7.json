@@ -20,7 +20,7 @@
             "Depreciated cost",
             "Indirect cost"
         ],
-        "correct_answer": "Obsolescence "
+        "correct_answer": "Obsolescence"
     },
 
     "3":{
@@ -277,7 +277,7 @@
     },
 
     "26":{
-        "question": "A provision in the contract that indicates possible adjustment of material cost and labor cos",
+        "question": "A provision in the contract that indicates possible adjustment of material cost and labor cost",
         "choices": [
             "Specification",
             "Secondary clause",
@@ -458,9 +458,9 @@
             "Market value",
             "Single payment",
             "Book value",
-            " Fair value"
+            "Fair value"
         ],
-        "correct_answer": "Single payment"
+        "correct_answer": "Book value"
     },
 
     "43":{
@@ -1703,7 +1703,7 @@
             "Law of supply and demand",
             "Obsolescence"
         ],
-        "correct_answer": "Obsolescence"
+        "correct_answer": "Law of supply and demand"
     },
 
     "156":{
@@ -1729,7 +1729,7 @@
     },
 
     "158":{
-        "question": "t occurs when a unique product or service is available only from a single supplier and entry of all other possible",
+        "question": "It occurs when a unique product or service is available only from a single supplier and entry of all other possible",
         "choices": [
             "Competition",
             "Inventory",
@@ -2323,14 +2323,14 @@
     },
 
     "212":{
-        "question": "A gamma ray is composed of",
+        "question": "The type of flow meters as most accurate:",
         "choices": [
-            "high energy electrons",
-            "high protons",
-            "high energy electromagnetic radiation",
-            "high energy newtons"
+            "Foam type",
+            "Venturi tube",
+            "Pitot tube",
+            "Nozzle flow type"
         ],
-        "correct_answer": "high energy electromagnetic radiation"
+        "correct_answer": "Venturi tube"
     },
 
     "213":{

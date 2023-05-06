@@ -493,7 +493,7 @@
             "negative",
             "between 0 and 1"
         ],
-        "correct_answer": "between 0 and 1"
+        "correct_answer": "negative"
     },
 
     "46":{
@@ -658,7 +658,7 @@
             "pedal triangle",
             "obtuse triangle"
         ],
-        "correct_answer": "inscribed triangle"
+        "correct_answer": "pedal triangle"
     },
 
     "61":{

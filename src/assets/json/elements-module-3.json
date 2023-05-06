@@ -816,7 +816,7 @@
     },
 
     "75":{
-        "question": "What is the absolute value of a number less than one butgreater than negative one raised to exponent infinity?",
+        "question": "What is the absolute value of a number less than one but greater than negative one raised to exponent infinity?",
         "choices": [
             "infinity",
             "zero",

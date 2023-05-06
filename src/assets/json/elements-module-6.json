@@ -552,7 +552,7 @@
     },
 
     "51":{
-        "question": "The integral of sin𝑚 𝜃 cos𝑛 𝜃 𝑑𝜃 can easily be determined by using Wallis formula provided the limits are from",
+        "question": "The integral of sin<sup>𝑚</sup> 𝜃 cos<sup>𝑛</sup> 𝜃 𝑑𝜃 can easily be determined by using Wallis formula provided the limits are from",
         "choices": [
             "0 to π",
             "0 to π/2",
@@ -651,7 +651,7 @@
     },
 
     "60":{
-        "question": ". At relatively high temperature and low rates of strains, structures will perform better if their material is:",
+        "question": "At relatively high temperature and low rates of strains, structures will perform better if their material is:",
         "choices": [
             "Coarsed grain",
             "Fine grained",
@@ -1784,14 +1784,14 @@
     },
 
     "163":{
-        "question": "Type of cooler extensively used for medium and large size diesel engines",
+        "question": "The equilibrium temperature that a regular thermometer measures if exposed to atmospheric air is",
         "choices": [
-            "Shell and tube cooler",
-            "Plate cooler",
-            "Disc cooler",
-            "Radiator cooler"
+            "Dew point",
+            "Wet bulb",
+            "Dry bulb",
+            "Approach"
         ],
-        "correct_answer": "Radiator cooler"
+        "correct_answer": "Dry bulb"
     },
 
     "164":{
@@ -2116,10 +2116,10 @@
     "193":{
         "question": "Boiling point of Freon 12",
         "choices": [
-            "-29.6 oC",
-            "-40 oC",
-            "-48 oC",
-            "-52 oC"
+            "-29.6 &deg;C",
+            "-40 &deg;C",
+            "-48 &deg;C",
+            "-52 &deg;C"
         ],
         "correct_answer": "-29.6 oC"
     },
@@ -2356,7 +2356,7 @@
     },
 
     "215":{
-        "question": "Ignition quality rating of diesel which is the percent of ndard fuel",
+        "question": "Ignition quality rating of diesel which is the percent of Cetane in standard fuel",
         "choices": [
             "Octane no.",
             "Conradson no.",

@@ -4,28 +4,38 @@
     ],
 
     "module2":[
-        "Provided correct answer of Question no. 26 with A. Argand diagram.",
-        "Added underline on terms/expressions that are part of the square root equation on Question no. 77",
+        "Provided correct answer to Question no. 26 with A. Argand diagram.",
+        "Added underline on terms/expressions that are part of the square root equation on Question no. 77.",
         "Fixed a typo on Question no. 113."
     ],
 
     "module3":[
-
+        "Fixed a typo on Question no. 75."
     ],
 
     "module4":[
-
+        "Fixed a type on the correct answer (option A) on Question no. 71."
     ],
 
     "module5":[
-
+        "Changed correct answer of Question no. 45 from D. between 0 and 1 to C. negative.",
+        "Changed correct answer of Question no. 60 from A. inscribed triangle to C. pedal triangle."
     ],
 
     "module6":[
-
+        "Fixed a type on given equation on Question no. 51.",
+        "Fixed a typo on Question no. 60.",
+        "Fixed duplicated questions no. 163 and 164 by replacing question for no. 163.",
+        "Added a degree symbols on each option for Question no. 193.",
+        "Fixed incomplete question for No. 215."
     ],
 
     "module7":[
-        
+        "Provided correct answer to Question no. 2 with A. Obsolescence.",
+        "Fixed a typo on Question no. 26.",
+        "Changed correct answer of Question no. 42 from B. Single payment to C. Book value.",
+        "Changed correct answer of Question no. 155 from D. Obsolescence to C. Law of supply and demand.",
+        "Fixed a typo on Question no. 158.",
+        "Fixed duplicated questions no. 211 and 211 by replacing question for no. 212."
     ]
 }

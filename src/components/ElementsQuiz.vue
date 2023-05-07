@@ -18,7 +18,7 @@
 
             <div class="mt-5 mb-5">
                 <!-- Game instructions -->
-                <div class="text-start">
+                <div class="my-5 text-start">
                     <small class="fw-bold">Reminders:</small>
                     <ul id="game-reminders">
                         <li> You will be given <u>2 hours</u> for 120-item quiz and <u>3 hours and 15 minutes</u> for sets with more than 200 questions. </li>
@@ -36,19 +36,49 @@
                             A prompt will be shown to confirm your action. However, confirming an exit/reset won't save your progress.
                         </li>
                     </ul>
+                </div>
 
-                    <p class="mt-5 text-center"> Choose a set of questions you'd like to answer. Timer will start once you choose a set. </p>
+                <hr />
+
+                <!-- Game settings -->
+                <div class="my-2 text-start">
+                    <small class="fw-bold"> Additional Quiz Settings </small>
+
+                    <div class="mt-2 d-flex flex-wrap justify-content-evenly">
+                        <div class="d-flex align-items-center">
+                            <label class="switch">
+                                <input type="checkbox" @click="changeQuestionOrder()"/>
+                                <span class="slider"></span>
+                            </label>
+                            <label class="ms-2"> Random question order </label>
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <label class="switch">
+                                <input type="checkbox" @click="changeTimeSetting()"/>
+                                <span class="slider"></span>
+                            </label>
+                            <label class="ms-2"> No time limit </label>
+                        </div>
+                    </div>
                 </div>
                 
+                <hr />
+
                 <!-- Set selection -->
-                <div class="mt-2 fs-2 d-flex flex-wrap justify-content-center align-items-center text-center">
-                    <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(1)"> 1 </div>
-                    <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(2)"> 2 </div>
-                    <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(3)"> 3 </div>
-                    <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(4)"> 4 </div>
-                    <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(5)"> 5 </div>
-                    <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(6)"> 6 </div>
-                    <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(7)"> 7 </div>
+                <div class="my-5 text-center">
+                    <p> Choose a set of questions you'd like to answer. Timer will start once you choose a set. </p>
+
+                    <div class="mt-2 fs-2 d-flex flex-wrap justify-content-center align-items-center text-center">
+                        <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(1)"> 1 </div>
+                        <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(2)"> 2 </div>
+                        <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(3)"> 3 </div>
+                        <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(4)"> 4 </div>
+                        <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(5)"> 5 </div>
+                        <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(6)"> 6 </div>
+                        <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(7)"> 7 </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -65,8 +95,13 @@
             <!-- Question number, Quiz Timer, Reset Quiz link -->
             <div class="d-flex justify-content-evenly">
                 <h5> <font-awesome-icon icon="fa-solid fa-hashtag" /> M{{ moduleNumber }} - Q{{ questionNumber }} </h5>
-                <h5 id="quiz-timer"> <font-awesome-icon icon="fa-solid fa-hourglass" /> <strong> {{ fullRemainingTime }} </strong></h5>
-                <h5 id="reset-link" data-bs-toggle="modal" data-bs-target="#confirmDialog" @click="returningToHome = false"> <font-awesome-icon icon="fa-solid fa-rotate-left" /> Reset Quiz </h5>
+                <h5 id="quiz-timer"> <font-awesome-icon icon="fa-solid fa-hourglass" /> 
+                    <strong v-if="timedQuiz"> {{ fullRemainingTime }} </strong>
+                    <strong v-else> No time limit </strong>
+                </h5>
+                <h5 id="reset-link" data-bs-toggle="modal" data-bs-target="#confirmDialog" @click="returningToHome = false"> 
+                    <font-awesome-icon icon="fa-solid fa-rotate-left" /> Reset Quiz 
+                </h5>
             </div>
 
             <!-- Quiz progress -->
@@ -138,6 +173,8 @@
     export default{
         data(){
             return {
+                randomQuestionOrder: false,
+                timedQuiz: true,
                 moduleNumber: 0,
                 questionModule: null,
                 totalItems: null,
@@ -183,38 +220,51 @@
         },
 
         methods:{
+            changeQuestionOrder(){
+                this.randomQuestionOrder ? this.randomQuestionOrder = false : this.randomQuestionOrder = true;
+            },
+
+            changeTimeSetting(){
+                this.timedQuiz ? this.timedQuiz = false : this.timedQuiz = true;
+            },
+            
+            // Method to start the quiz and set timer settings
             startQuiz(selectedModule = null){
                 this.score = 0;
                 this.moduleNumber = selectedModule;
                 this.questionModule = require('../assets/json/elements-module-' + this.moduleNumber + '.json');
                 this.totalItems = this.questionModule['total_items'];
 
-                if (this.totalItems == 200){
-                    this.remainingHour = 3;
-                    this.remainingMinutes = 15;
-                    this.remainingSeconds = 0
+                if (this.timedQuiz){
+                    if (this.totalItems > 200){
+                        this.remainingHour = 3;
+                        this.remainingMinutes = 15;
+                        this.remainingSeconds = 0
+                    }
+
+                    this.timeToReach = new Date()
+                    this.timeToReach.setHours(this.timeToReach.getHours() + this.remainingHour);
+                    this.timeToReach.setMinutes(this.timeToReach.getMinutes() + this.remainingMinutes);
+                    this.timeToReach.setSeconds(this.timeToReach.getSeconds() + this.remainingSeconds);
+                    this.quizTimer = setInterval(this.tickTimer, 1000);
                 }
-
-                this.timeToReach = new Date()
-                this.timeToReach.setHours(this.timeToReach.getHours() + this.remainingHour);
-                this.timeToReach.setMinutes(this.timeToReach.getMinutes() + this.remainingMinutes);
-                this.timeToReach.setSeconds(this.timeToReach.getSeconds() + this.remainingSeconds);
-
-                this.quizTimer = setInterval(this.tickTimer, 1000);
+                
                 this.playing = true;
                 this.askQuestion();
             },
 
+            // Method to set the question and display it on the page
             askQuestion(){
                 if (this.usedIndex.length != this.totalItems){
-                    // Code for ordered questions
-                    // this.questionNumber++
-
-                    // Code for randomized questions
-                    this.questionNumber = Math.floor(Math.random() * this.totalItems) + 1;
-
-                    while (this.usedIndex.includes(this.questionNumber.toString())){
+                    if (this.randomQuestionOrder){
                         this.questionNumber = Math.floor(Math.random() * this.totalItems) + 1;
+
+                        while (this.usedIndex.includes(this.questionNumber.toString())){
+                            this.questionNumber = Math.floor(Math.random() * this.totalItems) + 1;
+                        }
+                    }
+                    else{
+                        this.questionNumber++
                     }
 
                     for (let choice of this.questionModule[this.questionNumber]['choices']){
@@ -235,6 +285,7 @@
                 }
             },
 
+            // Method to check answer of user
             checkAnswer(selectedAnswer, selectedElementID){
                 this.questionWasAnswered = true;
 
@@ -264,6 +315,7 @@
                 correctElement.classList.add('text-white');
             },
 
+            // Method to update UI elements and show next question
             nextQuestion(){
                 if (this.questionWasAnswered){
                     this.questionWasAnswered = false;
@@ -281,6 +333,7 @@
                 }
             },
 
+            // Function for timer interval
             tickTimer(){
                 let now = new Date().getTime();
                 let distance = this.timeToReach - now;
@@ -302,12 +355,14 @@
                 }
             },
 
+            // Method to reset question, choices, and answer to default values
             resetQuestion(){
                 this.question = "";
                 this.choices = [];
                 this.correctAnswer = "";
             },
             
+            // Method to reset quiz settings to its default values
             resetQuiz(){
                 clearInterval(this.quizTimer);
                 this.resetQuestion();
@@ -319,8 +374,11 @@
                 this.remainingSeconds = 0;
                 this.playing = false;
                 this.endOfQuiz = false;
+                this.randomQuestionOrder = false;
+                this.timedQuiz = true;
             },
 
+            // Method to check if 'rhea-user' cookie exist
             getCookie(cookieName) {
                 let name = cookieName + "=";
                 let ca = document.cookie.split(';');
@@ -340,12 +398,17 @@
             },
         },
 
+        // beforeMount lifecycle function
         beforeMount(){
             if (this.getCookie('rhea-user') == ""){
                 this.$router.push('/rhea/identity-checker')
             }
         },
 
+        /* 
+        |   mounted lifecycle function
+        |   Add beforeUnload event listener to window to prevent user accidentally stopping the quiz
+        */ 
         mounted(){
             window.addEventListener('beforeunload', (event)=>{
                 event.preventDefault();
@@ -353,6 +416,7 @@
             });
         },
 
+        // beforeUnmount lifecycle function
         beforeUnmount(){
             clearInterval(this.quizTimer)
             this.quizTimer = null;
@@ -428,6 +492,56 @@
 
     #next-question-link{
         animation: fadeIn 0.5s forwards;
+    }
+
+    .switch{
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+    }
+
+    .switch input{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider{
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 34px;
+        background-color: #C68B59;
+        transition: .5s;
+        -webkit-transition: .5s;
+    }
+
+    .slider:before{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: 4px;
+        bottom: 4px;
+        border: 1px solid #865439;
+        border-radius: 50%;
+        background-color: #FDF6EC;
+        content: "";
+        transition: .5s;
+        -webkit-transition: .5s;
+    }
+
+    input:checked + .slider{
+        background-color: #8FC1D4
+    }
+
+    input:checked + .slider:before{
+        transform: translateX(20px);
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
     }
 
     .module-option{

@@ -1,5 +1,7 @@
 <template>
     <div id="wrapper">
+
+        <!-- Landing banner -->
         <div id="banner" class="vh-100">
 
             <div id="app-name">
@@ -25,6 +27,7 @@
 
         </div>
         
+        <!-- Features -->
         <div id="get-started" class="my-5">
             <h1 class="text-center mb-5"> What do you need? </h1>
 
@@ -162,9 +165,10 @@
             </div>
         </div>
 
+        <!-- Bug Fixes -->
         <div id="bug-fixes" class="container mb-5">
             <h1 class="text-center"> Bug Fixes </h1>
-            <h6 class="text-center"> These are the changes made, especially with Elements, from when this app was deployed. </h6>
+            <h6 class="text-center"> These are the corrections made, especially with Elements, from when this app was deployed. </h6>
             
             <ul class="mt-5">
                 <!-- Module 1 -->
@@ -201,9 +205,15 @@
                 <li v-for="(bugFix, index) in module7BugFixes" :key="index">
                     <span class="fw-bold">[Module 7]</span> {{ bugFix }}
                 </li>
+
+                <!-- Periodic Table of Elements -->
+                <li v-for="(bugFix, index) in periodicTableBugFixes" :key="index">
+                    <span class="fw-bold">[Periodic Table of Elements]</span> {{ bugFix }}
+                </li>
             </ul>
         </div>
 
+        <!-- Back to top button -->
         <div id="back-to-top" class="px-3 py-1 fs-3 d-none rounded-circle">
             <font-awesome-icon icon="fa-solid fa-angles-up" />
         </div>
@@ -225,6 +235,7 @@
                 module5BugFixes: [],
                 module6BugFixes: [],
                 module7BugFixes: [],
+                periodicTableBugFixes: [],
 			}
 		},
 
@@ -279,6 +290,7 @@
             this.module5BugFixes = bugFixesData["module5"];
             this.module6BugFixes = bugFixesData["module6"];
             this.module7BugFixes = bugFixesData["module7"];
+            this.periodicTableBugFixes = bugFixesData["periodicTable"]
 		},
     }
 </script>

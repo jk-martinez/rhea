@@ -26,7 +26,7 @@
         "Fixed a type on given equation on Question no. 51.",
         "Fixed a typo on Question no. 60.",
         "Fixed duplicated questions no. 163 and 164 by replacing question for no. 163.",
-        "Added a degree symbols on each option for Question no. 193.",
+        "Added degree symbols on each option for Question no. 193.",
         "Fixed incomplete question for No. 215."
     ],
 
@@ -36,6 +36,13 @@
         "Changed correct answer of Question no. 42 from B. Single payment to C. Book value.",
         "Changed correct answer of Question no. 155 from D. Obsolescence to C. Law of supply and demand.",
         "Fixed a typo on Question no. 158.",
-        "Fixed duplicated questions no. 211 and 211 by replacing question for no. 212."
+        "Fixed duplicated questions no. 211 and 212 by replacing question for no. 212."
+    ],
+
+    "periodicTable":[
+        "Changed element name of Promethium(Pm) from 'Propethium' to 'Promethium'.",
+        "Changed element name of Copernicium(Cn) from 'Copernicum' to 'Copernicium'.",
+        "Changed the chemical group of elements Germanium(Ge) and Arsenic (As) from 'Post-Transition Metals' to 'Halogens'."
+        
     ]
 }

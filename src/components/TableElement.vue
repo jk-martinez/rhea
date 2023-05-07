@@ -75,6 +75,8 @@
 
     .nonmetal{
         background-image: linear-gradient(to bottom right, #323200,#3E3E00, #4a4a00);
+        transition: opacity .5s;
+        -webkit-transition: opacity .5s;
     }
 
     .alkali-metal{
@@ -116,5 +118,10 @@
     .default-bg{
         background-color: #FDF6EC;
         color: #865439;
+    }
+
+    .nonmetal, .alkali-metal, .alkaline-earth-metal, .transition-metal, .post-trnstion-metal, .halogen, .noble-gas, .lanthanide, .actinide{
+        transition: opacity .3s;
+        -webkit-transition: opacity .3s;
     }
 </style>

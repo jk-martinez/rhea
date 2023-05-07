@@ -129,8 +129,8 @@
             <TableElement symbol="Cu" name="Copper" atomicNumber="29" chemicalGroup="Transition Metals" class="col" />
             <TableElement symbol="Zn" name="Zinc" atomicNumber="30" chemicalGroup="Transition Metals" class="col" />
             <TableElement symbol="Ga" name="Gallium" atomicNumber="31" chemicalGroup="Post-Transition Metals" class="col" />
-            <TableElement symbol="Ge" name="Germanium" atomicNumber="32" chemicalGroup="Post-Transition Metals" class="col" />
-            <TableElement symbol="As" name="Arsenic" atomicNumber="33" chemicalGroup="Post-Transition Metals" class="col" />
+            <TableElement symbol="Ge" name="Germanium" atomicNumber="32" chemicalGroup="Metalloids" class="col" />
+            <TableElement symbol="As" name="Arsenic" atomicNumber="33" chemicalGroup="Metalloids" class="col" />
             <TableElement symbol="Se" name="Selenium" atomicNumber="34" chemicalGroup="Nonmetal" class="col" />
             <TableElement symbol="Br" name="Bromine" atomicNumber="35" chemicalGroup="Halogen" class="col" />
             <TableElement symbol="Kr" name="Krypton" atomicNumber="36" chemicalGroup="Noble Gas" class="col" />
@@ -211,7 +211,7 @@
             <TableElement symbol="Ce" name="Cerium" atomicNumber="58" chemicalGroup="Lanthanides" class="col" />
             <TableElement symbol="Pr" name="Praseodymium" atomicNumber="59" chemicalGroup="Lanthanides" class="col" />
             <TableElement symbol="Nd" name="Neodymium" atomicNumber="60" chemicalGroup="Lanthanides" class="col" />
-            <TableElement symbol="Pm" name="Propethium" atomicNumber="61" chemicalGroup="Lanthanides" class="col" />
+            <TableElement symbol="Pm" name="Promethium" atomicNumber="61" chemicalGroup="Lanthanides" class="col" />
             <TableElement symbol="Sm" name="Samarium" atomicNumber="62" chemicalGroup="Lanthanides" class="col" />
             <TableElement symbol="Eu" name="Europium" atomicNumber="63" chemicalGroup="Lanthanides" class="col" />
             <TableElement symbol="Gd" name="Gadolinium" atomicNumber="64" chemicalGroup="Lanthanides" class="col" />

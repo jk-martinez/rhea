@@ -19,3 +19,14 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# JSON files containing Elements references and private data
+/src/assets/json/elements-module-1.json
+/src/assets/json/elements-module-2.json
+/src/assets/json/elements-module-3.json
+/src/assets/json/elements-module-4.json
+/src/assets/json/elements-module-5.json
+/src/assets/json/elements-module-6.json
+/src/assets/json/elements-module-7.json
+/src/assets/json/identity-data.json
+/src/assets/json/bug-fixes.json

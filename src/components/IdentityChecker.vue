@@ -6,10 +6,10 @@
                 <h1> Welcome! </h1>
 
                 <p> In order to continue using this application, please answer the question below to confirm your identity. <br/>
-                    You need 2 correct answers to proceed.
+                    You need 3 correct answers to proceed.
                 </p>
 
-                <span class="mt-2"> <font-awesome-icon icon="fa-solid fa-check" class="text-success" /> {{ correctAnswers }}/2 </span>
+                <span class="mt-2"> <font-awesome-icon icon="fa-solid fa-check" class="text-success" /> {{ correctAnswers }}/3 </span>
                 <h3 id="question" class="mt-1">{{ question }}</h3>
             </div>
 
@@ -75,7 +75,7 @@
             },
 
             reAskUser(){
-                if (this.correctAnswers < 2){
+                if (this.correctAnswers < 3){
                     this.answerIsWrong = null;
                     this.userAnswer == ""
                     this.askUser();

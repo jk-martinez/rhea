@@ -369,7 +369,7 @@
 
                                 <tr>
                                     <td> Kelvin (K) </td>
-                                    <td> 0 K = -273.15&deg;C = -459.57&deg;F </td>
+                                    <td> 0 K = -273.15&deg;C </td>
                                     <td> 0 K = -459.57&deg;F </td>
                                 </tr>
                             </tbody>

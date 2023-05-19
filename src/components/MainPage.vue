@@ -116,7 +116,7 @@
                     </div>
                 </div>
 
-                <!-- Learning Engineering References -->
+                <!-- Learning References -->
                 <div class="card m-2" @click="this.$router.push('/rhea/learning-references')">
                     <div class="card-img-top feature-img">
                         <img src="../assets/images/formula.jpg" class="w-100"/>
@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="card-body">
-                        <h4 class="card-title"> Learning Engineering References </h4>
+                        <h4 class="card-title"> Learning References </h4>
                     </div>
                 </div>
 
@@ -210,6 +210,11 @@
                 <li v-for="(bugFix, index) in periodicTableBugFixes" :key="index">
                     <span class="fw-bold">[Periodic Table of Elements]</span> {{ bugFix }}
                 </li>
+
+                <!-- Measurement Units -->
+                <li v-for="(bugFix, index) in measurementUnitsBugFixes" :key="index">
+                    <span class="fw-bold">[Units of Measurements]</span> <span v-html="bugFix"></span>
+                </li>
             </ul>
         </div>
 
@@ -236,6 +241,7 @@
                 module6BugFixes: [],
                 module7BugFixes: [],
                 periodicTableBugFixes: [],
+                measurementUnitsBugFixes: [],
 			}
 		},
 
@@ -290,7 +296,8 @@
             this.module5BugFixes = bugFixesData["module5"];
             this.module6BugFixes = bugFixesData["module6"];
             this.module7BugFixes = bugFixesData["module7"];
-            this.periodicTableBugFixes = bugFixesData["periodicTable"]
+            this.periodicTableBugFixes = bugFixesData["periodicTable"],
+            this.measurementUnitsBugFixes = bugFixesData["measurementUnits"];
 		},
     }
 </script>

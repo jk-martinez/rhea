@@ -5,7 +5,7 @@
                 <font-awesome-icon icon="fa-solid fa-home" /> Back to Home
             </router-link>
 
-            <h1 class="mt-1"> Learning Engineering References </h1>
+            <h1 class="mt-1"> Learning References </h1>
         </header>
         
         <!-- Online links -->

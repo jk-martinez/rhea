@@ -67,7 +67,7 @@
 
                 <!-- Set selection -->
                 <div class="my-5 text-center">
-                    <p> Choose a set of questions you'd like to answer. Timer will start once you choose a set. </p>
+                    <p> Choose a set of questions you'd like to answer. Quiz will start once you choose a set. </p>
 
                     <div class="mt-2 fs-2 d-flex flex-wrap justify-content-center align-items-center text-center">
                         <div class="mx-2 my-2 text-center fw-bold module-option" @click="startQuiz(1)"> 1 </div>
